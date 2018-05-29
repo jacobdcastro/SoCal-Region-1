@@ -1,0 +1,98 @@
+
+
+/*--======================================================
+    ======================================================
+          MOBILE NAV STYLES added 5/25/18
+    ======================================================
+==========================================================-->*/
+
+@media only screen and (max-width: 724px) {
+  #fullNav {
+    display: none;
+  }
+
+  #mobileNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar {
+    height: 75px;
+    width: 100%;
+  }
+
+  .leftnav {
+    display: flex;
+    width: 50%;
+    height: 75px;
+  }
+
+  .rightnav {
+    display: flex;
+    width: 100px;
+    height: 75px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .header-logo {
+    padding-left: 8%;
+    height: 70px;
+    width: auto;
+  }
+
+  .mobile-menu-btn {
+    height: 35px;
+    width: auto;
+    margin: auto;
+    padding: 5px;
+  }
+
+  .mobile-menu-btn:hover {
+    cursor: pointer;
+  }
+}
+
+/* ====== SIDE NAVIGATION STYLES ============= */
+/* The side navigation menu */
+.sidenav {
+    height: 100%;
+    width: 0; /* change this with JavaScript */
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 500ms;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}

@@ -1,0 +1,317 @@
+/*=== FONT STYLING ===*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: neuzeit-grotesk, sans-serif;
+  font-style: normal;
+}
+
+/* ===========================
+        FLEXBOX
+    ----------------------------*/
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.county {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.oxnard-churches {
+
+}
+
+
+
+
+
+
+
+/* ===========================
+        NAVIGATION BAR STYLE
+    ----------------------------*/
+
+.navbar {
+  height: 425px;
+  background-color: #181818;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.header-logo {
+  height: 100px;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.rightnav {
+  height: 125px;
+  width: 50%;
+  margin: 0;
+  padding: 18px 0;
+}
+
+.rightnav a {
+  float: right;
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 3px;
+  border: 1px solid white;
+  padding: 15px;
+  margin: 5px;
+}
+.rightnav a:hover {
+  background-color: #5E9EA2;
+  transition: 350ms;
+}
+
+
+
+
+
+/* ===========================
+       HEADER STYLE
+    ----------------------------*/
+
+header {
+  background-image: url("../images/stock-photos/2-churches-banner.jpg");
+  background-position: center;
+  background-size: cover;
+  background-color: #aaa;
+  background-blend-mode: multiply;
+  color: #fff;
+  margin: 0px;
+  height: 300px;
+}
+
+.header-content h1 {
+  font-weight: 700;
+  letter-spacing: 10px;
+  border: 5px solid #fff;
+  margin: 20px 0px;
+  padding: 5px 5px 5px 19px;
+  text-align: center;
+}
+
+#down-arrow {
+  height: 35px;
+  width: auto;
+}
+
+
+
+
+/* ===========================
+       MAIN CONTENT STYLE
+    ----------------------------*/
+
+main {
+  background-color: #D1D3D4;
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.content-container {
+  width: 90%;
+  max-width: 1050px;
+}
+
+.page-head {
+  font-size: 2.3em;
+  text-transform: uppercase;
+  padding: 15px;
+  background-color: #8FD2D2;
+  text-align: center;
+  letter-spacing: 3px;
+  margin-bottom: 50px;
+}
+
+.county {
+  margin-bottom: 50px;
+}
+
+.county-headline {
+  display: inline-block;
+  border: 3.5px #181818 solid;
+  margin: 75px auto 25px;
+  padding: 20px;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.churchlist h2 {
+  font-size: 1.65em;
+  margin: 0;
+  padding: 0;
+}
+
+.city {
+  background-color: #bbb;
+  width: 300px;
+  margin: 20px;
+}
+
+.city h2 {
+  text-decoration: underline;
+}
+
+.church {
+  margin: 25px auto;
+}
+
+.church h3 {
+  margin-bottom: 5px;
+  font-size: 1.2em;
+}
+
+.church p {
+  margin: 7.5px;
+  font-size: 1.05em;
+  letter-spacing: .5px;
+}
+
+.church a {
+  color: #222;
+}
+.church a:hover {
+  color: #528C8F;
+}
+
+
+/* ===========================
+        FOOTER STYLE
+    ----------------------------*/
+
+    .social-contact,
+    .foot-menu,
+    address {
+      /* only to view border of divs in footer
+      border-bottom: 2px solid white; */
+      padding: 5px;
+    }
+
+footer {
+  background-color: #181818;
+  color: #fff;
+  padding: 15px 10%;
+}
+
+.footbox {
+  margin: 15px
+}
+
+.facebook {
+  width: 425px;
+  height: 550px;
+  margin-bottom: 0px;
+}
+
+.foot-menu {
+  height: 50px;
+  margin-top: 0;
+}
+
+.foot-menu a {
+  background-color: #BCBEC0;
+  margin: 7px;
+  padding: 7px 7px 0px 10px;
+  text-decoration: none;
+  color: white;
+  letter-spacing: 3px;
+  font-weight: 700;
+  border-radius: 22px;
+  height: 28px;
+}
+.foot-menu a:hover,
+.foot-menu a:active {
+  background-color: #5E9EA2;
+  font-weight: 700;
+}
+
+address h4,
+address p {
+  margin: 0;
+  padding-bottom: 4px;
+  letter-spacing: 1.5px;
+}
+
+.footbox h4 {
+  font-size: 1.25em;
+}
+
+address a {
+  color: white;
+}
+
+footer img {
+  height: 130px;
+  width: auto;
+  margin: 0px;
+}
+
+.copyright {
+  font-size: .89em;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+
+
+
+@media only screen and (max-width: 480px)  {
+  .page-head {
+    font-size: 1.40em;
+  }
+}
+
+@media only screen and (max-width: 724px)  {
+  .page-head {
+    font-size: 1.63em;
+  }
+}
+
+
+@media only screen and (min-width: 724px)  {
+  .oxnard-churches,
+  .santa-maria-churches {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .oxnard h2 {
+    text-align: center;
+  }
+
+  .oxnard .church {
+    width: 300px;
+  }
+
+}
+
+
+@media only screen and (min-width: 773px) {
+  .oxnard,
+  .santa-maria {
+    width: 90%;
+  }
+}

@@ -1,0 +1,311 @@
+@media only screen and (max-width: 480px) {
+
+  /* ===========================
+          MAIN HEADER STYLE
+      ----------------------------*/
+
+  .header-content h1 {
+    font-size: 1.2em;
+    font-weight: 700;
+    letter-spacing: 10px;
+    border: 3.5px solid #fff;
+    margin: 20px 0px;
+    padding: 5px 3px 5px 10px;
+    text-align: center;
+  }
+
+  .banner {
+    font-size: 2.2em;
+  }
+
+  .banner1 {
+    font-size: 1em;
+  }
+
+
+  /* ==================
+      FOOTER BANNER
+      -------------------*/
+
+  .footbox {
+    margin: 15px 0;
+  }
+
+  .social-contact {
+    text-align: center;
+  }
+
+  .facebook {
+    width: 325px;
+    height: 500px;
+    margin-bottom: 0px;
+  }
+
+  .right-foot {
+    text-align: center;
+  }
+
+  .foot-menu {
+    width: 90%;
+    margin: 0 auto 35px;
+    height: 168px;
+    background-color: none;
+  }
+
+  .foot-menu a {
+    font-size: 1.08em;
+    background-color: #BCBEC0;
+    border-radius: 22px;
+    padding: 8px 10px;
+  }
+
+  .copyright {
+    letter-spacing: 1px;
+  }
+
+  footer {
+    padding: 15px 2%;
+  }
+  .container {
+    max-width: 825px;
+  }
+  .foot-logo {
+    height: 150px;
+    width: auto;
+  }
+  .footbox {
+    align-items: center;
+  }
+
+}
+
+
+
+
+/*--======================================================
+==========================================================
+          MEDIA QUERY BORDER
+==========================================================
+==========================================================-->*/
+
+@media only screen and (min-width: 724px) {
+
+  #mobileNav {
+    display: none;
+  }
+
+  /* ==================
+      NAVIGATION BAR
+      -------------------*/
+  .navbar {
+    height: 225px;
+  }
+  .header-logo {
+    height: 125px;
+  }
+  .rightnav {
+    width: auto;
+  }
+
+  .header-logo {
+    height: 90px;
+  }
+
+  #fullNav {
+    height: 100px;
+    width: 100%;
+  }
+
+  .rightnav a {
+    font-size: .85em;
+    padding: 10px;
+  }
+
+
+
+  /* =========================
+      MAIN HEADER STYLE
+      ------------------------*/
+  .header-content h3 {
+    font-size: 1.8em;
+  }
+  .header-content h1 {
+    font-size: 3.5em;
+    border-width: 6.7px;
+    padding: 9px 9px 9px 22px;
+  }
+  .header-content h4 {
+    font-size: 1.5em;
+  }
+
+
+
+  /* ===========================
+          1st BANNER STYLE
+      ----------------------------*/
+
+  .banner1 {
+    font-size: 1.55em;
+  }
+
+  /* ===========================
+          OTHER BANNERS STYLE
+      ----------------------------*/
+
+  .banner {
+    font-size: 3.75em;
+    letter-spacing: 12px;
+  }
+
+  .banner-content p {
+    font-size: 1.35em;
+    letter-spacing: 5px;
+  }
+
+
+
+  /* ==================
+      FOOTER BANNER
+      -------------------*/
+  footer {
+    padding: 15px 2%;
+  }
+  .container {
+    max-width: 825px;
+  }
+  .foot-logo {
+    height: 150px;
+    width: auto;
+  }
+  .footbox {
+    align-items: center;
+  }
+}
+
+/*--======================================================
+==========================================================
+          MEDIA QUERY BORDER
+==========================================================
+==========================================================-->*/
+
+@media only screen and (min-width: 1024px) {
+
+  /* ==================
+      NAVIGATION BAR
+      -------------------*/
+  .navbar {
+    height: 100px;
+  }
+
+  .header-logo {
+    height: 125px;
+  }
+  .rightnav {
+    width: auto;
+  }
+
+  .header-logo {
+    height: 90px;
+  }
+
+  #fullNav {
+    height: 100px;
+    width: 100%;
+  }
+
+  .rightnav a {
+    font-size: 1.1em;
+    padding: 14px;
+  }
+
+
+
+  /* =========================
+      MAIN HEADER STYLE
+      ------------------------*/
+
+  header {
+    height: 700px;
+  }
+  .header-content h3 {
+    font-size: 2.5em;
+  }
+  .header-content h1 {
+    font-size: 4.5em;
+    letter-spacing: 18px;
+    border-width: 11px;
+    padding: 9px 9px 9px 22px;
+  }
+  .header-content h4 {
+    font-size: 2em;
+  }
+
+    #down-arrow {
+    height: 55px;
+    width: auto;
+  }
+
+
+
+  /* ===========================
+          1st BANNER STYLE
+      ----------------------------*/
+
+  .banner1 {
+    font-size: 1.85em;
+    letter-spacing: 7.4px;
+    height: 125px;
+  }
+
+  /* ===========================
+          OTHER BANNERS STYLE
+      ----------------------------*/
+
+  .banner {
+    font-size: 3.75em;
+    letter-spacing: 12px;
+    height: 315px;
+    width: 60%;
+  }
+
+  .banner-content {
+    height: 285px;
+    width: 40%;
+  }
+
+  .banner-content p {
+    font-size: 1.6em;
+  }
+
+  .banner2 .banner-content p,
+  .banner4 .banner-content p {
+    text-align: left;
+  }
+  .banner3 .banner-content p,
+  .banner5 .banner-content p {
+    text-align: right;
+  }
+
+
+
+  /* ==================
+      FOOTER BANNER
+      -------------------*/
+  footer {
+    padding: 15px 2%;
+  }
+
+  .right-foot .foot-menu {
+    margin-top: 32px;
+  }
+
+  .right-foot address {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+
+  .logo-container img {
+    padding: 18px 5px;
+  }
+
+}
