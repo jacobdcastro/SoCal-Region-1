@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Annual Leadership Summit - SoCal Region 1</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/brand/region1-logo.png">
+    <link rel="stylesheet" href="https://use.typekit.net/jdf0dzq.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/flex.css">
+    <link rel="stylesheet" href="styles/media-queries.css">
+    <link rel="stylesheet" href="styles/mobile-navbar-styles.css">
+  </head>
+
+  <!--======================================================
+  ==========================================================
+            HEAD AND BODY BORDER
+  ==========================================================
+  ==========================================================-->
+
+  <body>
+
+    <!--============== MOBILE NAVIGATION BAR ================================-->
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" id="closeButton" class="closebtn">&times;</a>
+      <a href="index.html">HOME</a>
+      <a href="pages/events.html">EVENTS</a>
+      <a href="pages/churches.html">CHURCHES</a>
+      <a href="pages/about.html">ABOUT</a>
+      <a href="http://socalnetwork.org/resources/">RESOURCES</a>
+    </div>
+
+
+    <!-- Only displayed when window is <= 724px (see styles/media-queries.css) -->
+    <nav class="navbar" id="mobileNav">
+        <div class="leftnav">
+          <a href="index.html"><img class="header-logo" src="images/brand/SoCal.png"></a>
+        </div>
+        <div class="rightnav">
+          <img id="mobileMenuButton" class="mobile-menu-btn" src="images/icons/menu-button.svg" alt="menu icon">
+        </div>
+    </nav>
+
+
+    <!--============== NAVIGATION BAR ================================-->
+    <!-- Only displayed when window is > 724px -->
+    <nav class="navbar" id="fullNav">
+        <div class="leftnav">
+          <a href="index.html"><img class="header-logo" src="images/brand/SoCal.png"></a>
+        </div>
+        <div class="rightnav">
+          <a href="index.html">HOME</a>
+          <a href="pages/events.html">EVENTS</a>
+          <a href="pages/churches.html">CHURCHES</a>
+          <a href="pages/about.html">ABOUT</a>
+          <a href="http://socalnetwork.org/resources/">RESOURCES</a>
+        </div>
+    </nav>
+
+    <script src="scripts/navbar.js"></script>
+  </body>
+</html>
