@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/brand/region1-logo.png">
     <link rel="stylesheet" href="https://use.typekit.net/jdf0dzq.css">
+    <link href="https://fonts.googleapis.com/css?family=Economica|Prata" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/summit-page/main.css">
     <link rel="stylesheet" href="styles/summit-page/flex.css">
@@ -20,43 +21,92 @@
   ==========================================================-->
 
   <body>
+    <header>
+      <!--============== MOBILE NAVIGATION BAR ================================-->
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" id="closeButton" class="closebtn">&times;</a>
+        <a href="index.html">HOME</a>
+        <a href="pages/events.html">EVENTS</a>
+        <a href="pages/churches.html">CHURCHES</a>
+        <a href="pages/about.html">ABOUT</a>
+        <a href="http://socalnetwork.org/resources/">RESOURCES</a>
+      </div>
 
-    <!--============== MOBILE NAVIGATION BAR ================================-->
-    <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" id="closeButton" class="closebtn">&times;</a>
-      <a href="index.html">HOME</a>
-      <a href="pages/events.html">EVENTS</a>
-      <a href="pages/churches.html">CHURCHES</a>
-      <a href="pages/about.html">ABOUT</a>
-      <a href="http://socalnetwork.org/resources/">RESOURCES</a>
+
+      <!-- Only displayed when window is <= 724px (see styles/media-queries.css) -->
+      <nav class="navbar" id="mobileNav">
+          <div class="leftnav">
+            <a href="index.html"><img class="header-logo" src="images/brand/SoCal.png"></a>
+          </div>
+          <div class="rightnav">
+            <img id="mobileMenuButton" class="mobile-menu-btn" src="images/icons/menu-button.svg" alt="menu icon">
+          </div>
+      </nav>
+
+
+      <!--============== NAVIGATION BAR ================================-->
+      <!-- Only displayed when window is > 724px -->
+      <nav class="navbar" id="fullNav">
+          <div class="leftnav">
+            <a href="index.html"><img class="header-logo" src="images/brand/SoCal.png"></a>
+          </div>
+          <div class="rightnav">
+            <a href="index.html">HOME</a>
+            <a href="pages/events.html">EVENTS</a>
+            <a href="pages/churches.html">CHURCHES</a>
+            <a href="pages/about.html">ABOUT</a>
+            <a href="http://socalnetwork.org/resources/">RESOURCES</a>
+          </div>
+      </nav>
+
+      <div class="header-content">
+        <h3>ANNUAL LEADERSHIP SUMMIT</h3>
+        <h1>BEYOND</h1>
+        <div class="white-line"></div>
+      </div>
+
+    </header>
+
+    <div class="info-section">
+      <div class="summary">
+        <p>
+          It is our prayer and belief that our churches, our leaders, our ministers, and our people would walk in the power and knowledge that God is capable of doing BEYOND what we could ever think, ask or imagine (Ephesians 3:20-21). We want HIM to be glorified in all that we do and accomplish, for it is only by HIS power that
+        </p>
+        <h5>IT. IS. DONE.</h5>
+        <p>
+          Our prayer is that the Lord would use this time of fellowship, worship and the Word to break barriers in our lives, our ministries, in our region and our world! God is truly capable of doing BEYOND what we think or imagine, and we are believing that this time would be a tool to inspire and expand our faith as to what God wants to do in and through us all!
+        </p>
+      </div> <!-- /.summary -->
+
+      <div class="DTL">
+        <div>
+          <h4>DATE:</h4>
+          <p>Saturday, September 15th</p>
+        </div>
+        <div>
+          <h4>TIME:</h4>
+          <p>9am - 3pm</p>
+        </div>
+        <div>
+          <h4>LOCATION:</h4>
+          <p>Pacific Christian Center, 3435 Santa Maria way,<br/>
+             Santa Maria, CA 93454</p>
+        </div>
+      </div>
+
+      <div class="Speakers">
+        <h3>Keynote Speakers Include:</h3>
+        <ul>
+          <li>Pastor John Martin, from Victorville First Assembly</li>
+          <li>Pastor Rich Shepherd</li>
+          <li>Dr. Bill Dogterom</li>
+          <li>Pastor Joe Moss</li>
+          <li>and more!</li>
+        </ul>
+        <p>Worship by: Pastor Amy Archer!</p>
+      </div>
+
     </div>
-
-
-    <!-- Only displayed when window is <= 724px (see styles/media-queries.css) -->
-    <nav class="navbar" id="mobileNav">
-        <div class="leftnav">
-          <a href="index.html"><img class="header-logo" src="images/brand/SoCal.png"></a>
-        </div>
-        <div class="rightnav">
-          <img id="mobileMenuButton" class="mobile-menu-btn" src="images/icons/menu-button.svg" alt="menu icon">
-        </div>
-    </nav>
-
-
-    <!--============== NAVIGATION BAR ================================-->
-    <!-- Only displayed when window is > 724px -->
-    <nav class="navbar" id="fullNav">
-        <div class="leftnav">
-          <a href="index.html"><img class="header-logo" src="images/brand/SoCal.png"></a>
-        </div>
-        <div class="rightnav">
-          <a href="index.html">HOME</a>
-          <a href="pages/events.html">EVENTS</a>
-          <a href="pages/churches.html">CHURCHES</a>
-          <a href="pages/about.html">ABOUT</a>
-          <a href="http://socalnetwork.org/resources/">RESOURCES</a>
-        </div>
-    </nav>
 
     <script src="scripts/navbar.js"></script>
   </body>

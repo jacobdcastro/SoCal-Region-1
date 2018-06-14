@@ -28,7 +28,8 @@ h4,
 h5,
 h6,
 p,
-a {
+a,
+li {
   font-family: neuzeit-grotesk, sans-serif;
   font-style: normal;
 }
@@ -45,7 +46,6 @@ a {
 
 .navbar {
   /* height: 425px; */
-  background-color: #181818;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -72,12 +72,11 @@ a {
   text-decoration: none;
   font-weight: 700;
   letter-spacing: 3px;
-  border: 1px solid white;
   padding: 15px;
   margin: 5px;
 }
 .rightnav a:hover {
-  background-color: #5E9EA2;
+  text-decoration: underline;
   transition: 350ms;
 }
 
@@ -89,17 +88,18 @@ a {
     ----------------------------*/
 
 header {
-  background-image: url("../images/stock-photos/pismo-beach.jpg");
+  background-image: url("../../images/summit-photos/man-night-main.jpg");
   background-size: cover;
   background-position: center;
-  color: #fff;
   margin: 0px;
-  height: 500px;
+  height: 700px;
+  color: #fff;
 }
 
 
 .header-content h3 {
-  font-weight: 700;
+  font-family: 'Prata', serif;
+  font-size: .9em;
   letter-spacing: 10px;
   margin: 0px;
   padding: 0px;
@@ -107,25 +107,18 @@ header {
 }
 
 .header-content h1 {
-  font-weight: 700;
+  font-family: 'Economica', sans-serif;
+  font-size: 3em;
   letter-spacing: 10px;
-  border: 5px solid #fff;
   margin: 20px 0px;
-  padding: 5px 5px 5px 19px;
   text-align: center;
 }
 
-.header-content h4 {
-  font-weight: 700;
-  letter-spacing: 10px;
-  margin: 0px;
-  padding: 0px;
-  text-align: center;
-}
-
-#down-arrow {
-  height: 35px;
-  width: auto;
+.white-line {
+  background-color: #fff;
+  z-index: 0;
+  width: 100%;
+  height: 8px;
 }
 
 
