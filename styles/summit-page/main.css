@@ -21,7 +21,7 @@ footer {
 }
 
 /*=== FONT STYLING ===*/
-.header-content h1,
+h1,
 h2,
 h3,
 h4,
@@ -32,6 +32,18 @@ a,
 li {
   font-family: neuzeit-grotesk, sans-serif;
   font-style: normal;
+  color: white;
+}
+.header-content h1,
+.schedule-section h1 {
+  font-family: 'Economica', sans-serif;
+}
+.header-content h3,
+.schedule h4 {
+  font-family: 'Prata', serif;
+}
+p {
+  letter-spacing: 1.75px;
 }
 
 
@@ -98,7 +110,6 @@ header {
 
 
 .header-content h3 {
-  font-family: 'Prata', serif;
   font-size: .9em;
   letter-spacing: 10px;
   margin: 0px;
@@ -107,7 +118,6 @@ header {
 }
 
 .header-content h1 {
-  font-family: 'Economica', sans-serif;
   font-size: 3em;
   letter-spacing: 10px;
   margin: 20px 0px;
@@ -121,182 +131,55 @@ header {
   height: 8px;
 }
 
-
-
-
-/* ===========================
-        1st BANNER STYLE
-    ----------------------------*/
-
-.banner1 {
-  background-color: #181818;
-  color: #ffffff;
-  height: 100px;
-  margin: 0px;
-  padding-left: 10%;
-  padding-right: 10%;
-  letter-spacing: 3px;
-  font-size: 1.25em;
-}
-
-/* ===========================
-        OTHER BANNERS STYLE
-    ----------------------------*/
-
-.events {
-    background-image: url("../images/stock-photos/1-events-banner.jpg");
-}
-.churches {
-  background-image: url("../images/stock-photos/2-churches-banner.jpg");
-}
-.about {
-    background-image: url("../images/stock-photos/3-about-banner.jpg");
-}
-.resources {
-    background-image: url("../images/stock-photos/4-resources-banner.jpg");
-}
-
-.banner1 {
-  z-index: 4;
-}
-.banner2 {
-  z-index: 3;
-}
-.banner3 {
-  z-index: 2;
-}
-.banner4 {
-  z-index: 1;
-}
-.banner5 {
-  z-index: 0;
-}
-
-.banner {
-  margin: 0px;
-  padding: 0px;
-  height: 245px;
-  background-position: center;
-  background-size: cover;
-  background-color: gray;
-  background-blend-mode: multiply;
-  color: #fff;
-  text-align: center;
-  font-size: 3em;
-  letter-spacing: 10px;
-}
-
-.banner-content {
-  height: 200px;
-  padding: 15px;
-  background-color: #D1D3D4;
-}
-
-.banner-content p {
-  font-size: 1.2em;
-  font-weight: 700;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.banner-buttons {
-  margin: 0px;
-  padding: 15px;
-  background-color: #777;
-  color: #fff;
-  font-size: 1.1em;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-/* == Psuedo Classes for Buttons ==*/
-.banner-buttons:hover,
-.banner-buttons:active {
-  background-color: #5E9EA2;
-  transition: 380ms;
-}
-.banner-content a,
-a:visited,
-a:active {
-  text-decoration: none;
-}
-
-
-
-/* ===========================
-        FOOTER STYLE
-    ----------------------------*/
-
-    .social-contact,
-    .foot-menu,
-    address {
-      /* only to view border of divs in footer
-      border-bottom: 2px solid white; */
-      padding: 5px;
-    }
-
-footer {
-  background-color: #181818;
-  color: #fff;
-  padding: 15px 10%;
-}
-
-.footbox {
-  margin: 15px
-}
-
-.facebook {
-  width: 425px;
-  height: 550px;
-  margin-bottom: 0px;
-}
-
-.foot-menu {
-  height: 50px;
-  margin-top: 0;
-}
-
-.foot-menu a {
-  background-color: #BCBEC0;
-  margin: 7px;
-  padding: 7px 7px 0px 10px;
-  text-decoration: none;
-  color: white;
-  letter-spacing: 3px;
-  font-weight: 700;
-  border-radius: 22px;
-  height: 28px;
-}
-.foot-menu a:hover,
-.foot-menu a:active {
-  background-color: #5E9EA2;
-  font-weight: 700;
-  transition: 380ms;
-}
-
-address h4,
-address p {
+.content-container {
+  background-color: #040404;
   margin: 0;
-  padding-bottom: 4px;
-  letter-spacing: 1.5px;
+  padding: 15px;
 }
 
-.footbox h4 {
-  font-size: 1.25em;
+.summary {
+  text-align: center;
 }
 
-address a {
-  color: white;
+.summary h5 {
+  font-size: 1.68em;
+  letter-spacing: 4px;
+  margin: 8px auto;
 }
 
-footer img {
-  height: 130px;
-  width: auto;
-  margin: 0px;
+.dtl {
+  text-align: center;
+  border: solid 2px #fff;
+  border-radius: 7px;
+  background-color: #fff;
 }
 
-.copyright {
-  font-size: .89em;
-  font-weight: 400;
-  letter-spacing: 1px;
+.dtl div {
+  margin: 25px;
+}
+.dtl div h4 {
+  font-size: 1.5em;
+  margin: 3.5px;
+  color: #040404;
+}
+.dtl div p {
+  font-size: 1.2em;
+  margin: 3.5px;
+  color: #040404;
+}
+
+/* ====================================== */
+
+.schedule-section {
+  text-align: center;
+}
+.schedule-section h1 {
+}
+
+.circle {
+  background-color: #fff;
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  margin: auto;
 }
