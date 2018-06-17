@@ -148,6 +148,7 @@ header {
 .content-container {
   background-color: #040404;
   margin: 0;
+  z-index: 0;
   padding: 20px;
 }
 
@@ -215,8 +216,12 @@ header {
 /* ====================================== */
 
 .schedule-section {
+  z-index: 1;
   text-align: center;
-  background-image: url('../../images/summit-photos/spaceimage.jpg');
+  background-image: url("../../images/summit-photos/space-image.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
 }
 .schedule-section h1 {
 }
