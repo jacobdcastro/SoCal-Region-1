@@ -20,11 +20,15 @@
   }
 
   .white-line1 { /* BEYOND white line */
-    top: 20.00em;
+    /* top: 20.00em; */
     height: 9px;
   }
   .white-line2 { /* SCHEDULE OF EVENTS whiteline */
-    top: 120em;
+    /* top: 1em; */
+    height: 5px;
+  }
+  .white-line3 { /* REGISTER NOW whiteline */
+    /* top: 170em; */
     height: 5px;
   }
 
