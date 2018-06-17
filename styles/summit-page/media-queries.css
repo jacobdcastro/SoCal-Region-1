@@ -9,7 +9,6 @@
     letter-spacing: 10px;
     margin: 5px 0px;
     text-align: center;
-    text-shadow: 4px 9px 14px #040404;
   }
 
   .header-content h1 {
@@ -18,11 +17,18 @@
     letter-spacing: 10px;
     margin: 8px 0px;
     padding: 5px 3px 5px 10px;
-    text-align: center;
-    text-shadow: 4px 9px 14px #040404;
   }
 
-  
+  .white-line1 { /* BEYOND white line */
+    top: 20.00em;
+    height: 9px;
+  }
+  .white-line2 { /* SCHEDULE OF EVENTS whiteline */
+    top: 8em;
+    height: 5px;
+  }
+
+
 }
 
 
