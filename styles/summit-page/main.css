@@ -139,7 +139,7 @@ header {
 .header-content h3 {
   font-size: .8em;
   letter-spacing: 10px;
-  margin: 5px 0px;
+  margin: 5px auto;
   text-align: center;
 }
 
@@ -151,10 +151,11 @@ header {
 }
 .white-line1 {
   top: 3.25em;
+  height: 7px;
 }
 .white-line2 {
   top: 43px;
-  height: 1px;
+  height: 4px;
 }
 .white-line3 {
   top: 45px;
@@ -165,7 +166,6 @@ header {
 .line {
   position: absolute;
   z-index: 1;
-  height: 8px;
   width: 100%;
   background-color: #fff;
 }
@@ -280,7 +280,7 @@ header {
 .schedule-section {
   z-index: 0;
   text-align: center;
-  background: linear-gradient(#040404, rgba(0, 0, 0, 0.001), #040404),
+  background: linear-gradient(#040404, rgba(0, 0, 0, 0.1), #040404),
    url("../../images/summit-photos/space-image.jpg");
   background-position: center;
   background-size: cover;
@@ -375,7 +375,7 @@ header {
   color: white;
   border-radius: 15px;
   padding: 20px 28px;
-  margin: 10px auto;
+  margin: 10px 15px;
 }
 .btn1 {
   border: solid 3px white;

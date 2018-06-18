@@ -6,8 +6,10 @@
     font-size: 7.5em;
   }
   .header-content h3 {
+    position: static;
+    margin: 5px auto 12em;
     font-size: 1em;
-    top: 12.8em;
+    top: 3em;
   }
 
   .white-line1 {
@@ -52,6 +54,49 @@
     font-size: 1.28em;
   }
 
+  .schedule-section {
+    height: 900px;
+  }
+
+  .schedule-headline h1 {
+    font-size: 5em;
+  }
+  .white-line2 {
+    top: 64px;
+    height: 4.5px;
+  }
+
+  .schedule h4 {
+    font-size: 1.3em;
+  }
+
+  .circle {
+    height: 14px;
+    width: 14px;
+  }
+
+  .cost-section h2 {
+    font-size: 2.35em;
+  }
+  .cost-section h3 {
+    font-size: 1.35em;
+  }
+
+  .register-section {
+    background: linear-gradient(#040404, rgba(0, 0, 0, 0.001), #040404), url('../../images/summit-photos/man-night-main.jpg');
+    background-position: bottom;
+    background-size: cover;
+    height: 550px;
+  }
+
+  .register-headline h1 {
+    font-size: 5em;
+  }
+  .white-line3 {
+    top: 64px;
+    height: 5px;
+  }
+
 }
 
 @media only screen and (min-width: 560px) {
@@ -63,12 +108,6 @@
 
 
 @media only screen and (min-width: 724px) {
-
-  /*  */
-  .header-content {
-    background-color: red;
-  }
-
 
   #mobileNav {
     display: none;
@@ -100,6 +139,109 @@
     font-size: .85em;
     padding: 10px;
   }
+
+  /* ======================= */
+
+  .header-content {
+    /* height: 1200px; */
+  }
+
+  .beyond-headline h1 {
+    font-size: 9.75em;
+  }
+  .header-content h3 {
+    position: static;
+    margin: 5px auto 12em;
+    font-size: 1.25em;
+    top: 3em;
+  }
+
+  .white-line1 {
+    height: 12px;
+    top: 5.5em;
+  }
+
+  .summary p {
+    font-size: 18px;
+    letter-spacing: 3px;
+  }
+  .summary h5 {
+    font-size: 2em;
+    letter-spacing: 8px;
+  }
+
+  .dtl div h4 {
+    font-size: 1.75em;
+  }
+  .dtl div p {
+    font-size: 24px;
+  }
+
+  .speakers h3 {
+    font-size: 2em;
+  }
+
+  .john-pic img {
+    height: 150px;
+    width: auto;
+  }
+
+  .john-title h4 {
+    font-size: 2.3em;
+  }
+
+  .side-speakers h5 {
+    font-size: 2.1em;
+  }
+
+  .side-speakers p {
+    font-size: 1.28em;
+  }
+
+  .schedule-section {
+    height: 1000px;
+  }
+
+  .schedule-headline h1 {
+    font-size: 6em;
+  }
+  .white-line2 {
+    top: 78px;
+    height: 6px;
+  }
+
+  .schedule h4 {
+    font-size: 1.42em;
+  }
+
+  .circle {
+    height: 17px;
+    width: 17px;
+  }
+
+  .cost-section h2 {
+    font-size: 2.47em;
+  }
+  .cost-section h3 {
+    font-size: 1.35em;
+  }
+
+  .register-section {
+    background: linear-gradient(#040404, rgba(0, 0, 0, 0.001), #040404), url('../../images/summit-photos/man-night-main.jpg');
+    background-position: bottom;
+    background-size: cover;
+    height: 450px;
+  }
+
+  .register-headline h1 {
+    font-size: 6em;
+  }
+  .white-line3 {
+    top: 73px;
+    height: 6px;
+  }
+
+}
 
 /*--======================================================
 ==========================================================
