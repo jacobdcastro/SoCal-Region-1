@@ -1,48 +1,4 @@
-@media only screen and (max-width: 480px) {
 
-  /* ===========================
-          MAIN HEADER STYLE
-      ----------------------------*/
-
-  .header-content h3 {
-    font-size: .8em;
-    letter-spacing: 10px;
-    margin: 5px 0px;
-    text-align: center;
-  }
-
-  .header-content h1 {
-    font-size: 5em;
-    font-weight: 700;
-    letter-spacing: 10px;
-    margin: 8px 0px;
-    padding: 5px 3px 5px 10px;
-  }
-
-  .white-line1 { /* BEYOND white line */
-    /* top: 20.00em; */
-    height: 9px;
-  }
-  .white-line2 { /* SCHEDULE OF EVENTS whiteline */
-    /* top: 1em; */
-    height: 5px;
-  }
-  .white-line3 { /* REGISTER NOW whiteline */
-    /* top: 170em; */
-    height: 5px;
-  }
-
-
-}
-
-
-
-
-/*--======================================================
-==========================================================
-          MEDIA QUERY BORDER
-==========================================================
-==========================================================-->*/
 
 @media only screen and (min-width: 724px) {
 
