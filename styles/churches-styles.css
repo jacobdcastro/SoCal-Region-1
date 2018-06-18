@@ -80,6 +80,13 @@ main {
   transition: 350ms;
 }
 
+.summit-link-desk {
+  background-color: #5E9EA2;
+}
+.summit-link-desk:hover {
+  background-color: black;
+}
+
 
 
 
