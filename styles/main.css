@@ -6,7 +6,7 @@
   See flex.css in 'styles' folder for layout.
 
   **MEDIA QUERIES ARE NOT INCLUDED IN THIS FILE**
-  See medque.css in 'styles' folder for media queries.
+  See media-queries.css in 'styles' folder for media queries.
 
   Your lovely web developer
   Jacob D. Castro
@@ -79,6 +79,13 @@ a {
 .rightnav a:hover {
   background-color: #5E9EA2;
   transition: 350ms;
+}
+
+.summit-link-desk {
+  background-color: #5E9EA2;
+}
+.summit-link-desk:hover {
+  background-color: black;
 }
 
 
