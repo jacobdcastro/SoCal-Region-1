@@ -1,6 +1,74 @@
+/*  */
+
+@media only screen and (min-width: 480px) {
+
+  .beyond-headline h1 {
+    font-size: 7.5em;
+  }
+  .header-content h3 {
+    font-size: 1em;
+    top: 12.8em;
+  }
+
+  .white-line1 {
+    height: 10px;
+    top: 4.66em;
+  }
+
+  .summary p {
+    font-size: 18px;
+    letter-spacing: 3px;
+  }
+  .summary h5 {
+    font-size: 2em;
+    letter-spacing: 8px;
+  }
+
+  .dtl div h4 {
+    font-size: 1.75em;
+  }
+  .dtl div p {
+    font-size: 24px;
+  }
+
+  .speakers h3 {
+    font-size: 2em;
+  }
+
+  .john-pic img {
+    height: 150px;
+    width: auto;
+  }
+
+  .john-title h4 {
+    font-size: 2.3em;
+  }
+
+  .side-speakers h5 {
+    font-size: 2.1em;
+  }
+
+  .side-speakers p {
+    font-size: 1.28em;
+  }
+
+}
+
+@media only screen and (min-width: 560px) {
+  .dtl {
+    margin: 20px auto;
+  }
+}
+
 
 
 @media only screen and (min-width: 724px) {
+
+  /*  */
+  .header-content {
+    background-color: red;
+  }
+
 
   #mobileNav {
     display: none;
