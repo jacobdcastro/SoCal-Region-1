@@ -2,6 +2,10 @@
 
 @media only screen and (min-width: 480px) {
 
+  .header-content {
+    margin-bottom: 40px;
+  }
+
   .beyond-headline h1 {
     font-size: 7.5em;
   }
@@ -105,8 +109,6 @@
   }
 }
 
-
-
 @media only screen and (min-width: 724px) {
 
   #mobileNav {
@@ -142,23 +144,27 @@
 
   /* ======================= */
 
+  header {
+    height: 700px;
+  }
+
   .header-content {
-    /* height: 1200px; */
+    margin-bottom: 80px;
   }
 
   .beyond-headline h1 {
-    font-size: 9.75em;
+    font-size: 8em;
   }
   .header-content h3 {
     position: static;
     margin: 5px auto 12em;
-    font-size: 1.25em;
+    font-size: 1.15em;
     top: 3em;
   }
 
   .white-line1 {
-    height: 12px;
-    top: 5.5em;
+    height: 10px;
+    top: 4.8em;
   }
 
   .summary p {
@@ -230,7 +236,7 @@
     background: linear-gradient(#040404, rgba(0, 0, 0, 0.001), #040404), url('../../images/summit-photos/man-night-main.jpg');
     background-position: bottom;
     background-size: cover;
-    height: 450px;
+    height: 520px;
   }
 
   .register-headline h1 {
@@ -243,13 +249,7 @@
 
 }
 
-/*--======================================================
-==========================================================
-          MEDIA QUERY BORDER
-==========================================================
-==========================================================-->*/
-
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1000px) {
 
   /* ==================
       NAVIGATION BAR
@@ -285,16 +285,108 @@
       MAIN HEADER STYLE
       ------------------------*/
 
+      header {
+        height: 750px;
+      }
+
+      .header-content {
+        margin-bottom: 120px;
+      }
+
+      .summary p {
+        font-size: 18px;
+        letter-spacing: 3px;
+      }
+      .summary h5 {
+        font-size: 2em;
+        letter-spacing: 8px;
+      }
+
+      .dtl div h4 {
+        font-size: 1.75em;
+      }
+      .dtl div p {
+        font-size: 24px;
+      }
+
+      .speakers h3 {
+        font-size: 2em;
+      }
+
+      .john-pic img {
+        height: 150px;
+        width: auto;
+      }
+
+      .schedule-headline h1 {
+        font-size: 6em;
+      }
+      .white-line2 {
+        top: 78px;
+        height: 6px;
+      }
+
+      .schedule h4 {
+        font-size: 1.42em;
+      }
+
+      .circle {
+        height: 17px;
+        width: 17px;
+      }
+
+      .cost-section h2 {
+        font-size: 2.47em;
+      }
+      .cost-section h3 {
+        font-size: 1.35em;
+      }
+
+      .register-section {
+        background: linear-gradient(#040404, rgba(0, 0, 0, 0.001), #040404), url('../../images/summit-photos/man-night-main.jpg');
+        background-position: bottom;
+        background-size: cover;
+        height: 600px;
+      }
+
+      .register-headline h1 {
+        font-size: 6em;
+      }
+      .white-line3 {
+        top: 73px;
+        height: 6px;
+      }
+}
+
+@media only screen and (min-width: 1400px) {
   header {
-    height: 700px;
+    height: 950px;
   }
+
+  .header-content {
+    margin-bottom: 120px;
+  }
+
   .header-content h3 {
-    font-size: 2.5em;
+    font-size: 1.6em;
   }
-  .header-content h1 {
-    font-size: 4.5em;
-    letter-spacing: 18px;
-    border-width: 11px;
-    padding: 9px 9px 9px 22px;
+
+  .beyond-headline h1 {
+    font-size: 11em;
+  }
+
+  .white-line1 {
+      top: 6.3em;
+  }
+
+}
+
+@media only screen and (min-width: 1700px) {
+  header {
+    height: 950px;
+  }
+
+  .register-section {
+    height: 750px;
   }
 }

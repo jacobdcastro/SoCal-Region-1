@@ -101,7 +101,7 @@ p {
 header {
   background-image: url("../../images/summit-photos/man-night-main.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   margin: 0px;
   height: 575px;
   color: #fff;
@@ -192,8 +192,9 @@ header {
 }
 
 .summary p {
-  margin: 0;
-  padding: 20px;
+  margin: 0px auto;
+  padding: 20px 5%;
+  max-width: 900px;
 }
 
 .summary h5 {
