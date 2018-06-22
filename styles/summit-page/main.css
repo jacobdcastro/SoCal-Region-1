@@ -267,6 +267,13 @@ header {
   margin: 5px auto;
 }
 
+.john-title p {
+  text-align: center;
+  letter-spacing: 3px;
+  padding: 15px 5%;
+  max-width: 900px;
+}
+
 .speakers h5 {
   font-size: 1.6em;
   letter-spacing: 3px;
