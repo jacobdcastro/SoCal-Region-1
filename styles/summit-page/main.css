@@ -390,7 +390,7 @@ header {
   border: solid 3px #096683;
 }
 /* Temporarily disable, unlock when registration opens */
-/* .btn1:hover {
+.btn1:hover {
   cursor: pointer;
   background-color: #096683;
   border: solid 3px #096683;
@@ -401,7 +401,7 @@ header {
   background-color: rgba(0,0,0,0);
   border: solid 3px #fff;
   transition: 300ms;
-} */
+}
 .btn1:hover,
 .btn2:hover {
  cursor: no-drop;
