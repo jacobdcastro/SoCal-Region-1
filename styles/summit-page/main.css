@@ -236,28 +236,22 @@ header {
   letter-spacing: 3px;
   text-align: center;
 }
-.side-speakers h5,
-.side-speakers p {
-  text-align: center;
-  margin: 5px auto;
-}
-
 
 .john-martin {
   margin-bottom: 2px;
 }
 
-.john-pic {
+.speaker-pic {
+  height: 125px;
+  width: auto;
   padding: 5px;
   margin-bottom: 10px;
   border: solid 4px white;
   border-radius: 100%;
 }
 
-.john-pic img {
-  height: 125px;
-  width: auto;
-  border-radius: 100%;
+.john-title {
+  cursor: pointer;
 }
 
 .john-title h4,
@@ -283,6 +277,7 @@ header {
 .speakers ul {
   margin: 5px auto;
 }
+
 
 /* ====================================== */
 

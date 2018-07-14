@@ -21,3 +21,11 @@ closeButton.addEventListener("mousedown", closeNav);
 
 menuButton.addEventListener("touchend", openNav);
 closeButton.addEventListener("touchend", closeNav);
+
+// Div click test ============================================
+
+const speaker = document.getElementById('johnMartin');
+
+speaker.addEventListener('onClick', function () {
+  console.log('Hello, world!');
+});
