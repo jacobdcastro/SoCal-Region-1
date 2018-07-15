@@ -24,8 +24,8 @@ closeButton.addEventListener("touchend", closeNav);
 
 // Div click test ============================================
 
-const speaker = document.getElementById('johnMartin');
+var speaker = document.getElementById('johnMartin');
 
-speaker.addEventListener('onClick', function () {
+speaker.addEventListener('onclick', function () {
   console.log('Hello, world!');
 });

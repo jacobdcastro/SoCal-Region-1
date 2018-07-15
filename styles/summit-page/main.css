@@ -241,31 +241,47 @@ header {
   margin-bottom: 2px;
 }
 
+.speaker {
+  padding: 25px;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+}
+
+.speaker-title {
+  height: 300px;
+}
+
 .speaker-pic {
-  height: 125px;
+  height: 55px;
   width: auto;
   padding: 5px;
   margin-bottom: 10px;
-  border: solid 4px white;
+  border: solid 2px white;
   border-radius: 100%;
 }
 
-.john-title {
+.right-arrow {
+  height: 40px;
+  width: auto;
+}
+
+.speaker-title {
   cursor: pointer;
 }
 
-.john-title h4,
-.john-title h5 {
-  font-size: 1.25em;
+.speaker-title h4,
+.speaker-title h5 {
+  font-size: 1.25rem;
   text-align: center;
   margin: 5px auto;
 }
 
-.john-title p {
+.bio {
   text-align: center;
   letter-spacing: 3px;
   padding: 15px 5%;
   max-width: 900px;
+  display: none;
 }
 
 .speakers h5 {
