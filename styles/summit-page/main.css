@@ -242,6 +242,7 @@ header {
 }
 
 .speaker {
+  /* height: 85px; */
   padding: 25px;
   border-top: 5px solid white;
 }
@@ -265,13 +266,7 @@ header {
 }
 .speaker-title div h4 {
   font-size: 1.18em;
-  /* text-align: center; */
-  margin: 5px auto;
-  letter-spacing: 3px;
-}
-.speaker-title div h5 {
-  font-size: .8em;
-  /* text-align: center; */
+  text-align: center;
   margin: 5px auto;
   letter-spacing: 3px;
 }
@@ -281,13 +276,13 @@ header {
   padding: auto 0px;
   margin: 5px auto;
 }
-
 .bio {
-  text-align: center;
+  font-size: .9em;
+  text-align: left;
   letter-spacing: 3px;
   padding: 15px 5%;
   max-width: 900px;
-  display: none;
+  /* display: none; */
 }
 
 .speakers h5 {
