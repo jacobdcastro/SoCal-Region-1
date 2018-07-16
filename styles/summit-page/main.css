@@ -244,35 +244,41 @@ header {
 .speaker {
   padding: 25px;
   border-top: 5px solid white;
-  border-bottom: 5px solid white;
 }
 
 .speaker-title {
-  height: 300px;
+  height: 65px;
 }
 
 .speaker-pic {
   height: 55px;
   width: auto;
-  padding: 5px;
+  padding: 5px 5px 5px 0;
   margin-bottom: 10px;
-  border: solid 2px white;
-  border-radius: 100%;
+  margin-left: 0;
 }
-
-.right-arrow {
-  height: 40px;
-  width: auto;
-}
-
 .speaker-title {
-  cursor: pointer;
+  /* cursor: pointer; */
 }
-
-.speaker-title h4,
-.speaker-title h5 {
-  font-size: 1.25rem;
-  text-align: center;
+.speaker-title div {
+  width: 60%;
+}
+.speaker-title div h4 {
+  font-size: 1.18em;
+  /* text-align: center; */
+  margin: 5px auto;
+  letter-spacing: 3px;
+}
+.speaker-title div h5 {
+  font-size: .8em;
+  /* text-align: center; */
+  margin: 5px auto;
+  letter-spacing: 3px;
+}
+.right-arrow {
+  height: 18px;
+  width: auto;
+  padding: auto 0px;
   margin: 5px auto;
 }
 

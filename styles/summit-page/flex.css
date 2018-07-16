@@ -44,16 +44,11 @@ header, .header-content {
 } */
 
 
-.john-martin {
+.speaker-title {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-}
-
-.john-title h4,
-.john-title h5 {
-  letter-spacing: 2px;
 }
 
 .schedule-section,
