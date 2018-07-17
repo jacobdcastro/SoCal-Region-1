@@ -35,14 +35,11 @@ header, .header-content {
   display: flex;
 }
 
-
-/* .speakers {
+.speakers {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-} */
-
+  /* align-items: center; */
+}
 
 .speaker-title {
   display: flex;

@@ -1,8 +1,6 @@
 var menuButton = document.getElementById("mobileMenuButton");
 var closeButton = document.getElementById("closeButton");
-var w = window.innerWidth;
 var opened = false;
-console.log(w);
 
 /* Open the sidenav */
 function openNav() {
@@ -29,19 +27,27 @@ var speaker = document.getElementsByClassName('speaker');
 var title = document.getElementsByClassName('speaker-title');
 var arrow = document.querySelectorAll('.right-arrow');
 var bio = document.querySelectorAll('.bio');
-var opened = false;
+var w = window.innerWidth;
+var speakerHeight;
+
+if (w < 480) {
+  speakerHeight = '40px';
+} else if (w >= 480 && w < 560) {
+  speakerHeight = '65px;'
+}
 
 for (let i = 0; i < 6; i++) {
     title[i].addEventListener('mousedown', function () {
       if (arrow[i].style.transform === 'rotate(0deg)') {
+        console.log('Hello, World.');
         arrow[i].style.transform = 'rotate(90deg)';
         bio[i].style.display = 'block';
         speaker[i].style.height = 'auto';
       } else {
+        console.log(', World.');
         arrow[i].style.transform = 'rotate(0deg)';
-        speaker[i].style.height = '50px';
+        speaker[i].style.height = speakerHeight;
         bio[i].style.display = 'none';
       }
     });
 }
-// instead of checking if opened is true or false, try measuring height of div

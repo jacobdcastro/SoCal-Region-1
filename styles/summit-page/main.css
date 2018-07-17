@@ -242,20 +242,17 @@ header {
 }
 
 .speaker {
-  /* height: 85px; */
   padding: 25px;
-  border-top: 5px solid white;
+  border-top: 3px solid white;
   transition: height 0.5s;
 }
 .speaker-title {
-  height: 50px;
+  height: 40px;
   cursor: pointer;
 }
 .speaker-pic {
   height: 55px;
   width: auto;
-  padding: 5px 5px 5px 0;
-  margin-bottom: 10px;
   margin-left: 0;
 }
 .speaker-title div {
@@ -271,7 +268,8 @@ header {
   height: 18px;
   width: auto;
   padding: auto 0px;
-  margin: 5px auto;
+  margin-right: 0px;
+  transform: rotate(0deg);
   /* transform for attributes in navbar.js */
   transition: transform 0.5s;
 }
