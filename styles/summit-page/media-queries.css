@@ -107,6 +107,12 @@
   .dtl {
     margin: 20px auto;
   }
+  .speakers {
+    width: 80%;
+  }
+  .speaker-title {
+    height: 65px;
+  }
 }
 
 @media only screen and (min-width: 724px) {
@@ -168,7 +174,7 @@
   }
 
   .summary p,
-  .john-title p {
+  .bio {
     font-size: 18px;
     letter-spacing: 3px;
   }
@@ -184,25 +190,25 @@
     font-size: 24px;
   }
 
-  .speakers h3 {
-    font-size: 2em;
+  .speakers {
+    width: 80%;
   }
-
-  .john-pic img {
-    height: 150px;
+  .speaker {
+    height: 75px;
+  }
+  .speaker-title {
+    height: 75px;
+  }
+  .speaker-title div h4 {
+    font-size: 1.78em;
+  }
+  .speaker-pic {
+    height: 105px;
     width: auto;
   }
-
-  .john-title h4 {
-    font-size: 2.3em;
-  }
-
-  .side-speakers h5 {
-    font-size: 2.1em;
-  }
-
-  .side-speakers p {
-    font-size: 1.28em;
+  .right-arrow {
+    height: 28px;
+    width: auto;
   }
 
   .schedule-section {
@@ -309,15 +315,6 @@
       }
       .dtl div p {
         font-size: 24px;
-      }
-
-      .speakers h3 {
-        font-size: 2em;
-      }
-
-      .john-pic img {
-        height: 150px;
-        width: auto;
       }
 
       .schedule-headline h1 {

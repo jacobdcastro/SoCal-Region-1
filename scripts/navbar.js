@@ -28,26 +28,21 @@ var title = document.getElementsByClassName('speaker-title');
 var arrow = document.querySelectorAll('.right-arrow');
 var bio = document.querySelectorAll('.bio');
 var w = window.innerWidth;
+var opened = [ ];
 var speakerHeight;
 
-if (w < 480) {
-  speakerHeight = '40px';
-} else if (w >= 480 && w < 560) {
-  speakerHeight = '65px;'
-}
-
 for (let i = 0; i < 6; i++) {
-    title[i].addEventListener('mousedown', function () {
-      if (arrow[i].style.transform === 'rotate(0deg)') {
-        console.log('Hello, World.');
-        arrow[i].style.transform = 'rotate(90deg)';
-        bio[i].style.display = 'block';
-        speaker[i].style.height = 'auto';
-      } else {
-        console.log(', World.');
-        arrow[i].style.transform = 'rotate(0deg)';
-        speaker[i].style.height = speakerHeight;
-        bio[i].style.display = 'none';
-      }
-    });
+  opened[i] = false;
+  title[i].addEventListener('mousedown', function () {
+    if (opened[i] === false) {
+      arrow[i].style.transform = 'rotate(90deg)';
+      bio[i].style.display = 'block';
+      speaker[i].style.height = 'auto';
+      opened[i] = true;
+    } else {
+      arrow[i].style.transform = 'rotate(0deg)';
+      bio[i].style.display = 'none';
+      opened[i] = false;
+    }
+  });
 }

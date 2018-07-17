@@ -228,17 +228,15 @@ header {
 }
 
 .speakers {
-  margin: 20px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 800px;
 }
 
 .speakers h3 {
   font-size: 1.5em;
   letter-spacing: 3px;
   text-align: center;
-}
-
-.john-martin {
-  margin-bottom: 2px;
 }
 
 .speaker {
