@@ -25,17 +25,22 @@ menuButton.addEventListener("touchend", openNav);
 closeButton.addEventListener("touchend", closeNav);
 
 // Div click test ============================================
-var title = document.getElementsByClassName('speaker-title');
 var speaker = document.getElementsByClassName('speaker');
+var title = document.getElementsByClassName('speaker-title');
+var arrow = document.querySelectorAll('.right-arrow');
+var bio = document.querySelectorAll('.bio');
 var opened = false;
-console.log(title);
 
 for (let i = 0; i < 6; i++) {
     title[i].addEventListener('mousedown', function () {
-      if (title[i].style.backgroundColor !== 'blue') {
-        title[i].style.backgroundColor = 'blue';
+      if (arrow[i].style.transform === 'rotate(0deg)') {
+        arrow[i].style.transform = 'rotate(90deg)';
+        bio[i].style.display = 'block';
+        speaker[i].style.height = 'auto';
       } else {
-        title[i].style.backgroundColor = 'black';
+        arrow[i].style.transform = 'rotate(0deg)';
+        speaker[i].style.height = '50px';
+        bio[i].style.display = 'none';
       }
     });
 }
