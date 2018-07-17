@@ -35,6 +35,12 @@ header, .header-content {
   display: flex;
 }
 
+.john-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .speakers {
   display: flex;
   flex-direction: column;

@@ -42,6 +42,13 @@
     font-size: 2em;
   }
 
+  .john-title div h4 {
+    font-size: 2.2em;
+  }
+  .john-title div h5 {
+    font-size: 1.5em;
+  }
+
   .speaker {
     height: 60px;
   }
@@ -190,6 +197,18 @@
     font-size: 24px;
   }
 
+  .john-pic {
+    height: 168px;
+    width: 168px;
+  }
+
+  .john-martin p {
+    font-size: 18px;
+  }
+
+  .breakout-title {
+    font-size: 1.72em;
+  }
   .speakers {
     width: 80%;
   }

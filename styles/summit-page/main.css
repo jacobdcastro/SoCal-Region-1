@@ -227,26 +227,60 @@ header {
   color: #fff;
 }
 
+.john-pic {
+  height: 125px;
+  width: 125px;
+  margin: 8px auto;
+}
+.john-title div h4,
+.john-title div h5 {
+  text-align: center;
+}
+.john-title div h4 {
+  font-size: 1.9em;
+  letter-spacing: 3px;
+  margin: 15px auto 18px;
+}
+.john-title div h5 {
+  font-size: 1.3em;
+  letter-spacing: 2.5px;
+}
+.john-martin p {
+  font-size: .9em;
+  text-align: center;
+  letter-spacing: 3px;
+  margin: 15px auto auto;
+  width: 90%;
+}
+
 .speakers {
-  margin: 20px auto;
+  margin: 15px auto;
   width: 90%;
   max-width: 800px;
 }
 
 .speakers h3 {
-  font-size: 1.5em;
+  font-size: 1.8em;
   letter-spacing: 3px;
   text-align: center;
+  margin: 12px auto;
 }
-
 .speaker {
   padding: 25px;
-  border-top: 3px solid white;
+  border-bottom: 3px solid white;
   transition: height 0.5s;
+}
+.rich-shepherd {
+  border-top: 3px solid white;
 }
 .speaker-title {
   height: 40px;
   cursor: pointer;
+}
+.breakout-title {
+  margin: 45px auto 20px;
+  letter-spacing: 3px;
+  font-size: 1.3em;
 }
 .speaker-pic {
   height: 55px;
