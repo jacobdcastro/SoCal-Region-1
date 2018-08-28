@@ -22,7 +22,7 @@ closeButton.addEventListener("mousedown", closeNav);
 menuButton.addEventListener("touchend", openNav);
 closeButton.addEventListener("touchend", closeNav);
 
-// Div click test ============================================
+// Div click ============================================
 var speaker = document.getElementsByClassName('speaker');
 var title = document.getElementsByClassName('speaker-title');
 var arrow = document.querySelectorAll('.right-arrow');
@@ -30,41 +30,22 @@ var bio = document.querySelectorAll('.bio');
 var w = window.innerWidth;
 var opened = [ ];
 var speakerHeight;
+// for test
+const cards = document.getElementsByClassName("description-card");
+console.log(cards);
+const popup = document.getElementById("popup");
 
-function closeDes(e) {
-  console.log('Close Popup Div');
-  // use 'this'?
+for (let i = 0; i <= cards.length; i++) {
+  cards[i].addEventListener('mouseup', function () {
+    console.log("Button Works!");
+    cards[i].style.borderBottom = "none";
+    cards[i].style.height = "145px";
+    cards[i].style.marginBottom = "20px";
+
+    popup.style.display = "block";
+  });
 }
 
-function welcome() {
-  console.log("Welcome Popup Shows");
-  document.getElementById('welcome').styles.display = 'block';
-}
-
-function morningSesh() {
-  console.log("Morning Session Popup Shows");
-  document.getElementById('morning').styles.display = 'block';
-}
-
-function breakoutOne() {
-  console.log("Breakout 1 Popup Shows");
-  document.getElementById('breakout1').styles.display = 'block';
-}
-
-function breakoutTwo() {
-  console.log("Breakout 2 Popup Shows");
-  document.getElementById('breakout2').styles.display = 'block';
-}
-
-function afternoonSesh() {
-  console.log("Afternoon Session Popup Shows");
-  document.getElementById('afternoon').styles.display = 'block';
-}
-
-function closing() {
-  console.log("Closing Popup Shows");
-  document.getElementById('closing').styles.display = 'block';
-}
 
 for (let i = 0; i < 6; i++) {
   opened[i] = false;

@@ -367,7 +367,11 @@ header {
 .schedule h4 {
   letter-spacing: 6px;
   font-weight: 400;
-  text-shadow: 4px 6px 9px #040404;
+  text-shadow: 4px 6px 9px #040404
+}
+.schedule h4:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .circle {
@@ -378,6 +382,40 @@ header {
   margin: auto;
   box-shadow: 4px 6px 20px #040404;
 }
+
+
+/* =============================== */
+
+.description-card {
+  height: 150px;
+  width: 200px;
+  background-color: #444;
+  border: none;
+  border-radius: 9px;
+  border-bottom: solid 5px #222;
+  margin-bottom: 15px;
+}
+
+.description-card h2,
+.description-card h3,
+.description-card h6 {
+  margin: 0px;
+  padding: 0px;
+}
+
+#popup {
+  display: none;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.4);
+}
+.popup-content {
+  position: fixed;
+  z-index: 4;
+  height: 400px;
+  width: 80%;
+}
+
 
 
 /* =============================== */

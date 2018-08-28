@@ -178,21 +178,66 @@
           <div class="line white-line2"></div> <!-- SCHEDULE OF EVENTS -->
         </div>
         <div class="schedule">
-          <h4>WELCOME</h4>
+          <h4 onclick="welcome()">WELCOME</h4>
           <div class="circle"></div>
-          <h4>MORNING SESSION</h4>
+          <h4 onclick="morningSesh()">MORNING SESSION</h4>
           <div class="circle"></div>
-          <h4>BREAKOUT 1</h4>
+          <h4 onclick="breakoutOne()">BREAKOUT 1</h4>
           <div class="circle"></div>
           <h4>LUNCH</h4>
           <div class="circle"></div>
-          <h4>BREAKOUT 2</h4>
+          <h4 onclick="breakoutTwo()">BREAKOUT 2</h4>
           <div class="circle"></div>
-          <h4>AFTERNOON SESSION</h4>
+          <h4 onclick="afternoonSesh()">AFTERNOON SESSION</h4>
           <div class="circle"></div>
-          <h4>CLOSING</h4>
+          <h4 onclick="closing()">CLOSING</h4>
         </div><!-- /.schedule -->
       </div> <!-- /.schedule-section -->
+
+      <div class="description-list">
+        <h2>Breakout Sessions</h2>
+        <button id="card" class="description-card">
+          <h2>Rich Shepherd</h2>
+          <h3>Beyond Sunday</h3>
+          <h6>Click for more info</h6>
+        </button> <!-- /. description-card -->
+        <button class="description-card">
+          <h2>Dr. Bill Dogterom</h2>
+          <h3>Beyond Spiritual Barriers</h3>
+          <h6>Click for more info</h6>
+        </button> <!-- /. description-card -->
+        <button class="description-card">
+          <h2>Joe Moss</h2>
+          <h3>Beyond Limitations</h3>
+          <h6>Click for more info</h6>
+        </button> <!-- /. description-card -->
+        <button class="description-card">
+          <h2>Ricardo Quintana</h2>
+          <h3>Beyond Visual Barriers</h3>
+          <h6>Click for more info</h6>
+        </button> <!-- /. description-card -->
+        <button class="description-card">
+          <h2>JoAnn Johnson</h2>
+          <h3>Empowering Your Team</h3>
+          <h6>Click for more info</h6>
+        </button> <!-- /. description-card -->
+      </div> <!-- /.description-list -->
+
+      <div id="popup" class="popup">
+        <div class="popup-content">
+          <img src="/images/icons/close-button.svg" />
+          <div class="popup-header">
+            <img src="/images/summit-photos/edited/rich-shepherd2.png" />
+            <h1>Rich Shepherd</h1>
+            <h2>Beyond Sunday</h2>
+            <h3>Making the Other 167 Hours in the Week Count</h3>
+          </div>
+          <p class="popup-body">
+            How do we, as pastors, ministry leaders, and church leaders help those who come through our doors on Sunday live out their Sunday experience the rest of the week? How do we engage them in spiritual growth in the day-to-day? While also keeping them engaged with upcoming events and connection points? And how do we let others in our city know that a great church exists just around the corner?<br />
+            Answer: <b>Online Systems & Social Media</b>! Don't let that intimidate or confuse you, because WE WANT TO HELP and provide you with some amazing tools! Come and we will not only provide you practical steps that anyone can do, but we will also push you towards free content that makes a huge impact!
+          </p>
+        </div> <!-- /.popup-content -->
+      </div> <!-- /#popup -->
 
       <div class="cost-section">
         <h2>Cost To Attend</h2>
@@ -216,6 +261,6 @@
       <p class="copy">&copy; SoCal Region 1 - 2018</p>
     </div> <!-- /.content-container -->
 
-    <script src="scripts/navbar.js"></script>
+    <script src="scripts/main.js"></script>
   </body>
 </html>

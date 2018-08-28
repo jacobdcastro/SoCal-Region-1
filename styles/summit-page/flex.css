@@ -72,6 +72,12 @@ header, .header-content {
   align-items: center;
 }
 
+.description-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 
 
 @media only screen and (max-width:480px) {
