@@ -438,10 +438,12 @@ header {
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4);
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .popup-content {
   background-color: #555;
-  margin: 15% auto; /* 15% from the top and centered */
+  margin: auto auto; /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
   width: 80%;

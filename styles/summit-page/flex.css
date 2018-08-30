@@ -87,6 +87,11 @@ header, .header-content {
 
 }
 
+.popup {
+  justify-content: center;
+  align-items: center;
+}
+
 .popup-header {
   display: flex;
   flex-direction: column;

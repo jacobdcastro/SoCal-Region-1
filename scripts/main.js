@@ -46,19 +46,19 @@ const joannJohnsonCard = document.getElementById('joannJohnsonTalk');
 const joannJohnsonPopup = document.getElementById('joannJohnsonPopup');
 
 function richShepherdTalk() {
-  richShepherdPopup.style.display = 'block';
+  richShepherdPopup.style.display = 'flex';
 }
 function billDogteromTalk() {
-  billDogteromPopup.style.display = 'block';
+  billDogteromPopup.style.display = 'flex';
 }
 function joeMossTalk() {
-  joeMossPopup.style.display = 'block';
+  joeMossPopup.style.display = 'flex';
 }
 function ricardoQuintanaTalk() {
-  ricardoQuintanaPopup.style.display = 'block';
+  ricardoQuintanaPopup.style.display = 'flex';
 }
 function joannJohnsonTalk() {
-  joannJohnsonPopup.style.display = 'block';
+  joannJohnsonPopup.style.display = 'flex';
 }
 
 function closePopup() {
