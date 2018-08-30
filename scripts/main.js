@@ -23,29 +23,52 @@ menuButton.addEventListener("touchend", openNav);
 closeButton.addEventListener("touchend", closeNav);
 
 // Div click ============================================
-var speaker = document.getElementsByClassName('speaker');
-var title = document.getElementsByClassName('speaker-title');
+var speaker = document.querySelectorAll('.speaker');
+var title = document.querySelectorAll('.speaker-title');
+console.log(title);
 var arrow = document.querySelectorAll('.right-arrow');
 var bio = document.querySelectorAll('.bio');
-var w = window.innerWidth;
 var opened = [ ];
-var speakerHeight;
 // for test
-const cards = document.getElementsByClassName("description-card");
+const cards = document.querySelectorAll('.description-card');
 console.log(cards);
-const popup = document.getElementById("popup");
+const popup = document.querySelectorAll('.popup');
+// Cards for Breakout Talks
+const richShepherdCard = document.getElementById('richShepherdTalk');
+const richShepherdPopup = document.getElementById('richShepherdPopup');
+const billDogteromCard = document.getElementById('billDogteromTalk');
+const billDogteromPopup = document.getElementById('billDogteromPopup');
+const joeMossCard = document.getElementById('joeMossTalk');
+const joeMossPopup = document.getElementById('joeMossPopup');
+const ricardoQuintanaCard = document.getElementById('ricardoQuintanaTalk');
+const ricardoQuintanaPopup = document.getElementById('ricardoQuintanaPopup');
+const joannJohnsonCard = document.getElementById('joannJohnsonTalk');
+const joannJohnsonPopup = document.getElementById('joannJohnsonPopup');
 
-for (let i = 0; i <= cards.length; i++) {
-  cards[i].addEventListener('mouseup', function () {
-    console.log("Button Works!");
-    cards[i].style.borderBottom = "none";
-    cards[i].style.height = "145px";
-    cards[i].style.marginBottom = "20px";
-
-    popup.style.display = "block";
-  });
+function richShepherdTalk() {
+  richShepherdPopup.style.display = 'block';
+}
+function billDogteromTalk() {
+  billDogteromPopup.style.display = 'block';
+}
+function joeMossTalk() {
+  joeMossPopup.style.display = 'block';
+}
+function ricardoQuintanaTalk() {
+  ricardoQuintanaPopup.style.display = 'block';
+}
+function joannJohnsonTalk() {
+  joannJohnsonPopup.style.display = 'block';
 }
 
+function closePopup() {
+  richShepherdPopup.style.display = 'none';
+  billDogteromPopup.style.display = 'none';
+  joeMossPopup.style.display = 'none';
+  ricardoQuintanaPopup.style.display = 'none';
+  joannJohnsonPopup.style.display = 'none';
+
+}
 
 for (let i = 0; i < 6; i++) {
   opened[i] = false;

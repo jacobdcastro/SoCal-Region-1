@@ -178,63 +178,125 @@
           <div class="line white-line2"></div> <!-- SCHEDULE OF EVENTS -->
         </div>
         <div class="schedule">
-          <h4 onclick="welcome()">WELCOME</h4>
+          <h4>WELCOME</h4>
           <div class="circle"></div>
-          <h4 onclick="morningSesh()">MORNING SESSION</h4>
+          <h4>MORNING SESSION</h4>
           <div class="circle"></div>
-          <h4 onclick="breakoutOne()">BREAKOUT 1</h4>
+          <h4>BREAKOUT 1</h4>
           <div class="circle"></div>
           <h4>LUNCH</h4>
           <div class="circle"></div>
-          <h4 onclick="breakoutTwo()">BREAKOUT 2</h4>
+          <h4>BREAKOUT 2</h4>
           <div class="circle"></div>
-          <h4 onclick="afternoonSesh()">AFTERNOON SESSION</h4>
+          <h4>AFTERNOON SESSION</h4>
           <div class="circle"></div>
-          <h4 onclick="closing()">CLOSING</h4>
+          <h4>CLOSING</h4>
         </div><!-- /.schedule -->
       </div> <!-- /.schedule-section -->
 
-      <div class="description-list">
-        <h2>Breakout Sessions</h2>
-        <button id="card" class="description-card">
-          <h2>Rich Shepherd</h2>
-          <h3>Beyond Sunday</h3>
-          <h6>Click for more info</h6>
-        </button> <!-- /. description-card -->
-        <button class="description-card">
-          <h2>Dr. Bill Dogterom</h2>
-          <h3>Beyond Spiritual Barriers</h3>
-          <h6>Click for more info</h6>
-        </button> <!-- /. description-card -->
-        <button class="description-card">
-          <h2>Joe Moss</h2>
-          <h3>Beyond Limitations</h3>
-          <h6>Click for more info</h6>
-        </button> <!-- /. description-card -->
-        <button class="description-card">
-          <h2>Ricardo Quintana</h2>
-          <h3>Beyond Visual Barriers</h3>
-          <h6>Click for more info</h6>
-        </button> <!-- /. description-card -->
-        <button class="description-card">
-          <h2>JoAnn Johnson</h2>
-          <h3>Empowering Your Team</h3>
-          <h6>Click for more info</h6>
-        </button> <!-- /. description-card -->
-      </div> <!-- /.description-list -->
+      <div class="description-container">
+        <h1>Breakout Sessions</h1>
+        <div class="description-list">
+          <button id="richShepherdTalk" class="description-card" onclick="richShepherdTalk()">
+            <h2>Rich Shepherd</h2>
+            <h3>Beyond Sunday</h3>
+            <p>Click for more info</p>
+          </button> <!-- /. description-card -->
+          <button id="billDogteromTalk" class="description-card" onclick="billDogteromTalk()">
+            <h2>Dr. Bill Dogterom</h2>
+            <h3>Beyond Spiritual Barriers</h3>
+            <p>Click for more info</p>
+          </button> <!-- /. description-card -->
+          <button id="joeMossTalk" class="description-card" onclick="joeMossTalk()">
+            <h2>Joe Moss</h2>
+            <h3>Beyond Limitations</h3>
+            <p>Click for more info</p>
+          </button> <!-- /. description-card -->
+          <button id="ricardoQuintanaTalk" class="description-card" onclick="ricardoQuintanaTalk()">
+            <h2>Ricardo Quintana</h2>
+            <h3>Beyond Visual Barriers</h3>
+            <p>Click for more info</p>
+          </button> <!-- /. description-card -->
+          <button id="joannJohnsonTalk" class="description-card" onclick="joannJohnsonTalk()">
+            <h2>JoAnn Johnson</h2>
+            <h3>Empowering Your Team</h3>
+            <p>Click for more info</p>
+          </button> <!-- /. description-card -->
+        </div> <!-- /.description-list -->
+      </div>
 
-      <div id="popup" class="popup">
+      <div id="richShepherdPopup" class="popup">
         <div class="popup-content">
-          <img src="/images/icons/close-button.svg" />
+          <img class="popup-close" src="images/icons/close-button.svg" onclick="closePopup()" />
           <div class="popup-header">
-            <img src="/images/summit-photos/edited/rich-shepherd2.png" />
-            <h1>Rich Shepherd</h1>
-            <h2>Beyond Sunday</h2>
+            <img class="popup-photo" src="images/summit-photos/edited/rich-shepherd2.png" />
+            <h2>Rich Shepherd</h2>
+            <h1>Beyond Sunday</h1>
             <h3>Making the Other 167 Hours in the Week Count</h3>
           </div>
           <p class="popup-body">
             How do we, as pastors, ministry leaders, and church leaders help those who come through our doors on Sunday live out their Sunday experience the rest of the week? How do we engage them in spiritual growth in the day-to-day? While also keeping them engaged with upcoming events and connection points? And how do we let others in our city know that a great church exists just around the corner?<br />
             Answer: <b>Online Systems & Social Media</b>! Don't let that intimidate or confuse you, because WE WANT TO HELP and provide you with some amazing tools! Come and we will not only provide you practical steps that anyone can do, but we will also push you towards free content that makes a huge impact!
+          </p>
+        </div> <!-- /.popup-content -->
+      </div> <!-- /#popup -->
+
+      <div id="billDogteromPopup" class="popup">
+        <div class="popup-content">
+          <img class="popup-close" src="images/icons/close-button.svg" onclick="closePopup()" />
+          <div class="popup-header">
+            <img class="popup-photo" src="images/summit-photos/edited/dr-bill-dogterom2.png" />
+            <h1>Dr. Bill Dogterom</h1>
+            <h2>Beyond Spirital Barriers</h2>
+            <h3>Engaging Next-Gen in the Gifts of the Spirit</h3>
+          </div>
+          <p class="popup-body">
+            For classical Pentecostals, the manifestation of the gifts of the Spirit in a public worship environment is a mark of authenticity - but seems to be dwindling in frequency and relevance. This workshop will focus on ways of engaging and empowering Next-Gen pentecostals in the use of the Gifts of the Spirit in a way that builds up the Body of Christ.
+          </p>
+        </div> <!-- /.popup-content -->
+      </div> <!-- /#popup -->
+
+      <div id="joeMossPopup" class="popup">
+        <div class="popup-content">
+          <img class="popup-close" src="images/icons/close-button.svg" onclick="closePopup()" />
+          <div class="popup-header">
+            <img class="popup-photo" src="images/summit-photos/edited/joe-moss2.png" />
+            <h1>Joe Moss</h1>
+            <h2>Beyond Limitations</h2>
+            <h3>Limited Resource does not Equal Limited Worship</h3>
+          </div>
+          <p class="popup-body">
+            We've all been there, the worship experience in a large room at mega churches or conferences is incredible. The band, the worship leader, the prop audio, lights, and production leave you feeling inspired to come back to your smaller church setting with fresh vigor. And then the harsh reality of limitation sets in again. "The space can't handle the stage volume." "We don't have a drummer that can play like that." "What about backing tracks?" "Where do I even begin?" We have all asked these questions. But, perhaps there's MORE that we can do for our small church worship setting by actually DOING LESS. Come find out!
+          </p>
+        </div> <!-- /.popup-content -->
+      </div> <!-- /#popup -->
+
+      <div id="ricardoQuintanaPopup" class="popup">
+        <div class="popup-content">
+          <img class="popup-close" src="images/icons/close-button.svg" onclick="closePopup()" />
+          <div class="popup-header">
+            <img class="popup-photo" src="images/summit-photos/edited/ricardo-q2.png" />
+            <h1>Ricardo Quintana</h1>
+            <h2>Beyond Visual Barriers</h2>
+            <h3>WARM is the New WOW</h3>
+          </div>
+          <p class="popup-body">
+            In "WARM is the New WOW" we will discover that a simple coffee table host, a parking lot attendant, a greeter, an extra sign, a host no an announcement maker, and attention to children can grow your church faster than you can imagine. Today's families are looking for churches who genuinely love and care for them. "WARM is the New WOW" will discuss and example how was can WARM up our weekends and take the weight off the worship and message to be what brings people back.
+          </p>
+        </div> <!-- /.popup-content -->
+      </div> <!-- /#popup -->
+
+      <div id="joannJohnsonPopup" class="popup">
+        <div class="popup-content">
+          <img class="popup-close" src="images/icons/close-button.svg" onclick="closePopup()" />
+          <div class="popup-header">
+            <img class="popup-photo" src="images/summit-photos/edited/joann-johnson2.png" />
+            <h1>JoAnn Johnson</h1>
+            <h2>Empowering Your Team</h2>
+            <h3>Do More by Doing Less</h3>
+          </div>
+          <p class="popup-body">
+            God has given you big dreams and ideas, but it takes a team to see those dreams become a reality. Discover ways to empower and lead your team. Stop trying to do everything yourself and do more by doing less.
           </p>
         </div> <!-- /.popup-content -->
       </div> <!-- /#popup -->
