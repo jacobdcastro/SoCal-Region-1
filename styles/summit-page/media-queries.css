@@ -21,7 +21,8 @@
     top: 4.66em;
   }
 
-  .summary p {
+  .summary p,
+  .john-title p {
     font-size: 18px;
     letter-spacing: 3px;
   }
@@ -41,21 +42,32 @@
     font-size: 2em;
   }
 
-  .john-pic img {
-    height: 150px;
+  .john-pic {
+    height: 190px;
+    width: 190px;
+  }
+
+  .john-title div h4 {
+    font-size: 2.2em;
+  }
+  .john-title div h5 {
+    font-size: 1.5em;
+  }
+
+  .speaker {
+    height: 60px;
+  }
+  .speaker-pic {
+    height: 75px;
     width: auto;
   }
 
-  .john-title h4 {
-    font-size: 2.3em;
+  .speaker-title div h4 {
+    font-size: 1.5em;
   }
 
-  .side-speakers h5 {
-    font-size: 2.1em;
-  }
-
-  .side-speakers p {
-    font-size: 1.28em;
+  .speaker-title {
+    height: 65px;
   }
 
   .schedule-section {
@@ -106,6 +118,20 @@
 @media only screen and (min-width: 560px) {
   .dtl {
     margin: 20px auto;
+  }
+  .speakers {
+    width: 80%;
+  }
+  .speaker-title {
+    height: 65px;
+  }
+  .john-pic {
+    height: 190px;
+    width: 190px;
+  }
+
+  .description-list {
+    width: 85%;
   }
 }
 
@@ -167,7 +193,8 @@
     top: 4.8em;
   }
 
-  .summary p {
+  .summary p,
+  .bio {
     font-size: 18px;
     letter-spacing: 3px;
   }
@@ -183,25 +210,37 @@
     font-size: 24px;
   }
 
-  .speakers h3 {
-    font-size: 2em;
+  .john-pic {
+    height: 250px;
+    width: 250px;
   }
 
-  .john-pic img {
-    height: 150px;
+  .john-martin p {
+    font-size: 18px;
+  }
+
+  .breakout-title {
+    font-size: 1.72em;
+  }
+  .speakers {
+    width: 80%;
+  }
+  .speaker {
+    height: 75px;
+  }
+  .speaker-title {
+    height: 75px;
+  }
+  .speaker-title div h4 {
+    font-size: 1.78em;
+  }
+  .speaker-pic {
+    height: 105px;
     width: auto;
   }
-
-  .john-title h4 {
-    font-size: 2.3em;
-  }
-
-  .side-speakers h5 {
-    font-size: 2.1em;
-  }
-
-  .side-speakers p {
-    font-size: 1.28em;
+  .right-arrow {
+    height: 28px;
+    width: auto;
   }
 
   .schedule-section {
@@ -293,7 +332,8 @@
         margin-bottom: 120px;
       }
 
-      .summary p {
+      .summary p,
+      .john-title p {
         font-size: 18px;
         letter-spacing: 3px;
       }
@@ -307,15 +347,6 @@
       }
       .dtl div p {
         font-size: 24px;
-      }
-
-      .speakers h3 {
-        font-size: 2em;
-      }
-
-      .john-pic img {
-        height: 150px;
-        width: auto;
       }
 
       .schedule-headline h1 {

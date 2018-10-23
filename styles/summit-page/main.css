@@ -227,44 +227,91 @@ header {
   color: #fff;
 }
 
+.john-pic {
+  height: 125px;
+  width: 125px;
+  margin: 8px auto;
+}
+.john-title div h4,
+.john-title div h5 {
+  text-align: center;
+}
+.john-title div h4 {
+  font-size: 1.9em;
+  letter-spacing: 3px;
+  margin: 15px auto 18px;
+}
+.john-title div h5 {
+  font-size: 1.3em;
+  letter-spacing: 2.5px;
+}
+.john-martin p {
+  font-size: .9em;
+  text-align: center;
+  letter-spacing: 3px;
+  margin: 15px auto auto;
+  width: 90%;
+}
+
 .speakers {
-  margin: 20px;
+  margin: 15px auto;
+  width: 90%;
+  max-width: 800px;
 }
 
 .speakers h3 {
-  font-size: 1.5em;
+  font-size: 1.8em;
   letter-spacing: 3px;
   text-align: center;
+  margin: 12px auto;
 }
-.side-speakers h5,
-.side-speakers p {
-  text-align: center;
-  margin: 5px auto;
+.speaker {
+  padding: 25px;
+  border-bottom: 3px solid white;
+  transition: height 0.5s;
 }
-
-
-.john-martin {
-  margin-bottom: 2px;
+.rich-shepherd {
+  border-top: 3px solid white;
 }
-
-.john-pic {
-  padding: 5px;
-  margin-bottom: 10px;
-  border: solid 4px white;
-  border-radius: 100%;
+.speaker-title {
+  height: 40px;
+  cursor: pointer;
 }
-
-.john-pic img {
-  height: 125px;
+.breakout-title {
+  margin: 45px auto 20px;
+  letter-spacing: 3px;
+  font-size: 1.3em;
+}
+.speaker-pic {
+  height: 55px;
   width: auto;
-  border-radius: 100%;
+  margin-left: 0;
 }
-
-.john-title h4,
-.john-title h5 {
-  font-size: 1.25em;
+.speaker-title div {
+  width: 60%;
+}
+.speaker-title div h4 {
+  font-size: 1.18em;
   text-align: center;
   margin: 5px auto;
+  letter-spacing: 3px;
+}
+.right-arrow {
+  height: 18px;
+  width: auto;
+  padding: auto 0px;
+  margin-right: 0px;
+  transform: rotate(0deg);
+  /* transform for attributes in navbar.js */
+  transition: transform 0.5s;
+}
+.bio {
+  font-size: .9em;
+  text-align: left;
+  letter-spacing: 3px;
+  padding: 15px 5%;
+  max-width: 900px;
+  display: none;
 }
 
 .speakers h5 {
@@ -276,6 +323,7 @@ header {
 .speakers ul {
   margin: 5px auto;
 }
+
 
 /* ====================================== */
 
@@ -319,7 +367,7 @@ header {
 .schedule h4 {
   letter-spacing: 6px;
   font-weight: 400;
-  text-shadow: 4px 6px 9px #040404;
+  text-shadow: 4px 6px 9px #040404
 }
 
 .circle {
@@ -329,6 +377,103 @@ header {
   border-radius: 100%;
   margin: auto;
   box-shadow: 4px 6px 20px #040404;
+}
+
+
+/* =============================== */
+
+.description-container h1 {
+  font-size: 1.8em;
+  margin: 12px auto;
+  text-align: center;
+}
+
+.description-list {
+  width: 90%;
+  max-width: 1024px;
+}
+
+.description-card {
+  height: 125px;
+  width: 165px;
+  background-color: #444;
+  border: none;
+  border-radius: 9px;
+  border-bottom: solid 5px #222;
+  margin: 15px;
+}
+.description-card h2 {
+  font-size: 1.0em;
+  margin-bottom: 15px;
+}
+.description-card h3 {
+  font-size: 1.1em;
+  text-decoration: underline;
+  padding: 8px auto;
+}
+.description-card p {
+  font-size: .8em;
+  margin: 4px;
+  padding: 2px;
+}
+.description-card:hover {
+  cursor: pointer;
+}
+
+.description-card h2,
+.description-card h3,
+.description-card h6 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.popup {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 3; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.popup-content {
+  background-color: #555;
+  margin: auto auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 500px;
+}
+
+.popup-close {
+  height: 26px;
+  width: auto;
+  float: right;
+  color: white;
+}
+.popup-close:hover {
+  cursor: pointer;
+}
+
+.popup-photo {
+  height: 140px;
+  width: auto;
+}
+
+.popup-header h1,
+.popup-header h2,
+.popup-header h3 {
+  margin: 5px auto;
+  padding: 5px auto;
+  text-align: center;
+}
+.popup-body {
+  text-align: justify;
 }
 
 
@@ -370,6 +515,10 @@ header {
   z-index: 2;
 }
 
+.buttons {
+  margin-top: 20px;
+}
+
 .btn {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
@@ -389,7 +538,7 @@ header {
   background-color: #096683;
   border: solid 3px #096683;
 }
-/* Temporarily disable, unlock when registration opens */
+
 .btn1:hover {
   cursor: pointer;
   background-color: #096683;
@@ -405,7 +554,7 @@ header {
 .btn1:hover,
 .btn2:hover {
  cursor: no-drop;
-}
+} */
 
 .copy {
   font-size: 14px;
