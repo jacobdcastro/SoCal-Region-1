@@ -184,7 +184,9 @@ header {
   background-color: #040404;
   margin: 0;
   z-index: 0;
+	text-align: center;
   padding: 0px;
+	padding-bottom: 12px;
 }
 
 
@@ -585,7 +587,6 @@ header {
 .copy {
   font-size: 14px;
   text-align: center;
-  margin: 0;
-  padding-top: 0;
-  padding-bottom: 12px;
+  margin: 0 auto 12px;
+  padding: 0;
 }
