@@ -35,6 +35,18 @@ header, .header-content {
   display: flex;
 }
 
+.photo-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.photo-gallery {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
 .john-title {
   display: flex;
   flex-direction: column;

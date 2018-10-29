@@ -25,7 +25,6 @@ closeButton.addEventListener("touchend", closeNav);
 // Div click ============================================
 var speaker = document.querySelectorAll('.speaker');
 var title = document.querySelectorAll('.speaker-title');
-console.log(title);
 var arrow = document.querySelectorAll('.right-arrow');
 var bio = document.querySelectorAll('.bio');
 var opened = [ ];
@@ -67,7 +66,6 @@ function closePopup() {
   joeMossPopup.style.display = 'none';
   ricardoQuintanaPopup.style.display = 'none';
   joannJohnsonPopup.style.display = 'none';
-
 }
 
 for (let i = 0; i < 6; i++) {
