@@ -18,31 +18,6 @@
     align-items: center;
   }
 
-  .navbar {
-    height: 75px;
-    width: 100%;
-  }
-
-  .leftnav {
-    display: flex;
-    width: 50%;
-    height: 75px;
-  }
-
-  .rightnav {
-    display: flex;
-    width: 100px;
-    height: 75px;
-    padding: 0;
-    margin: 0;
-  }
-
-  .header-logo {
-    padding-left: 8%;
-    height: 70px;
-    width: auto;
-  }
-
   .mobile-menu-btn {
     height: 35px;
     width: auto;
