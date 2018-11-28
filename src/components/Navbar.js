@@ -15,11 +15,11 @@ const NavbarContainer = styled.nav`
 		width: 100%;
 	}
 	@media (min-width: 725px) {
-
+		height: 100px;
 	}
 `;
 
-const HeaderLogo = styled.img`
+const NavLogo = styled.img`
 	height: 100px;
 	width: auto;
 	margin: 0;
@@ -28,6 +28,9 @@ const HeaderLogo = styled.img`
 		padding-left: 8%;
     height: 70px;
     width: auto;
+	}
+	@media (min-width: 725px) {
+		height: 90px;
 	}
 `;
 
@@ -62,6 +65,13 @@ const RightNav = styled.div`
 			background-color: #5E9EA2;
 			transition: 350ms;
 		}
+		@media(min-width: 724px) {
+			font-size: 1.1em;
+			padding: 14px;
+		}
+	}
+	a:last-child {
+		display: none;
 	}
 	.SummitLinkDesk {
 		background-color: #5E9EA2;
@@ -76,6 +86,18 @@ const RightNav = styled.div`
 		padding: 0;
 		margin: 0;
 	}
+	@media (min-width: 725px) {
+		width: auto;
+
+		.mobile-menu-btn {
+			display: none;
+		}
+	}
+`;
+
+const MobileMenuButton = styled.img`
+	height: 50px;
+	width: 50px;
 `;
 
 class Navbar extends React.Component {
@@ -83,7 +105,7 @@ class Navbar extends React.Component {
 		return (
 			<NavbarContainer id="fullNav">
 					<LeftNav>
-						<Link to="."><HeaderLogo src="images/brand/SoCal.png" /></Link>
+						<Link to="."><NavLogo src="images/brand/SoCal.png" /></Link>
 					</LeftNav>
 					<RightNav>
 						<Link to="/events">EVENTS</Link>
@@ -91,6 +113,7 @@ class Navbar extends React.Component {
 						<Link to="/about">ABOUT</Link>
 						<a href="http://socalnetwork.org/resources/">RESOURCES</a>
 						<Link to="/summit" className="SummitLinkDesk">SUMMIT</Link>
+						<MobileMenuButton className="mobile-menu-btn" src="images/icons/menu-button.svg" alt="menu icon" />
 					</RightNav>
 			</NavbarContainer>
 		);

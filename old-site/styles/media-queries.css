@@ -1,28 +1,5 @@
 @media only screen and (max-width: 480px) {
 
-  /* ===========================
-          MAIN HEADER STYLE
-      ----------------------------*/
-
-  .header-content h1 {
-    font-size: 1.2em;
-    font-weight: 700;
-    letter-spacing: 10px;
-    border: 3.5px solid #fff;
-    margin: 20px 0px;
-    padding: 5px 3px 5px 10px;
-    text-align: center;
-  }
-
-  .banner {
-    font-size: 2.2em;
-  }
-
-  .banner1 {
-    font-size: 1em;
-  }
-
-
   /* ==================
       FOOTER BANNER
       -------------------*/
@@ -90,68 +67,6 @@
 
 @media only screen and (min-width: 724px) {
 
-  #mobileNav {
-    display: none;
-  }
-
-  /* ==================
-      NAVIGATION BAR
-      -------------------*/
-  .navbar {
-    height: 225px;
-  }
-  .header-logo {
-    height: 125px;
-  }
-  .rightnav {
-    width: auto;
-  }
-
-  .header-logo {
-    height: 90px;
-  }
-
-  #fullNav {
-    height: 100px;
-    width: 100%;
-  }
-
-  .rightnav a {
-    font-size: .85em;
-    padding: 10px;
-  }
-
-
-
-  /* =========================
-      MAIN HEADER STYLE
-      ------------------------*/
-  .header-content h3 {
-    font-size: 1.8em;
-  }
-  .header-content h1 {
-    font-size: 3.5em;
-    border-width: 6.7px;
-    padding: 9px 9px 9px 22px;
-  }
-  .header-content h4 {
-    font-size: 1.5em;
-  }
-
-
-
-  /* ===========================
-          1st BANNER STYLE
-      ----------------------------*/
-
-  .banner1 {
-    font-size: 1.55em;
-  }
-
-  /* ===========================
-          OTHER BANNERS STYLE
-      ----------------------------*/
-
   .banner {
     font-size: 3.75em;
     letter-spacing: 12px;
@@ -189,63 +104,6 @@
 ==========================================================-->*/
 
 @media only screen and (min-width: 1024px) {
-
-  /* ==================
-      NAVIGATION BAR
-      -------------------*/
-  .navbar {
-    height: 100px;
-  }
-
-  .header-logo {
-    height: 125px;
-  }
-  .rightnav {
-    width: auto;
-  }
-
-  .header-logo {
-    height: 90px;
-  }
-
-  #fullNav {
-    height: 100px;
-    width: 100%;
-  }
-
-  .rightnav a {
-    font-size: 1.1em;
-    padding: 14px;
-  }
-
-
-
-  /* =========================
-      MAIN HEADER STYLE
-      ------------------------*/
-
-  header {
-    height: 700px;
-  }
-  .header-content h3 {
-    font-size: 2.5em;
-  }
-  .header-content h1 {
-    font-size: 4.5em;
-    letter-spacing: 18px;
-    border-width: 11px;
-    padding: 9px 9px 9px 22px;
-  }
-  .header-content h4 {
-    font-size: 2em;
-  }
-
-    #down-arrow {
-    height: 55px;
-    width: auto;
-  }
-
-
 
   /* ===========================
           1st BANNER STYLE

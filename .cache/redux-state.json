@@ -1,0 +1,1283 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "47a0ef31e0e86b8fe6d8feaa978153c8",
+        "description": "Plugin dev-404-page",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "c16cdf0c218fa64489af14913b789db1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin load-babel-config": {
+      "resolve": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "Plugin load-babel-config",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "2235aff7779af5e1907cae1ca2349e8b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "0109175747614e82691c2f35481a35b4",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "25b8119d192d181b700fface49822141",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "95d2e6c850ddc58f6d49c208ddecc937",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "2e6cf7a0ace1f71b762ac9b15e4151a3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.4",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "images",
+        "path": "C:\\Users\\jdcas\\jdcastro-web-dd\\socal-region-1/src/images"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.4",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "7da04e46a8ceed8a49bf657c129c5031",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-sharp": {
+      "resolve": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/node_modules/gatsby-transformer-sharp",
+      "id": "Plugin gatsby-transformer-sharp",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.4",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.4",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "9d555451b0cb915904ffb5a88fc5f5fd",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sharp": {
+      "resolve": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/node_modules/gatsby-plugin-sharp",
+      "id": "Plugin gatsby-plugin-sharp",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.0.7",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.0.7",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-mozjpeg",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^4.1.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.2"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e704333578a9685005396e6f67d8fc25",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-manifest": {
+      "resolve": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/node_modules/gatsby-plugin-manifest",
+      "id": "Plugin gatsby-plugin-manifest",
+      "name": "gatsby-plugin-manifest",
+      "version": "2.0.5",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "gatsby-starter-default",
+        "short_name": "starter",
+        "start_url": "/",
+        "background_color": "#663399",
+        "theme_color": "#663399",
+        "display": "minimal-ui",
+        "icon": "src/images/gatsby-icon.png"
+      },
+      "nodeAPIs": [
+        "onPostBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
+        "version": "2.0.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.webmanifest",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "2f957591f6ac35d1c4f2635e7d5bf2f0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "61d3215ef562eb26a6a1916a4b5b3803",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1",
+      "packageJson": {
+        "name": "gatsby-starter-default",
+        "description": "Gatsby default starter",
+        "version": "1.0.0",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.19"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^2.0.15"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^2.0.5"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^2.0.11"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.7"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.4"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^2.1.4"
+          },
+          {
+            "name": "react",
+            "version": "^16.5.1"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.5.1"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "styled-components",
+            "version": "^4.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "prettier",
+            "version": "^1.14.2"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "14eb7d555327d65f42c50fe841ba7b04",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-page-creator": {
+      "resolve": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/node_modules/gatsby-plugin-page-creator",
+      "id": "Plugin gatsby-plugin-page-creator",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.1",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "edec7b71f2794b1b200d82fe9eb84a9f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Gatsby Default Starter"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-11-28T05:22:15.890Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a4d741eba24a1f021b268a7646a7768d",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "579bb2de-575b-596f-9fa9-88d402ab2db3": {
+      "id": "579bb2de-575b-596f-9fa9-88d402ab2db3",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "cc30c505f8bdf78789026688dfda4ebf",
+        "type": "Directory",
+        "description": "Directory \"src\\images\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images",
+      "relativePath": "",
+      "extension": "",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2018-11-24T19:03:02.710Z",
+      "accessTime": "2018-11-24T19:03:02.710Z",
+      "changeTime": "2018-11-24T19:03:02.710Z",
+      "birthTime": "2018-11-24T19:03:02.710Z",
+      "root": "C:/",
+      "dir": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src",
+      "base": "images",
+      "ext": "",
+      "name": "images",
+      "relativeDirectory": "..",
+      "dev": 3156675764,
+      "mode": 16822,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 562949954462543,
+      "atimeMs": 1543086182710.3484,
+      "mtimeMs": 1543086182710.3484,
+      "ctimeMs": 1543086182710.3484,
+      "birthtimeMs": 1543086182710.3484,
+      "atime": "2018-11-24T19:03:02.710Z",
+      "mtime": "2018-11-24T19:03:02.710Z",
+      "ctime": "2018-11-24T19:03:02.710Z",
+      "birthtime": "2018-11-24T19:03:02.710Z"
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "da60f38448b80aaad2fe0432773784af",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "33e412576cb3a0a20cc847e7e98d3793",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /page-2/": {
+      "jsonName": "page-2-fbc",
+      "internalComponentName": "ComponentPage2",
+      "path": "/page-2/",
+      "component": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/pages/page-2.js",
+      "componentChunkName": "component---src-pages-page-2-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/pages/page-2.js",
+      "id": "SitePage /page-2/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "259e58c7cf0fbe19f43e2c6e3d6cfb2c",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "dbf26fb83fd5318acc5d911ea4559174",
+        "description": "Plugin prod-404",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "9b4602ef-d42a-5571-bf59-50ce88da05d0": {
+      "id": "9b4602ef-d42a-5571-bf59-50ce88da05d0",
+      "children": [
+        "45c4c2bf-8181-570d-94bf-7a6df40a2234"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8975457cde29c765e660a812f96975c5",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src\\images\\1-events-banner.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images/1-events-banner.jpg",
+      "relativePath": "1-events-banner.jpg",
+      "extension": "jpg",
+      "size": 4132037,
+      "prettySize": "4.13 MB",
+      "modifiedTime": "2018-06-09T22:03:06.537Z",
+      "accessTime": "2018-09-06T18:28:20.603Z",
+      "changeTime": "2018-11-28T06:15:27.646Z",
+      "birthTime": "2018-09-06T18:28:20.603Z",
+      "root": "C:/",
+      "dir": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images",
+      "base": "1-events-banner.jpg",
+      "ext": ".jpg",
+      "name": "1-events-banner",
+      "relativeDirectory": "",
+      "dev": 3156675764,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 281474977217005,
+      "atimeMs": 1536258500603.3347,
+      "mtimeMs": 1528581786537.1038,
+      "ctimeMs": 1543385727646.032,
+      "birthtimeMs": 1536258500603.3347,
+      "atime": "2018-09-06T18:28:20.603Z",
+      "mtime": "2018-06-09T22:03:06.537Z",
+      "ctime": "2018-11-28T06:15:27.646Z",
+      "birthtime": "2018-09-06T18:28:20.603Z"
+    },
+    "45c4c2bf-8181-570d-94bf-7a6df40a2234": {
+      "id": "45c4c2bf-8181-570d-94bf-7a6df40a2234",
+      "children": [],
+      "parent": "9b4602ef-d42a-5571-bf59-50ce88da05d0",
+      "internal": {
+        "contentDigest": "8975457cde29c765e660a812f96975c5",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "ab388d41-ccf2-5467-bfe9-29e878b1a3e0": {
+      "id": "ab388d41-ccf2-5467-bfe9-29e878b1a3e0",
+      "children": [
+        "8aa847ab-5626-56e0-a086-c595027bb68f"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f16e6f3751c915d6b4bbd5e441bd06bd",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src\\images\\4-resources-banner.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images/4-resources-banner.jpg",
+      "relativePath": "4-resources-banner.jpg",
+      "extension": "jpg",
+      "size": 3310860,
+      "prettySize": "3.31 MB",
+      "modifiedTime": "2018-06-09T22:03:06.722Z",
+      "accessTime": "2018-09-06T18:28:20.936Z",
+      "changeTime": "2018-11-28T06:15:35.891Z",
+      "birthTime": "2018-09-06T18:28:20.936Z",
+      "root": "C:/",
+      "dir": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images",
+      "base": "4-resources-banner.jpg",
+      "ext": ".jpg",
+      "name": "4-resources-banner",
+      "relativeDirectory": "",
+      "dev": 3156675764,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 281474977217012,
+      "atimeMs": 1536258500935.704,
+      "mtimeMs": 1528581786722.1074,
+      "ctimeMs": 1543385735891.4724,
+      "birthtimeMs": 1536258500935.704,
+      "atime": "2018-09-06T18:28:20.936Z",
+      "mtime": "2018-06-09T22:03:06.722Z",
+      "ctime": "2018-11-28T06:15:35.891Z",
+      "birthtime": "2018-09-06T18:28:20.936Z"
+    },
+    "8aa847ab-5626-56e0-a086-c595027bb68f": {
+      "id": "8aa847ab-5626-56e0-a086-c595027bb68f",
+      "children": [],
+      "parent": "ab388d41-ccf2-5467-bfe9-29e878b1a3e0",
+      "internal": {
+        "contentDigest": "f16e6f3751c915d6b4bbd5e441bd06bd",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "bb590a07-2d76-551e-8425-a2e108e87bbe": {
+      "id": "bb590a07-2d76-551e-8425-a2e108e87bbe",
+      "children": [
+        "34f07662-c36f-5210-9385-6f410c29c477"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "5d191f350f40a524120f84a5db6ce6a1",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src\\images\\2-churches-banner.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images/2-churches-banner.jpg",
+      "relativePath": "2-churches-banner.jpg",
+      "extension": "jpg",
+      "size": 1369544,
+      "prettySize": "1.37 MB",
+      "modifiedTime": "2018-06-09T22:03:06.568Z",
+      "accessTime": "2018-09-06T18:28:20.719Z",
+      "changeTime": "2018-11-28T06:15:36.312Z",
+      "birthTime": "2018-09-06T18:28:20.719Z",
+      "root": "C:/",
+      "dir": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images",
+      "base": "2-churches-banner.jpg",
+      "ext": ".jpg",
+      "name": "2-churches-banner",
+      "relativeDirectory": "",
+      "dev": 3156675764,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 281474977217007,
+      "atimeMs": 1536258500719.1438,
+      "mtimeMs": 1528581786568.1042,
+      "ctimeMs": 1543385736311.9917,
+      "birthtimeMs": 1536258500719.1438,
+      "atime": "2018-09-06T18:28:20.719Z",
+      "mtime": "2018-06-09T22:03:06.568Z",
+      "ctime": "2018-11-28T06:15:36.312Z",
+      "birthtime": "2018-09-06T18:28:20.719Z"
+    },
+    "34f07662-c36f-5210-9385-6f410c29c477": {
+      "id": "34f07662-c36f-5210-9385-6f410c29c477",
+      "children": [],
+      "parent": "bb590a07-2d76-551e-8425-a2e108e87bbe",
+      "internal": {
+        "contentDigest": "5d191f350f40a524120f84a5db6ce6a1",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "dcdfd47f-fc63-5f54-b515-1e763542568f": {
+      "id": "dcdfd47f-fc63-5f54-b515-1e763542568f",
+      "children": [
+        "45a7b618-85cf-55cc-8675-f75599d654c2"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "fad3c86cdb04304d2a1be5e5ae108b70",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src\\images\\3-about-banner.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images/3-about-banner.jpg",
+      "relativePath": "3-about-banner.jpg",
+      "extension": "jpg",
+      "size": 7190549,
+      "prettySize": "7.19 MB",
+      "modifiedTime": "2018-06-09T22:03:06.665Z",
+      "accessTime": "2018-09-06T18:28:20.754Z",
+      "changeTime": "2018-11-28T06:15:36.301Z",
+      "birthTime": "2018-09-06T18:28:20.754Z",
+      "root": "C:/",
+      "dir": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images",
+      "base": "3-about-banner.jpg",
+      "ext": ".jpg",
+      "name": "3-about-banner",
+      "relativeDirectory": "",
+      "dev": 3156675764,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 281474977217010,
+      "atimeMs": 1536258500753.7378,
+      "mtimeMs": 1528581786665.1062,
+      "ctimeMs": 1543385736300.7021,
+      "birthtimeMs": 1536258500753.7378,
+      "atime": "2018-09-06T18:28:20.754Z",
+      "mtime": "2018-06-09T22:03:06.665Z",
+      "ctime": "2018-11-28T06:15:36.301Z",
+      "birthtime": "2018-09-06T18:28:20.754Z"
+    },
+    "45a7b618-85cf-55cc-8675-f75599d654c2": {
+      "id": "45a7b618-85cf-55cc-8675-f75599d654c2",
+      "children": [],
+      "parent": "dcdfd47f-fc63-5f54-b515-1e763542568f",
+      "internal": {
+        "contentDigest": "fad3c86cdb04304d2a1be5e5ae108b70",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "036658bb0820e7bf0a2b9c1834b51f1b"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "9ae57e72-064a-5504-aee7-597a633b6985": [],
+      "54ad65ff-1516-5e94-b3ae-3a8ff514e716": []
+    },
+    "connections": {}
+  },
+  "jsonDataPaths": {
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "sq--src-components-image-js": 2011440971
+  },
+  "components": {
+    "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/.cache/dev-404-page.js"
+    },
+    "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/pages/404.js": {
+      "query": "",
+      "componentPath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/pages/404.js"
+    },
+    "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/pages/index.js": {
+      "query": "",
+      "componentPath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/pages/index.js"
+    },
+    "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/pages/page-2.js": {
+      "query": "",
+      "componentPath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/pages/page-2.js"
+    }
+  },
+  "staticQueryComponents": {
+    "sq--src-components-image-js": {
+      "name": "cUsersJdcasJdcastroWebDdSocalRegion1SrcComponentsImageJs2011440971",
+      "componentPath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/components/image.js",
+      "id": "sq--src-components-image-js",
+      "jsonName": "sq--src-components-image-js",
+      "query": "query cUsersJdcasJdcastroWebDdSocalRegion1SrcComponentsImageJs2011440971 {\n  placeholderImage: file(relativePath: {eq: \"gatsby-astronaut.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 2011440971
+    }
+  }
+}
