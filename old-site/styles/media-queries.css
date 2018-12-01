@@ -105,46 +105,6 @@
 
 @media only screen and (min-width: 1024px) {
 
-  /* ===========================
-          1st BANNER STYLE
-      ----------------------------*/
-
-  .banner1 {
-    font-size: 1.85em;
-    letter-spacing: 7.4px;
-    height: 125px;
-  }
-
-  /* ===========================
-          OTHER BANNERS STYLE
-      ----------------------------*/
-
-  .banner {
-    font-size: 3.75em;
-    letter-spacing: 12px;
-    height: 315px;
-    width: 60%;
-  }
-
-  .banner-content {
-    height: 285px;
-    width: 40%;
-  }
-
-  .banner-content p {
-    font-size: 1.6em;
-  }
-
-  .banner2 .banner-content p,
-  .banner4 .banner-content p {
-    text-align: left;
-  }
-  .banner3 .banner-content p,
-  .banner5 .banner-content p {
-    text-align: right;
-  }
-
-
 
   /* ==================
       FOOTER BANNER

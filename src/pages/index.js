@@ -1,13 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
+import Meta from '../utils/Helmet';
 import SideNav from '../components/SideNav';
 import Navbar from '../components/Navbar';
 import Banner from '../components/Banner';
 import Footer from '../components/Footer';
-import eventsBgImg from '../images/1-events-banner.jpg';
-import churchesBgImg from '../images/2-churches-banner.jpg';
-import aboutBgImg from '../images/3-about-banner.jpg';
-import resourcesBgImg from '../images/4-resources-banner.jpg';
+import indexBannerImg from '../images/pismo-beach.jpg';
 
 const HomeContainer= styled.div`
 	margin: 0;
@@ -18,18 +16,20 @@ const Header = styled.header`
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-
+	background-image: url(${indexBannerImg});
+	background-size: cover;
+	background-position: center;
 	@media (min-width: 1024px) {
 		height: 700px;
 	}
 `;
 
 const HeaderBanner = styled.div`
-	background-image: url("../images/stock-photos/pismo-beach.jpg");
-	background-size: cover;
-	background-position: center;
+	display: flex;
+	flex-direction: column;
 	color: #fff;
 	margin: 0px;
+	padding: 0px;
 	height: 500px;
 `;
 
@@ -39,7 +39,11 @@ const HeaderContent = styled.div`
 	justify-content: center;
 	align-items: center;
 	flex-grow: 1;
+	background-image: image('../images/1-events-banner.jpg');
+	margin: 0;
+	padding: 0;
 	h3 {
+		font-family: 'neuzeit-grotesk', 'sans-serif';
 		font-weight: 700;
 		letter-spacing: 10px;
 		margin: 0px;
@@ -47,6 +51,7 @@ const HeaderContent = styled.div`
 		text-align: center;
 	}
 	h1 {
+		font-family: 'neuzeit-grotesk', 'sans-serif';
 		font-weight: 700;
 		letter-spacing: 10px;
 		border: 5px solid #fff;
@@ -55,6 +60,7 @@ const HeaderContent = styled.div`
 		text-align: center;
 	}
 	h4 {
+		font-family: 'neuzeit-grotesk', 'sans-serif';
 		font-weight: 700;
 		letter-spacing: 10px;
 		margin: 0px;
@@ -73,8 +79,10 @@ const HeaderContent = styled.div`
 		}
 	}
 	@media(min-width: 724px) {
-		font-size: 1.5em;
 		h3 {
+			font-size: 1.5em;
+		}
+		h1 {
 			font-size: 1.8em;
 		}
 		h1 {
@@ -102,6 +110,8 @@ const HeaderContent = styled.div`
 
 
 const DownArrowIcon = styled.img`
+	align-self: center;
+	margin: 0;
 	height: 35px;
 	width: auto;
 	@media (min-width: 1024px) {
@@ -116,6 +126,7 @@ const DownArrowIcon = styled.img`
 		flex-direction: row;
 		justify-content: space-around;
 		align-items: center;
+		font-family: 'neuzeit-grotesk', 'sans-serif';
 		background-color: #181818;
 		color: #ffffff;
 		height: 100px;
@@ -127,21 +138,29 @@ const DownArrowIcon = styled.img`
 		@media (min-width: 724px) {
 			font-size: 1.55em;
 		}
+		@media (min-width: 1024px) {
+			font-size: 1.85em;
+			letter-spacing: 7.4px;
+			height: 125px;
+		}
 	`;
 
 class Home extends React.Component {
 	render() {
 		return (
 			<HomeContainer>
+				<Meta title="SoCal Region 1" />
 				<SideNav />
 				<Navbar />
 				<Header>
-		      <HeaderContent>
-		        <h3>WELCOME TO</h3>
-		        <h1>SOCAL REGION 1</h1>
-		        <h4>We are glad you're here!</h4>
-		      </HeaderContent>
-		      <DownArrowIcon src="images/icons/down-arrow.png" alt="down arrow icon" />
+					<HeaderBanner>
+						<HeaderContent>
+							<h3>WELCOME TO</h3>
+							<h1>SOCAL REGION 1</h1>
+							<h4>We are glad you're here!</h4>
+						</HeaderContent>
+					</HeaderBanner>
+					<DownArrowIcon src={require('../images/down-arrow.png')} alt="down arrow icon" />
 		    </Header>
 				<div>
 					<IntroBanner className="banner1" id="banner1">
@@ -154,27 +173,27 @@ class Home extends React.Component {
 							primary={true}
 							toPage="/events"
 							headline="events"
-							bgImg={eventsBgImg}
+							bgImg={require('../images/1-events-banner.jpg')}
 							paragraph={<p>Find out more about<br />events happening<br />throughout Region 1</p>}
 						/>
 						<Banner
 							primary={false}
 							toPage="/churches"
 							headline="churches"
-							bgImg={churchesBgImg}
+							bgImg={require('../images/2-churches-banner.jpg')}
 							paragraph={<p>Get to know our<br />community and find<br />a church near you</p>}
 						/>
 						<Banner
 							primary={true}
 							toPage="/about"
 							headline="about"
-							bgImg={aboutBgImg}
+							bgImg={require('../images/3-about-banner.jpg')}
 							paragraph={<p>Learn about who we are<br />and meet our<br />regional leadership team</p>}
 						/>
 						<Banner
 							primary={false}
 							headline="resources"
-							bgImg={resourcesBgImg}
+							bgImg={require('../images/4-resources-banner.jpg')}
 							paragraph={<p>Resources for churches<br />and ministry leaders</p>}
 						/>
 					</div>
@@ -187,3 +206,15 @@ class Home extends React.Component {
 }
 
 export default Home;
+
+export const query = graphql`
+	query {
+		allFile {
+			edges {
+				node {
+					relativePath
+				}
+			}
+		}
+	}
+`;

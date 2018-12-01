@@ -6,11 +6,14 @@ const NavbarContainer = styled.nav`
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	justify-content: space-around;
 	background-color: #181818;
 	margin: 0;
 	padding: 0;
 	width: 100%;
 	@media (max-width: 724px) {
+		flex-direction: row;
+		justify-content: space-around;
 		height: 75px;
 		width: 100%;
 	}
@@ -52,6 +55,7 @@ const RightNav = styled.div`
 	margin: 0;
 	padding: 18px 0;
 	a {
+		font-family: 'neuzeit-grotesk', 'sans-serif';
 		float: right;
 		display: block;
 		color: white;
@@ -105,7 +109,7 @@ class Navbar extends React.Component {
 		return (
 			<NavbarContainer id="fullNav">
 					<LeftNav>
-						<Link to="."><NavLogo src="images/brand/SoCal.png" /></Link>
+						<Link to="."><NavLogo src={require("../images/SoCal.png")} /></Link>
 					</LeftNav>
 					<RightNav>
 						<Link to="/events">EVENTS</Link>

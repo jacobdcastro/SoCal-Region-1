@@ -200,7 +200,7 @@
       "resolve": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/node_modules/gatsby-plugin-react-helmet",
       "id": "Plugin gatsby-plugin-react-helmet",
       "name": "gatsby-plugin-react-helmet",
-      "version": "3.0.0",
+      "version": "3.0.3",
       "pluginOptions": {
         "plugins": []
       },
@@ -213,7 +213,7 @@
       "packageJson": {
         "name": "gatsby-plugin-react-helmet",
         "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
-        "version": "3.0.0",
+        "version": "3.0.3",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -252,6 +252,10 @@
             "version": "^7.0.0"
           },
           {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
             "name": "cross-env",
             "version": "^5.1.4"
           }
@@ -272,7 +276,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "2e6cf7a0ace1f71b762ac9b15e4151a3",
+        "contentDigest": "5295969f25d90092fb80647f587a6497",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -608,13 +612,9 @@
       "version": "2.0.5",
       "pluginOptions": {
         "plugins": [],
-        "name": "gatsby-starter-default",
-        "short_name": "starter",
-        "start_url": "/",
-        "background_color": "#663399",
-        "theme_color": "#663399",
-        "display": "minimal-ui",
-        "icon": "src/images/gatsby-icon.png"
+        "name": "socal-region-1",
+        "short_name": "region1",
+        "start_url": "/"
       },
       "nodeAPIs": [
         "onPostBootstrap"
@@ -683,7 +683,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "2f957591f6ac35d1c4f2635e7d5bf2f0",
+        "contentDigest": "f2d3944d855fb645fea2493f80e7bb17",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -692,7 +692,7 @@
       "resolve": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "61d3215ef562eb26a6a1916a4b5b3803",
+      "version": "43adbc014921fa99984505ac5a3b456c",
       "pluginOptions": {
         "plugins": []
       },
@@ -728,11 +728,19 @@
           },
           {
             "name": "gatsby-plugin-react-helmet",
-            "version": "^3.0.0"
+            "version": "^3.0.3"
           },
           {
             "name": "gatsby-plugin-sharp",
             "version": "^2.0.7"
+          },
+          {
+            "name": "gatsby-plugin-typography",
+            "version": "^2.2.2"
+          },
+          {
+            "name": "gatsby-plugin-web-font-loader",
+            "version": "^1.0.4"
           },
           {
             "name": "gatsby-source-filesystem",
@@ -755,8 +763,16 @@
             "version": "^5.2.0"
           },
           {
+            "name": "react-typography",
+            "version": "^0.16.13"
+          },
+          {
             "name": "styled-components",
             "version": "^4.1.1"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.17"
           }
         ],
         "devDependencies": [
@@ -772,7 +788,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "14eb7d555327d65f42c50fe841ba7b04",
+        "contentDigest": "fe5095fbd672fe00592579684b810e77",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -874,18 +890,18 @@
     },
     "Site": {
       "siteMetadata": {
-        "title": "Gatsby Default Starter"
+        "title": "Socal Region 1"
       },
       "port": "8000",
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-28T05:22:15.890Z",
+      "buildTime": "2018-12-01T09:38:41.286Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a4d741eba24a1f021b268a7646a7768d",
+        "contentDigest": "70bb389d85ea35f0cf90583d5bbc3a05",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -895,7 +911,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "cc30c505f8bdf78789026688dfda4ebf",
+        "contentDigest": "db8625ddb0091a92df9e58873c8f16d8",
         "type": "Directory",
         "description": "Directory \"src\\images\"",
         "owner": "gatsby-source-filesystem"
@@ -906,10 +922,10 @@
       "extension": "",
       "size": 0,
       "prettySize": "0 B",
-      "modifiedTime": "2018-11-24T19:03:02.710Z",
-      "accessTime": "2018-11-24T19:03:02.710Z",
-      "changeTime": "2018-11-24T19:03:02.710Z",
-      "birthTime": "2018-11-24T19:03:02.710Z",
+      "modifiedTime": "2018-12-01T09:02:20.164Z",
+      "accessTime": "2018-12-01T09:02:20.164Z",
+      "changeTime": "2018-12-01T09:02:20.164Z",
+      "birthTime": "2018-11-29T20:32:40.570Z",
       "root": "C:/",
       "dir": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src",
       "base": "images",
@@ -922,15 +938,400 @@
       "uid": 0,
       "gid": 0,
       "rdev": 0,
-      "ino": 562949954462543,
-      "atimeMs": 1543086182710.3484,
-      "mtimeMs": 1543086182710.3484,
-      "ctimeMs": 1543086182710.3484,
-      "birthtimeMs": 1543086182710.3484,
-      "atime": "2018-11-24T19:03:02.710Z",
-      "mtime": "2018-11-24T19:03:02.710Z",
-      "ctime": "2018-11-24T19:03:02.710Z",
-      "birthtime": "2018-11-24T19:03:02.710Z"
+      "ino": 5629499534917010,
+      "atimeMs": 1543654940163.5378,
+      "mtimeMs": 1543654940163.5378,
+      "ctimeMs": 1543654940163.5378,
+      "birthtimeMs": 1543523560570.0483,
+      "atime": "2018-12-01T09:02:20.164Z",
+      "mtime": "2018-12-01T09:02:20.164Z",
+      "ctime": "2018-12-01T09:02:20.164Z",
+      "birthtime": "2018-11-29T20:32:40.570Z"
+    },
+    "ab388d41-ccf2-5467-bfe9-29e878b1a3e0": {
+      "id": "ab388d41-ccf2-5467-bfe9-29e878b1a3e0",
+      "children": [
+        "8aa847ab-5626-56e0-a086-c595027bb68f"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f16e6f3751c915d6b4bbd5e441bd06bd",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src\\images\\4-resources-banner.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images/4-resources-banner.jpg",
+      "relativePath": "4-resources-banner.jpg",
+      "extension": "jpg",
+      "size": 3310860,
+      "prettySize": "3.31 MB",
+      "modifiedTime": "2018-11-29T20:32:42.010Z",
+      "accessTime": "2018-11-29T20:32:41.714Z",
+      "changeTime": "2018-11-29T20:32:42.010Z",
+      "birthTime": "2018-11-29T20:32:41.714Z",
+      "root": "C:/",
+      "dir": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images",
+      "base": "4-resources-banner.jpg",
+      "ext": ".jpg",
+      "name": "4-resources-banner",
+      "relativeDirectory": "",
+      "dev": 3156675764,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 5348024558206358,
+      "atimeMs": 1543523561713.5034,
+      "mtimeMs": 1543523562009.75,
+      "ctimeMs": 1543523562009.75,
+      "birthtimeMs": 1543523561713.5034,
+      "atime": "2018-11-29T20:32:41.714Z",
+      "mtime": "2018-11-29T20:32:42.010Z",
+      "ctime": "2018-11-29T20:32:42.010Z",
+      "birthtime": "2018-11-29T20:32:41.714Z"
+    },
+    "8aa847ab-5626-56e0-a086-c595027bb68f": {
+      "id": "8aa847ab-5626-56e0-a086-c595027bb68f",
+      "children": [],
+      "parent": "ab388d41-ccf2-5467-bfe9-29e878b1a3e0",
+      "internal": {
+        "contentDigest": "f16e6f3751c915d6b4bbd5e441bd06bd",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "9b4602ef-d42a-5571-bf59-50ce88da05d0": {
+      "id": "9b4602ef-d42a-5571-bf59-50ce88da05d0",
+      "children": [
+        "45c4c2bf-8181-570d-94bf-7a6df40a2234"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8975457cde29c765e660a812f96975c5",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src\\images\\1-events-banner.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images/1-events-banner.jpg",
+      "relativePath": "1-events-banner.jpg",
+      "extension": "jpg",
+      "size": 4132037,
+      "prettySize": "4.13 MB",
+      "modifiedTime": "2018-11-29T20:32:40.852Z",
+      "accessTime": "2018-11-29T20:32:40.571Z",
+      "changeTime": "2018-11-29T20:32:40.852Z",
+      "birthTime": "2018-11-29T20:32:40.571Z",
+      "root": "C:/",
+      "dir": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images",
+      "base": "1-events-banner.jpg",
+      "ext": ".jpg",
+      "name": "1-events-banner",
+      "relativeDirectory": "",
+      "dev": 3156675764,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 4785074604785043,
+      "atimeMs": 1543523560571.0452,
+      "mtimeMs": 1543523560851.6091,
+      "ctimeMs": 1543523560851.6091,
+      "birthtimeMs": 1543523560571.0452,
+      "atime": "2018-11-29T20:32:40.571Z",
+      "mtime": "2018-11-29T20:32:40.852Z",
+      "ctime": "2018-11-29T20:32:40.852Z",
+      "birthtime": "2018-11-29T20:32:40.571Z"
+    },
+    "45c4c2bf-8181-570d-94bf-7a6df40a2234": {
+      "id": "45c4c2bf-8181-570d-94bf-7a6df40a2234",
+      "children": [],
+      "parent": "9b4602ef-d42a-5571-bf59-50ce88da05d0",
+      "internal": {
+        "contentDigest": "8975457cde29c765e660a812f96975c5",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "dcdfd47f-fc63-5f54-b515-1e763542568f": {
+      "id": "dcdfd47f-fc63-5f54-b515-1e763542568f",
+      "children": [
+        "45a7b618-85cf-55cc-8675-f75599d654c2"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "fad3c86cdb04304d2a1be5e5ae108b70",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src\\images\\3-about-banner.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images/3-about-banner.jpg",
+      "relativePath": "3-about-banner.jpg",
+      "extension": "jpg",
+      "size": 7190549,
+      "prettySize": "7.19 MB",
+      "modifiedTime": "2018-11-29T20:32:41.713Z",
+      "accessTime": "2018-11-29T20:32:40.899Z",
+      "changeTime": "2018-11-29T20:32:41.713Z",
+      "birthTime": "2018-11-29T20:32:40.899Z",
+      "root": "C:/",
+      "dir": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images",
+      "base": "3-about-banner.jpg",
+      "ext": ".jpg",
+      "name": "3-about-banner",
+      "relativeDirectory": "",
+      "dev": 3156675764,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 4503599628074389,
+      "atimeMs": 1543523560899.2263,
+      "mtimeMs": 1543523561712.5027,
+      "ctimeMs": 1543523561712.5027,
+      "birthtimeMs": 1543523560899.2263,
+      "atime": "2018-11-29T20:32:40.899Z",
+      "mtime": "2018-11-29T20:32:41.713Z",
+      "ctime": "2018-11-29T20:32:41.713Z",
+      "birthtime": "2018-11-29T20:32:40.899Z"
+    },
+    "45a7b618-85cf-55cc-8675-f75599d654c2": {
+      "id": "45a7b618-85cf-55cc-8675-f75599d654c2",
+      "children": [],
+      "parent": "dcdfd47f-fc63-5f54-b515-1e763542568f",
+      "internal": {
+        "contentDigest": "fad3c86cdb04304d2a1be5e5ae108b70",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "bb590a07-2d76-551e-8425-a2e108e87bbe": {
+      "id": "bb590a07-2d76-551e-8425-a2e108e87bbe",
+      "children": [
+        "34f07662-c36f-5210-9385-6f410c29c477"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "5d191f350f40a524120f84a5db6ce6a1",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src\\images\\2-churches-banner.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images/2-churches-banner.jpg",
+      "relativePath": "2-churches-banner.jpg",
+      "extension": "jpg",
+      "size": 1369544,
+      "prettySize": "1.37 MB",
+      "modifiedTime": "2018-11-29T20:32:40.898Z",
+      "accessTime": "2018-11-29T20:32:40.853Z",
+      "changeTime": "2018-11-29T20:32:40.898Z",
+      "birthTime": "2018-11-29T20:32:40.853Z",
+      "root": "C:/",
+      "dir": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images",
+      "base": "2-churches-banner.jpg",
+      "ext": ".jpg",
+      "name": "2-churches-banner",
+      "relativeDirectory": "",
+      "dev": 3156675764,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 4503599628074388,
+      "atimeMs": 1543523560852.5696,
+      "mtimeMs": 1543523560898.2256,
+      "ctimeMs": 1543523560898.2256,
+      "birthtimeMs": 1543523560852.5696,
+      "atime": "2018-11-29T20:32:40.853Z",
+      "mtime": "2018-11-29T20:32:40.898Z",
+      "ctime": "2018-11-29T20:32:40.898Z",
+      "birthtime": "2018-11-29T20:32:40.853Z"
+    },
+    "34f07662-c36f-5210-9385-6f410c29c477": {
+      "id": "34f07662-c36f-5210-9385-6f410c29c477",
+      "children": [],
+      "parent": "bb590a07-2d76-551e-8425-a2e108e87bbe",
+      "internal": {
+        "contentDigest": "5d191f350f40a524120f84a5db6ce6a1",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "24fdb5b0-f84e-5217-9446-859c8c4380c7": {
+      "id": "24fdb5b0-f84e-5217-9446-859c8c4380c7",
+      "children": [
+        "20c25e2d-0dae-542f-be0a-2b6c85ef7aba"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ba650fc275c77de5a9c3786c96f615f4",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src\\images\\SoCal.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images/SoCal.png",
+      "relativePath": "SoCal.png",
+      "extension": "png",
+      "size": 87688,
+      "prettySize": "87.7 kB",
+      "modifiedTime": "2018-11-29T20:32:11.098Z",
+      "accessTime": "2018-11-29T20:32:11.087Z",
+      "changeTime": "2018-12-01T07:58:25.676Z",
+      "birthTime": "2018-11-29T20:32:11.087Z",
+      "root": "C:/",
+      "dir": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images",
+      "base": "SoCal.png",
+      "ext": ".png",
+      "name": "SoCal",
+      "relativeDirectory": "",
+      "dev": 3156675764,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 3377699720692479,
+      "atimeMs": 1543523531087.4497,
+      "mtimeMs": 1543523531098.4287,
+      "ctimeMs": 1543651105676.1843,
+      "birthtimeMs": 1543523531087.4497,
+      "atime": "2018-11-29T20:32:11.087Z",
+      "mtime": "2018-11-29T20:32:11.098Z",
+      "ctime": "2018-12-01T07:58:25.676Z",
+      "birthtime": "2018-11-29T20:32:11.087Z"
+    },
+    "20c25e2d-0dae-542f-be0a-2b6c85ef7aba": {
+      "id": "20c25e2d-0dae-542f-be0a-2b6c85ef7aba",
+      "children": [],
+      "parent": "24fdb5b0-f84e-5217-9446-859c8c4380c7",
+      "internal": {
+        "contentDigest": "ba650fc275c77de5a9c3786c96f615f4",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "7d31adb0-6fee-5d24-b44e-104c18b16ede": {
+      "id": "7d31adb0-6fee-5d24-b44e-104c18b16ede",
+      "children": [
+        "55225cce-44a5-5d98-8c8e-e310dd411fde"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "46f6f8f50a70b85c483dabff23527149",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src\\images\\pismo-beach.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images/pismo-beach.jpg",
+      "relativePath": "pismo-beach.jpg",
+      "extension": "jpg",
+      "size": 2044363,
+      "prettySize": "2.04 MB",
+      "modifiedTime": "2018-11-29T20:32:14.428Z",
+      "accessTime": "2018-11-29T20:32:14.318Z",
+      "changeTime": "2018-12-01T08:20:09.063Z",
+      "birthTime": "2018-11-29T20:32:14.318Z",
+      "root": "C:/",
+      "dir": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images",
+      "base": "pismo-beach.jpg",
+      "ext": ".jpg",
+      "name": "pismo-beach",
+      "relativeDirectory": "",
+      "dev": 3156675764,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 844424930638253,
+      "atimeMs": 1543523534318.2974,
+      "mtimeMs": 1543523534427.5725,
+      "ctimeMs": 1543652409062.9282,
+      "birthtimeMs": 1543523534318.2974,
+      "atime": "2018-11-29T20:32:14.318Z",
+      "mtime": "2018-11-29T20:32:14.428Z",
+      "ctime": "2018-12-01T08:20:09.063Z",
+      "birthtime": "2018-11-29T20:32:14.318Z"
+    },
+    "55225cce-44a5-5d98-8c8e-e310dd411fde": {
+      "id": "55225cce-44a5-5d98-8c8e-e310dd411fde",
+      "children": [],
+      "parent": "7d31adb0-6fee-5d24-b44e-104c18b16ede",
+      "internal": {
+        "contentDigest": "46f6f8f50a70b85c483dabff23527149",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "8d910c80-c021-5eb3-867c-b013854e35a3": {
+      "id": "8d910c80-c021-5eb3-867c-b013854e35a3",
+      "children": [
+        "b0eadf1c-a5b1-5819-be1f-1ba96480c742"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "da46170ea87fc12cc623ffa643581329",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src\\images\\down-arrow.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images/down-arrow.png",
+      "relativePath": "down-arrow.png",
+      "extension": "png",
+      "size": 801,
+      "prettySize": "801 B",
+      "modifiedTime": "2018-11-29T20:32:11.888Z",
+      "accessTime": "2018-11-29T20:32:11.887Z",
+      "changeTime": "2018-12-01T09:02:20.168Z",
+      "birthTime": "2018-11-29T20:32:11.887Z",
+      "root": "C:/",
+      "dir": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images",
+      "base": "down-arrow.png",
+      "ext": ".png",
+      "name": "down-arrow",
+      "relativeDirectory": "",
+      "dev": 3156675764,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 3096224743981854,
+      "atimeMs": 1543523531887.307,
+      "mtimeMs": 1543523531888.306,
+      "ctimeMs": 1543654940168.371,
+      "birthtimeMs": 1543523531887.307,
+      "atime": "2018-11-29T20:32:11.887Z",
+      "mtime": "2018-11-29T20:32:11.888Z",
+      "ctime": "2018-12-01T09:02:20.168Z",
+      "birthtime": "2018-11-29T20:32:11.887Z"
+    },
+    "b0eadf1c-a5b1-5819-be1f-1ba96480c742": {
+      "id": "b0eadf1c-a5b1-5819-be1f-1ba96480c742",
+      "children": [],
+      "parent": "8d910c80-c021-5eb3-867c-b013854e35a3",
+      "internal": {
+        "contentDigest": "da46170ea87fc12cc623ffa643581329",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
     },
     "SitePage /404/": {
       "jsonName": "404-22d",
@@ -1011,246 +1412,27 @@
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
-    },
-    "9b4602ef-d42a-5571-bf59-50ce88da05d0": {
-      "id": "9b4602ef-d42a-5571-bf59-50ce88da05d0",
-      "children": [
-        "45c4c2bf-8181-570d-94bf-7a6df40a2234"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "8975457cde29c765e660a812f96975c5",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src\\images\\1-events-banner.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images/1-events-banner.jpg",
-      "relativePath": "1-events-banner.jpg",
-      "extension": "jpg",
-      "size": 4132037,
-      "prettySize": "4.13 MB",
-      "modifiedTime": "2018-06-09T22:03:06.537Z",
-      "accessTime": "2018-09-06T18:28:20.603Z",
-      "changeTime": "2018-11-28T06:15:27.646Z",
-      "birthTime": "2018-09-06T18:28:20.603Z",
-      "root": "C:/",
-      "dir": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images",
-      "base": "1-events-banner.jpg",
-      "ext": ".jpg",
-      "name": "1-events-banner",
-      "relativeDirectory": "",
-      "dev": 3156675764,
-      "mode": 33206,
-      "nlink": 1,
-      "uid": 0,
-      "gid": 0,
-      "rdev": 0,
-      "ino": 281474977217005,
-      "atimeMs": 1536258500603.3347,
-      "mtimeMs": 1528581786537.1038,
-      "ctimeMs": 1543385727646.032,
-      "birthtimeMs": 1536258500603.3347,
-      "atime": "2018-09-06T18:28:20.603Z",
-      "mtime": "2018-06-09T22:03:06.537Z",
-      "ctime": "2018-11-28T06:15:27.646Z",
-      "birthtime": "2018-09-06T18:28:20.603Z"
-    },
-    "45c4c2bf-8181-570d-94bf-7a6df40a2234": {
-      "id": "45c4c2bf-8181-570d-94bf-7a6df40a2234",
-      "children": [],
-      "parent": "9b4602ef-d42a-5571-bf59-50ce88da05d0",
-      "internal": {
-        "contentDigest": "8975457cde29c765e660a812f96975c5",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "ab388d41-ccf2-5467-bfe9-29e878b1a3e0": {
-      "id": "ab388d41-ccf2-5467-bfe9-29e878b1a3e0",
-      "children": [
-        "8aa847ab-5626-56e0-a086-c595027bb68f"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "f16e6f3751c915d6b4bbd5e441bd06bd",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src\\images\\4-resources-banner.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images/4-resources-banner.jpg",
-      "relativePath": "4-resources-banner.jpg",
-      "extension": "jpg",
-      "size": 3310860,
-      "prettySize": "3.31 MB",
-      "modifiedTime": "2018-06-09T22:03:06.722Z",
-      "accessTime": "2018-09-06T18:28:20.936Z",
-      "changeTime": "2018-11-28T06:15:35.891Z",
-      "birthTime": "2018-09-06T18:28:20.936Z",
-      "root": "C:/",
-      "dir": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images",
-      "base": "4-resources-banner.jpg",
-      "ext": ".jpg",
-      "name": "4-resources-banner",
-      "relativeDirectory": "",
-      "dev": 3156675764,
-      "mode": 33206,
-      "nlink": 1,
-      "uid": 0,
-      "gid": 0,
-      "rdev": 0,
-      "ino": 281474977217012,
-      "atimeMs": 1536258500935.704,
-      "mtimeMs": 1528581786722.1074,
-      "ctimeMs": 1543385735891.4724,
-      "birthtimeMs": 1536258500935.704,
-      "atime": "2018-09-06T18:28:20.936Z",
-      "mtime": "2018-06-09T22:03:06.722Z",
-      "ctime": "2018-11-28T06:15:35.891Z",
-      "birthtime": "2018-09-06T18:28:20.936Z"
-    },
-    "8aa847ab-5626-56e0-a086-c595027bb68f": {
-      "id": "8aa847ab-5626-56e0-a086-c595027bb68f",
-      "children": [],
-      "parent": "ab388d41-ccf2-5467-bfe9-29e878b1a3e0",
-      "internal": {
-        "contentDigest": "f16e6f3751c915d6b4bbd5e441bd06bd",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "bb590a07-2d76-551e-8425-a2e108e87bbe": {
-      "id": "bb590a07-2d76-551e-8425-a2e108e87bbe",
-      "children": [
-        "34f07662-c36f-5210-9385-6f410c29c477"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "5d191f350f40a524120f84a5db6ce6a1",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src\\images\\2-churches-banner.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images/2-churches-banner.jpg",
-      "relativePath": "2-churches-banner.jpg",
-      "extension": "jpg",
-      "size": 1369544,
-      "prettySize": "1.37 MB",
-      "modifiedTime": "2018-06-09T22:03:06.568Z",
-      "accessTime": "2018-09-06T18:28:20.719Z",
-      "changeTime": "2018-11-28T06:15:36.312Z",
-      "birthTime": "2018-09-06T18:28:20.719Z",
-      "root": "C:/",
-      "dir": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images",
-      "base": "2-churches-banner.jpg",
-      "ext": ".jpg",
-      "name": "2-churches-banner",
-      "relativeDirectory": "",
-      "dev": 3156675764,
-      "mode": 33206,
-      "nlink": 1,
-      "uid": 0,
-      "gid": 0,
-      "rdev": 0,
-      "ino": 281474977217007,
-      "atimeMs": 1536258500719.1438,
-      "mtimeMs": 1528581786568.1042,
-      "ctimeMs": 1543385736311.9917,
-      "birthtimeMs": 1536258500719.1438,
-      "atime": "2018-09-06T18:28:20.719Z",
-      "mtime": "2018-06-09T22:03:06.568Z",
-      "ctime": "2018-11-28T06:15:36.312Z",
-      "birthtime": "2018-09-06T18:28:20.719Z"
-    },
-    "34f07662-c36f-5210-9385-6f410c29c477": {
-      "id": "34f07662-c36f-5210-9385-6f410c29c477",
-      "children": [],
-      "parent": "bb590a07-2d76-551e-8425-a2e108e87bbe",
-      "internal": {
-        "contentDigest": "5d191f350f40a524120f84a5db6ce6a1",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "dcdfd47f-fc63-5f54-b515-1e763542568f": {
-      "id": "dcdfd47f-fc63-5f54-b515-1e763542568f",
-      "children": [
-        "45a7b618-85cf-55cc-8675-f75599d654c2"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "fad3c86cdb04304d2a1be5e5ae108b70",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src\\images\\3-about-banner.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images/3-about-banner.jpg",
-      "relativePath": "3-about-banner.jpg",
-      "extension": "jpg",
-      "size": 7190549,
-      "prettySize": "7.19 MB",
-      "modifiedTime": "2018-06-09T22:03:06.665Z",
-      "accessTime": "2018-09-06T18:28:20.754Z",
-      "changeTime": "2018-11-28T06:15:36.301Z",
-      "birthTime": "2018-09-06T18:28:20.754Z",
-      "root": "C:/",
-      "dir": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images",
-      "base": "3-about-banner.jpg",
-      "ext": ".jpg",
-      "name": "3-about-banner",
-      "relativeDirectory": "",
-      "dev": 3156675764,
-      "mode": 33206,
-      "nlink": 1,
-      "uid": 0,
-      "gid": 0,
-      "rdev": 0,
-      "ino": 281474977217010,
-      "atimeMs": 1536258500753.7378,
-      "mtimeMs": 1528581786665.1062,
-      "ctimeMs": 1543385736300.7021,
-      "birthtimeMs": 1536258500753.7378,
-      "atime": "2018-09-06T18:28:20.754Z",
-      "mtime": "2018-06-09T22:03:06.665Z",
-      "ctime": "2018-11-28T06:15:36.301Z",
-      "birthtime": "2018-09-06T18:28:20.754Z"
-    },
-    "45a7b618-85cf-55cc-8675-f75599d654c2": {
-      "id": "45a7b618-85cf-55cc-8675-f75599d654c2",
-      "children": [],
-      "parent": "dcdfd47f-fc63-5f54-b515-1e763542568f",
-      "internal": {
-        "contentDigest": "fad3c86cdb04304d2a1be5e5ae108b70",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "036658bb0820e7bf0a2b9c1834b51f1b"
+    "PLUGINS_HASH": "1879ca2684a01d3a0ae22d57a2072e55"
   },
   "componentDataDependencies": {
-    "nodes": {
-      "9ae57e72-064a-5504-aee7-597a633b6985": [],
-      "54ad65ff-1516-5e94-b3ae-3a8ff514e716": []
-    },
-    "connections": {}
+    "nodes": {},
+    "connections": {
+      "File": [
+        "/"
+      ]
+    }
   },
   "jsonDataPaths": {
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
-    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "sq--src-components-image-js": 2011440971,
+    "index": "331/path---index-6a9-c3SLypvnZAr5jCdEqoDGu5HyT2Q",
     "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
-    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "sq--src-components-image-js": 2011440971
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/.cache/dev-404-page.js": {
@@ -1262,7 +1444,7 @@
       "componentPath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/pages/404.js"
     },
     "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/pages/index.js": {
-      "query": "",
+      "query": "query cUsersJdcasJdcastroWebDdSocalRegion1SrcPagesIndexJs2357879588 {\n  allFile {\n    edges {\n      node {\n        relativePath\n      }\n    }\n  }\n}\n",
       "componentPath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/pages/index.js"
     },
     "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/pages/page-2.js": {

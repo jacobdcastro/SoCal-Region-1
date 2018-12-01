@@ -20,35 +20,6 @@ footer {
   margin: 0;
 }
 
-/*=== FONT STYLING ===*/
-.header-content h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-a {
-  font-family: neuzeit-grotesk, sans-serif;
-  font-style: normal;
-}
-/* ===========================
-        OTHER BANNERS STYLE
-    ----------------------------*/
-
-.events {
-    background-image: url("../images/stock-photos/1-events-banner.jpg");
-}
-.churches {
-  background-image: url("../images/stock-photos/2-churches-banner.jpg");
-}
-.about {
-    background-image: url("../images/stock-photos/3-about-banner.jpg");
-}
-.resources {
-    background-image: url("../images/stock-photos/4-resources-banner.jpg");
-}
-
 /* ===========================
         FOOTER STYLE
     ----------------------------*/
