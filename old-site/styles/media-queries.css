@@ -8,52 +8,9 @@
     margin: 15px 0;
   }
 
-  .social-contact {
-    text-align: center;
-  }
-
-  .facebook {
-    width: 325px;
-    height: 500px;
-    margin-bottom: 0px;
-  }
-
-  .right-foot {
-    text-align: center;
-  }
-
-  .foot-menu {
-    width: 90%;
-    margin: 0 auto 35px;
-    height: 168px;
-    background-color: none;
-  }
-
-  .foot-menu a {
-    font-size: 1.08em;
-    background-color: #BCBEC0;
-    border-radius: 22px;
-    padding: 8px 10px;
-  }
-
-  .copyright {
-    letter-spacing: 1px;
-  }
-
   footer {
     padding: 15px 2%;
   }
-  .container {
-    max-width: 825px;
-  }
-  .foot-logo {
-    height: 150px;
-    width: auto;
-  }
-  .footbox {
-    align-items: center;
-  }
-
 }
 
 
@@ -67,26 +24,12 @@
 
 @media only screen and (min-width: 724px) {
 
-  .banner {
-    font-size: 3.75em;
-    letter-spacing: 12px;
-  }
-
-  .banner-content p {
-    font-size: 1.35em;
-    letter-spacing: 5px;
-  }
-
-
 
   /* ==================
       FOOTER BANNER
       -------------------*/
   footer {
     padding: 15px 2%;
-  }
-  .container {
-    max-width: 825px;
   }
   .foot-logo {
     height: 150px;

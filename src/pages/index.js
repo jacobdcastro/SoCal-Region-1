@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Meta from '../utils/Helmet';
+import Head from '../utils/Helmet';
 import SideNav from '../components/SideNav';
 import Navbar from '../components/Navbar';
 import Banner from '../components/Banner';
@@ -121,37 +121,60 @@ const DownArrowIcon = styled.img`
 `;
 
 
-	const IntroBanner = styled.div`
-		display: flex;
-		flex-direction: row;
-		justify-content: space-around;
-		align-items: center;
-		font-family: 'neuzeit-grotesk', 'sans-serif';
-		background-color: #181818;
-		color: #ffffff;
-		height: 100px;
-		margin: 0px;
-		padding-left: 10%;
-		padding-right: 10%;
-		letter-spacing: 3px;
-		font-size: 1.25em;
-		@media (min-width: 724px) {
-			font-size: 1.55em;
-		}
-		@media (min-width: 1024px) {
-			font-size: 1.85em;
-			letter-spacing: 7.4px;
-			height: 125px;
-		}
-	`;
+const IntroBanner = styled.div`
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	font-family: 'neuzeit-grotesk', 'sans-serif';
+	background-color: #181818;
+	color: #ffffff;
+	height: 100px;
+	margin: 0px;
+	padding-left: 10%;
+	padding-right: 10%;
+	letter-spacing: 3px;
+	font-size: 1.25em;
+	@media (min-width: 724px) {
+		font-size: 1.55em;
+	}
+	@media (min-width: 1024px) {
+		font-size: 1.85em;
+		letter-spacing: 7.4px;
+		height: 125px;
+	}
+`;
 
 class Home extends React.Component {
+	constructor(props) {
+		super(props);
+		
+		this.openMobileNav = this.openMobileNav.bind(this);
+		this.closeMobileNav = this.closeMobileNav.bind(this);
+
+		this.state = {
+			mobileNavIsOpen: false
+		}
+	}
+
+	openMobileNav() {
+		this.setState({
+			mobileNavIsOpen: true
+		})
+	}
+
+	closeMobileNav() {
+		this.setState({
+			mobileNavIsOpen: false
+		})
+	}
+
 	render() {
 		return (
 			<HomeContainer>
-				<Meta title="SoCal Region 1" />
-				<SideNav />
-				<Navbar />
+				<Head title="SoCal Region 1" />
+				<SideNav action={this.closeMobileNav} open={this.state.mobileNavIsOpen} />
+				<Navbar action={this.openMobileNav} mobileNavIsOpen={this.state.mobileNavIsOpen} />
 				<Header>
 					<HeaderBanner>
 						<HeaderContent>

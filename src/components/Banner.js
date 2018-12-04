@@ -38,7 +38,7 @@ const BannerTitle = styled.h2`
 	@media (min-width: 1024px) {
 		font-size: 3.75em;
 		letter-spacing: 12px;
-		height: 315px
+		height: 315px;
 		width: 60%;
 	}
 `;
@@ -48,18 +48,23 @@ const BannerContent = styled.div`
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	font-weight: 700;
+	text-transform: uppercase;
 	height: 200px;
 	padding: 15px;
 	background-color: #D1D3D4;
 	p {
 		font-family: 'neuzeit-grotesk', 'sans-serif';
-		height: 200px;
+		margin: 25px;
 		padding: 15px;
 		background-color: #D1D3D4;
 	}
 	a:visited,
 	a:active {
 		font-family: 'neuzeit-grotesk', 'sans-serif';
+		text-decoration: none;
+	}
+	a {
 		text-decoration: none;
 	}
 	@media (min-width: 724px) {
@@ -69,7 +74,8 @@ const BannerContent = styled.div`
 		}
 	}
 	@media (min-width: 1024px) {
-		flex-direction: row;
+		flex-direction: column;
+		justify-content: center;
 		height: 285px;
 		width: 40%;
 		p {
@@ -88,6 +94,7 @@ const BannerButton = styled.h5`
 	font-size: 1.1em;
 	letter-spacing: 2px;
 	text-transform: uppercase;
+	text-decoration: none;
 	&:hover {
 		background-color: #5E9EA2;
 		transition: 380ms;

@@ -1,10 +1,5 @@
 import React from "react";
 import PropTypes from "prop-types";
-import styled from 'styled-components';
-
-const Body = styled.body`
-	margin: 0;
-`;
 
 export default class HTML extends React.Component {
   render() {
@@ -17,9 +12,11 @@ export default class HTML extends React.Component {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
+          <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
+          <link rel="stylesheet" src="./utils/normalize.css" />
           {this.props.headComponents}
         </head>
-        <Body {...this.props.bodyAttributes}>
+        <body {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}
           <div
             key={`body`}
@@ -27,7 +24,7 @@ export default class HTML extends React.Component {
             dangerouslySetInnerHTML={{ __html: this.props.body }}
           />
           {this.props.postBodyComponents}
-        </Body>
+        </body>
       </html>
     );
   }

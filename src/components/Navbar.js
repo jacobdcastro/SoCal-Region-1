@@ -6,7 +6,7 @@ const NavbarContainer = styled.nav`
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
 	background-color: #181818;
 	margin: 0;
 	padding: 0;
@@ -19,6 +19,10 @@ const NavbarContainer = styled.nav`
 	}
 	@media (min-width: 725px) {
 		height: 100px;
+	}
+	@media (min-width: 1024px) {
+		flex-direction: row;
+		justify-content: space-around;
 	}
 `;
 
@@ -50,7 +54,7 @@ const RightNav = styled.div`
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
-	height: 125px;
+	height: 100px;
 	width: 50%;
 	margin: 0;
 	padding: 18px 0;
@@ -60,24 +64,18 @@ const RightNav = styled.div`
 		display: block;
 		color: white;
 		text-decoration: none;
+		font-size: 0.85em;
 		font-weight: 700;
 		letter-spacing: 3px;
 		border: 1px solid white;
-		padding: 15px;
+		padding: 14px;
 		margin: 5px;
 		&:hover {
 			background-color: #5E9EA2;
 			transition: 350ms;
 		}
-		@media(min-width: 724px) {
-			font-size: 1.1em;
-			padding: 14px;
-		}
 	}
-	a:last-child {
-		display: none;
-	}
-	.SummitLinkDesk {
+	.summitLinkDesk {
 		background-color: #5E9EA2;
 		&:hover {
 			background-color: black;
@@ -89,19 +87,33 @@ const RightNav = styled.div`
 		height: 75px;
 		padding: 0;
 		margin: 0;
+		a {
+			display: none;
+		}
 	}
 	@media (min-width: 725px) {
 		width: auto;
-
-		.mobile-menu-btn {
-			display: none;
-		}
+	}
+	@media (min-width: 1024px) {
+		font-size: 1.3em;
+		padding: 22px;
 	}
 `;
 
 const MobileMenuButton = styled.img`
-	height: 50px;
-	width: 50px;
+	@media (max-width: 724px) {
+		display: inline;
+		height: 35px;
+		width: auto;
+		margin: auto;
+		padding: 5px;
+		&:hover {
+			cursor: pointer;
+		}
+	}
+	@media (min-width: 725px) {
+		display: none;
+	}
 `;
 
 class Navbar extends React.Component {
@@ -116,8 +128,8 @@ class Navbar extends React.Component {
 						<Link to="/churches">CHURCHES</Link>
 						<Link to="/about">ABOUT</Link>
 						<a href="http://socalnetwork.org/resources/">RESOURCES</a>
-						<Link to="/summit" className="SummitLinkDesk">SUMMIT</Link>
-						<MobileMenuButton className="mobile-menu-btn" src="images/icons/menu-button.svg" alt="menu icon" />
+						<Link to="/summit" className="summitLinkDesk" >SUMMIT</Link>
+						<MobileMenuButton onClick={this.props.action} src={require("../images/menu-button.svg")} alt="menu icon" />
 					</RightNav>
 			</NavbarContainer>
 		);
