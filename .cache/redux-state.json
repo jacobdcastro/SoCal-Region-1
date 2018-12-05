@@ -392,307 +392,11 @@
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-transformer-sharp": {
-      "resolve": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/node_modules/gatsby-transformer-sharp",
-      "id": "Plugin gatsby-transformer-sharp",
-      "name": "gatsby-transformer-sharp",
-      "version": "2.1.4",
-      "pluginOptions": {
-        "plugins": []
-      },
-      "nodeAPIs": [
-        "onCreateNode",
-        "setFieldsOnGraphQLNodeType",
-        "onPreExtractQueries"
-      ],
-      "browserAPIs": [],
-      "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/node_modules/gatsby-transformer-sharp",
-      "packageJson": {
-        "name": "gatsby-transformer-sharp",
-        "description": "Gatsby transformer plugin for images using Sharp",
-        "version": "2.1.4",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "image",
-          "sharp"
-        ],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "@babel/runtime",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "bluebird",
-            "version": "^3.5.0"
-          },
-          {
-            "name": "fs-extra",
-            "version": "^4.0.2"
-          },
-          {
-            "name": "potrace",
-            "version": "^2.1.1"
-          },
-          {
-            "name": "probe-image-size",
-            "version": "^4.0.0"
-          },
-          {
-            "name": "sharp",
-            "version": "^0.20.2"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "@babel/cli",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "@babel/core",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "cross-env",
-            "version": "^5.1.4"
-          }
-        ],
-        "peerDependencies": [
-          {
-            "name": "gatsby",
-            "version": ">2.0.0-alpha"
-          },
-          {
-            "name": "gatsby-plugin-sharp",
-            "version": "^2.0.0-beta.3"
-          }
-        ],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "contentDigest": "9d555451b0cb915904ffb5a88fc5f5fd",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "Plugin gatsby-plugin-sharp": {
-      "resolve": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/node_modules/gatsby-plugin-sharp",
-      "id": "Plugin gatsby-plugin-sharp",
-      "name": "gatsby-plugin-sharp",
-      "version": "2.0.7",
-      "pluginOptions": {
-        "plugins": []
-      },
-      "nodeAPIs": [],
-      "browserAPIs": [],
-      "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/node_modules/gatsby-plugin-sharp",
-      "packageJson": {
-        "name": "gatsby-plugin-sharp",
-        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
-        "version": "2.0.7",
-        "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "image",
-          "sharp"
-        ],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "@babel/runtime",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "async",
-            "version": "^2.1.2"
-          },
-          {
-            "name": "bluebird",
-            "version": "^3.5.0"
-          },
-          {
-            "name": "fs-exists-cached",
-            "version": "^1.0.0"
-          },
-          {
-            "name": "imagemin",
-            "version": "^6.0.0"
-          },
-          {
-            "name": "imagemin-mozjpeg",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "imagemin-pngquant",
-            "version": "^6.0.0"
-          },
-          {
-            "name": "imagemin-webp",
-            "version": "^4.1.0"
-          },
-          {
-            "name": "lodash",
-            "version": "^4.17.10"
-          },
-          {
-            "name": "mini-svg-data-uri",
-            "version": "^1.0.0"
-          },
-          {
-            "name": "potrace",
-            "version": "^2.1.1"
-          },
-          {
-            "name": "probe-image-size",
-            "version": "^4.0.0"
-          },
-          {
-            "name": "progress",
-            "version": "^1.1.8"
-          },
-          {
-            "name": "sharp",
-            "version": "^0.20.2"
-          },
-          {
-            "name": "svgo",
-            "version": "^0.7.2"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "@babel/cli",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "@babel/core",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "cross-env",
-            "version": "^5.1.4"
-          }
-        ],
-        "peerDependencies": [
-          {
-            "name": "gatsby",
-            "version": ">2.0.0-alpha"
-          }
-        ],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "contentDigest": "e704333578a9685005396e6f67d8fc25",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "Plugin gatsby-plugin-manifest": {
-      "resolve": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/node_modules/gatsby-plugin-manifest",
-      "id": "Plugin gatsby-plugin-manifest",
-      "name": "gatsby-plugin-manifest",
-      "version": "2.0.5",
-      "pluginOptions": {
-        "plugins": [],
-        "name": "socal-region-1",
-        "short_name": "region1",
-        "start_url": "/"
-      },
-      "nodeAPIs": [
-        "onPostBootstrap"
-      ],
-      "browserAPIs": [],
-      "ssrAPIs": [
-        "onRenderBody"
-      ],
-      "pluginFilepath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/node_modules/gatsby-plugin-manifest",
-      "packageJson": {
-        "name": "gatsby-plugin-manifest",
-        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
-        "version": "2.0.5",
-        "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "favicon",
-          "icons",
-          "manifest.webmanifest",
-          "progressive-web-app",
-          "pwa"
-        ],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "@babel/runtime",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "bluebird",
-            "version": "^3.5.0"
-          },
-          {
-            "name": "sharp",
-            "version": "^0.20.2"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "@babel/cli",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "@babel/core",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "cross-env",
-            "version": "^5.1.4"
-          }
-        ],
-        "peerDependencies": [
-          {
-            "name": "gatsby",
-            "version": ">2.0.0-alpha"
-          }
-        ],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "contentDigest": "f2d3944d855fb645fea2493f80e7bb17",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
     "Plugin default-site-plugin": {
       "resolve": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "43adbc014921fa99984505ac5a3b456c",
+      "version": "435747a75a3aa7b0624ab40186260eba",
       "pluginOptions": {
         "plugins": []
       },
@@ -788,7 +492,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "fe5095fbd672fe00592579684b810e77",
+        "contentDigest": "6dc1084afd412a6ca5dcde44ce7cf941",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -896,12 +600,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-12-04T03:45:46.024Z",
+      "buildTime": "2018-12-05T21:49:25.344Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "431a152fd4e008db968e13c8c76b609b",
+        "contentDigest": "2bf4edabe935c0043b019416aeb66798",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -911,7 +615,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "db8625ddb0091a92df9e58873c8f16d8",
+        "contentDigest": "bf1f06829093bf556ea480e7db2fdd5b",
         "type": "Directory",
         "description": "Directory \"src\\images\"",
         "owner": "gatsby-source-filesystem"
@@ -922,9 +626,9 @@
       "extension": "",
       "size": 0,
       "prettySize": "0 B",
-      "modifiedTime": "2018-12-01T09:02:20.164Z",
-      "accessTime": "2018-12-01T09:02:20.164Z",
-      "changeTime": "2018-12-01T09:02:20.164Z",
+      "modifiedTime": "2018-12-04T04:51:00.648Z",
+      "accessTime": "2018-12-04T04:51:00.648Z",
+      "changeTime": "2018-12-04T04:51:00.648Z",
       "birthTime": "2018-11-29T20:32:40.570Z",
       "root": "C:/",
       "dir": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src",
@@ -939,20 +643,18 @@
       "gid": 0,
       "rdev": 0,
       "ino": 5629499534917010,
-      "atimeMs": 1543654940163.5378,
-      "mtimeMs": 1543654940163.5378,
-      "ctimeMs": 1543654940163.5378,
+      "atimeMs": 1543899060647.782,
+      "mtimeMs": 1543899060647.782,
+      "ctimeMs": 1543899060647.782,
       "birthtimeMs": 1543523560570.0483,
-      "atime": "2018-12-01T09:02:20.164Z",
-      "mtime": "2018-12-01T09:02:20.164Z",
-      "ctime": "2018-12-01T09:02:20.164Z",
+      "atime": "2018-12-04T04:51:00.648Z",
+      "mtime": "2018-12-04T04:51:00.648Z",
+      "ctime": "2018-12-04T04:51:00.648Z",
       "birthtime": "2018-11-29T20:32:40.570Z"
     },
     "8d910c80-c021-5eb3-867c-b013854e35a3": {
       "id": "8d910c80-c021-5eb3-867c-b013854e35a3",
-      "children": [
-        "b0eadf1c-a5b1-5819-be1f-1ba96480c742"
-      ],
+      "children": [],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "da46170ea87fc12cc623ffa643581329",
@@ -993,21 +695,95 @@
       "ctime": "2018-12-01T09:02:20.168Z",
       "birthtime": "2018-11-29T20:32:11.887Z"
     },
-    "b0eadf1c-a5b1-5819-be1f-1ba96480c742": {
-      "id": "b0eadf1c-a5b1-5819-be1f-1ba96480c742",
+    "886edbd6-b4e3-5227-b3b7-d333352883aa": {
+      "id": "886edbd6-b4e3-5227-b3b7-d333352883aa",
       "children": [],
-      "parent": "8d910c80-c021-5eb3-867c-b013854e35a3",
+      "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "da46170ea87fc12cc623ffa643581329",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
+        "contentDigest": "00db2bcddea0c59f83cea7b9c44f2783",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src\\images\\region1-logo.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images/region1-logo.png",
+      "relativePath": "region1-logo.png",
+      "extension": "png",
+      "size": 13609,
+      "prettySize": "13.6 kB",
+      "modifiedTime": "2018-12-04T03:50:16.717Z",
+      "accessTime": "2018-11-29T20:32:11.099Z",
+      "changeTime": "2018-12-04T03:50:16.718Z",
+      "birthTime": "2018-11-29T20:32:11.099Z",
+      "root": "C:/",
+      "dir": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images",
+      "base": "region1-logo.png",
+      "ext": ".png",
+      "name": "region1-logo",
+      "relativeDirectory": "",
+      "dev": 3156675764,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 3377699720692480,
+      "atimeMs": 1543523531099,
+      "mtimeMs": 1543895416717,
+      "ctimeMs": 1543895416717.6758,
+      "birthtimeMs": 1543523531099.4185,
+      "atime": "2018-11-29T20:32:11.099Z",
+      "mtime": "2018-12-04T03:50:16.717Z",
+      "ctime": "2018-12-04T03:50:16.718Z",
+      "birthtime": "2018-11-29T20:32:11.099Z"
+    },
+    "4d318165-694d-523d-a049-86a790cb4c49": {
+      "id": "4d318165-694d-523d-a049-86a790cb4c49",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "06ffc9ad983daa4f90d53b510b32ffe0",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src\\images\\menu-button.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images/menu-button.svg",
+      "relativePath": "menu-button.svg",
+      "extension": "svg",
+      "size": 750,
+      "prettySize": "750 B",
+      "modifiedTime": "2018-12-04T04:51:00.649Z",
+      "accessTime": "2018-11-29T20:32:11.893Z",
+      "changeTime": "2018-12-04T04:51:00.650Z",
+      "birthTime": "2018-11-29T20:32:11.893Z",
+      "root": "C:/",
+      "dir": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images",
+      "base": "menu-button.svg",
+      "ext": ".svg",
+      "name": "menu-button",
+      "relativeDirectory": "",
+      "dev": 3156675764,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 3659174697403169,
+      "atimeMs": 1543523531892.9998,
+      "mtimeMs": 1543899060649,
+      "ctimeMs": 1543899060649.8733,
+      "birthtimeMs": 1543523531893.2913,
+      "atime": "2018-11-29T20:32:11.893Z",
+      "mtime": "2018-12-04T04:51:00.649Z",
+      "ctime": "2018-12-04T04:51:00.650Z",
+      "birthtime": "2018-11-29T20:32:11.893Z"
     },
     "24fdb5b0-f84e-5217-9446-859c8c4380c7": {
       "id": "24fdb5b0-f84e-5217-9446-859c8c4380c7",
-      "children": [
-        "20c25e2d-0dae-542f-be0a-2b6c85ef7aba"
-      ],
+      "children": [],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "ba650fc275c77de5a9c3786c96f615f4",
@@ -1048,186 +824,9 @@
       "ctime": "2018-12-01T07:58:25.676Z",
       "birthtime": "2018-11-29T20:32:11.087Z"
     },
-    "20c25e2d-0dae-542f-be0a-2b6c85ef7aba": {
-      "id": "20c25e2d-0dae-542f-be0a-2b6c85ef7aba",
-      "children": [],
-      "parent": "24fdb5b0-f84e-5217-9446-859c8c4380c7",
-      "internal": {
-        "contentDigest": "ba650fc275c77de5a9c3786c96f615f4",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "7d31adb0-6fee-5d24-b44e-104c18b16ede": {
-      "id": "7d31adb0-6fee-5d24-b44e-104c18b16ede",
-      "children": [
-        "55225cce-44a5-5d98-8c8e-e310dd411fde"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "46f6f8f50a70b85c483dabff23527149",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src\\images\\pismo-beach.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images/pismo-beach.jpg",
-      "relativePath": "pismo-beach.jpg",
-      "extension": "jpg",
-      "size": 2044363,
-      "prettySize": "2.04 MB",
-      "modifiedTime": "2018-11-29T20:32:14.428Z",
-      "accessTime": "2018-11-29T20:32:14.318Z",
-      "changeTime": "2018-12-01T08:20:09.063Z",
-      "birthTime": "2018-11-29T20:32:14.318Z",
-      "root": "C:/",
-      "dir": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images",
-      "base": "pismo-beach.jpg",
-      "ext": ".jpg",
-      "name": "pismo-beach",
-      "relativeDirectory": "",
-      "dev": 3156675764,
-      "mode": 33206,
-      "nlink": 1,
-      "uid": 0,
-      "gid": 0,
-      "rdev": 0,
-      "ino": 844424930638253,
-      "atimeMs": 1543523534318.2974,
-      "mtimeMs": 1543523534427.5725,
-      "ctimeMs": 1543652409062.9282,
-      "birthtimeMs": 1543523534318.2974,
-      "atime": "2018-11-29T20:32:14.318Z",
-      "mtime": "2018-11-29T20:32:14.428Z",
-      "ctime": "2018-12-01T08:20:09.063Z",
-      "birthtime": "2018-11-29T20:32:14.318Z"
-    },
-    "55225cce-44a5-5d98-8c8e-e310dd411fde": {
-      "id": "55225cce-44a5-5d98-8c8e-e310dd411fde",
-      "children": [],
-      "parent": "7d31adb0-6fee-5d24-b44e-104c18b16ede",
-      "internal": {
-        "contentDigest": "46f6f8f50a70b85c483dabff23527149",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "9b4602ef-d42a-5571-bf59-50ce88da05d0": {
-      "id": "9b4602ef-d42a-5571-bf59-50ce88da05d0",
-      "children": [
-        "45c4c2bf-8181-570d-94bf-7a6df40a2234"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "8975457cde29c765e660a812f96975c5",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src\\images\\1-events-banner.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images/1-events-banner.jpg",
-      "relativePath": "1-events-banner.jpg",
-      "extension": "jpg",
-      "size": 4132037,
-      "prettySize": "4.13 MB",
-      "modifiedTime": "2018-11-29T20:32:40.852Z",
-      "accessTime": "2018-11-29T20:32:40.571Z",
-      "changeTime": "2018-11-29T20:32:40.852Z",
-      "birthTime": "2018-11-29T20:32:40.571Z",
-      "root": "C:/",
-      "dir": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images",
-      "base": "1-events-banner.jpg",
-      "ext": ".jpg",
-      "name": "1-events-banner",
-      "relativeDirectory": "",
-      "dev": 3156675764,
-      "mode": 33206,
-      "nlink": 1,
-      "uid": 0,
-      "gid": 0,
-      "rdev": 0,
-      "ino": 4785074604785043,
-      "atimeMs": 1543523560571.0452,
-      "mtimeMs": 1543523560851.6091,
-      "ctimeMs": 1543523560851.6091,
-      "birthtimeMs": 1543523560571.0452,
-      "atime": "2018-11-29T20:32:40.571Z",
-      "mtime": "2018-11-29T20:32:40.852Z",
-      "ctime": "2018-11-29T20:32:40.852Z",
-      "birthtime": "2018-11-29T20:32:40.571Z"
-    },
-    "45c4c2bf-8181-570d-94bf-7a6df40a2234": {
-      "id": "45c4c2bf-8181-570d-94bf-7a6df40a2234",
-      "children": [],
-      "parent": "9b4602ef-d42a-5571-bf59-50ce88da05d0",
-      "internal": {
-        "contentDigest": "8975457cde29c765e660a812f96975c5",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "ab388d41-ccf2-5467-bfe9-29e878b1a3e0": {
-      "id": "ab388d41-ccf2-5467-bfe9-29e878b1a3e0",
-      "children": [
-        "8aa847ab-5626-56e0-a086-c595027bb68f"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "f16e6f3751c915d6b4bbd5e441bd06bd",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src\\images\\4-resources-banner.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images/4-resources-banner.jpg",
-      "relativePath": "4-resources-banner.jpg",
-      "extension": "jpg",
-      "size": 3310860,
-      "prettySize": "3.31 MB",
-      "modifiedTime": "2018-11-29T20:32:42.010Z",
-      "accessTime": "2018-11-29T20:32:41.714Z",
-      "changeTime": "2018-11-29T20:32:42.010Z",
-      "birthTime": "2018-11-29T20:32:41.714Z",
-      "root": "C:/",
-      "dir": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images",
-      "base": "4-resources-banner.jpg",
-      "ext": ".jpg",
-      "name": "4-resources-banner",
-      "relativeDirectory": "",
-      "dev": 3156675764,
-      "mode": 33206,
-      "nlink": 1,
-      "uid": 0,
-      "gid": 0,
-      "rdev": 0,
-      "ino": 5348024558206358,
-      "atimeMs": 1543523561713.5034,
-      "mtimeMs": 1543523562009.75,
-      "ctimeMs": 1543523562009.75,
-      "birthtimeMs": 1543523561713.5034,
-      "atime": "2018-11-29T20:32:41.714Z",
-      "mtime": "2018-11-29T20:32:42.010Z",
-      "ctime": "2018-11-29T20:32:42.010Z",
-      "birthtime": "2018-11-29T20:32:41.714Z"
-    },
-    "8aa847ab-5626-56e0-a086-c595027bb68f": {
-      "id": "8aa847ab-5626-56e0-a086-c595027bb68f",
-      "children": [],
-      "parent": "ab388d41-ccf2-5467-bfe9-29e878b1a3e0",
-      "internal": {
-        "contentDigest": "f16e6f3751c915d6b4bbd5e441bd06bd",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
     "bb590a07-2d76-551e-8425-a2e108e87bbe": {
       "id": "bb590a07-2d76-551e-8425-a2e108e87bbe",
-      "children": [
-        "34f07662-c36f-5210-9385-6f410c29c477"
-      ],
+      "children": [],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "5d191f350f40a524120f84a5db6ce6a1",
@@ -1268,21 +867,138 @@
       "ctime": "2018-11-29T20:32:40.898Z",
       "birthtime": "2018-11-29T20:32:40.853Z"
     },
-    "34f07662-c36f-5210-9385-6f410c29c477": {
-      "id": "34f07662-c36f-5210-9385-6f410c29c477",
+    "7d31adb0-6fee-5d24-b44e-104c18b16ede": {
+      "id": "7d31adb0-6fee-5d24-b44e-104c18b16ede",
       "children": [],
-      "parent": "bb590a07-2d76-551e-8425-a2e108e87bbe",
+      "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "5d191f350f40a524120f84a5db6ce6a1",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
+        "contentDigest": "46f6f8f50a70b85c483dabff23527149",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src\\images\\pismo-beach.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images/pismo-beach.jpg",
+      "relativePath": "pismo-beach.jpg",
+      "extension": "jpg",
+      "size": 2044363,
+      "prettySize": "2.04 MB",
+      "modifiedTime": "2018-11-29T20:32:14.428Z",
+      "accessTime": "2018-11-29T20:32:14.318Z",
+      "changeTime": "2018-12-01T08:20:09.063Z",
+      "birthTime": "2018-11-29T20:32:14.318Z",
+      "root": "C:/",
+      "dir": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images",
+      "base": "pismo-beach.jpg",
+      "ext": ".jpg",
+      "name": "pismo-beach",
+      "relativeDirectory": "",
+      "dev": 3156675764,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 844424930638253,
+      "atimeMs": 1543523534318.2974,
+      "mtimeMs": 1543523534427.5725,
+      "ctimeMs": 1543652409062.9282,
+      "birthtimeMs": 1543523534318.2974,
+      "atime": "2018-11-29T20:32:14.318Z",
+      "mtime": "2018-11-29T20:32:14.428Z",
+      "ctime": "2018-12-01T08:20:09.063Z",
+      "birthtime": "2018-11-29T20:32:14.318Z"
+    },
+    "ab388d41-ccf2-5467-bfe9-29e878b1a3e0": {
+      "id": "ab388d41-ccf2-5467-bfe9-29e878b1a3e0",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f16e6f3751c915d6b4bbd5e441bd06bd",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src\\images\\4-resources-banner.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images/4-resources-banner.jpg",
+      "relativePath": "4-resources-banner.jpg",
+      "extension": "jpg",
+      "size": 3310860,
+      "prettySize": "3.31 MB",
+      "modifiedTime": "2018-11-29T20:32:42.010Z",
+      "accessTime": "2018-11-29T20:32:41.714Z",
+      "changeTime": "2018-11-29T20:32:42.010Z",
+      "birthTime": "2018-11-29T20:32:41.714Z",
+      "root": "C:/",
+      "dir": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images",
+      "base": "4-resources-banner.jpg",
+      "ext": ".jpg",
+      "name": "4-resources-banner",
+      "relativeDirectory": "",
+      "dev": 3156675764,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 5348024558206358,
+      "atimeMs": 1543523561713.5034,
+      "mtimeMs": 1543523562009.75,
+      "ctimeMs": 1543523562009.75,
+      "birthtimeMs": 1543523561713.5034,
+      "atime": "2018-11-29T20:32:41.714Z",
+      "mtime": "2018-11-29T20:32:42.010Z",
+      "ctime": "2018-11-29T20:32:42.010Z",
+      "birthtime": "2018-11-29T20:32:41.714Z"
+    },
+    "9b4602ef-d42a-5571-bf59-50ce88da05d0": {
+      "id": "9b4602ef-d42a-5571-bf59-50ce88da05d0",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8975457cde29c765e660a812f96975c5",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src\\images\\1-events-banner.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images/1-events-banner.jpg",
+      "relativePath": "1-events-banner.jpg",
+      "extension": "jpg",
+      "size": 4132037,
+      "prettySize": "4.13 MB",
+      "modifiedTime": "2018-11-29T20:32:40.852Z",
+      "accessTime": "2018-11-29T20:32:40.571Z",
+      "changeTime": "2018-11-29T20:32:40.852Z",
+      "birthTime": "2018-11-29T20:32:40.571Z",
+      "root": "C:/",
+      "dir": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images",
+      "base": "1-events-banner.jpg",
+      "ext": ".jpg",
+      "name": "1-events-banner",
+      "relativeDirectory": "",
+      "dev": 3156675764,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 4785074604785043,
+      "atimeMs": 1543523560571.0452,
+      "mtimeMs": 1543523560851.6091,
+      "ctimeMs": 1543523560851.6091,
+      "birthtimeMs": 1543523560571.0452,
+      "atime": "2018-11-29T20:32:40.571Z",
+      "mtime": "2018-11-29T20:32:40.852Z",
+      "ctime": "2018-11-29T20:32:40.852Z",
+      "birthtime": "2018-11-29T20:32:40.571Z"
     },
     "dcdfd47f-fc63-5f54-b515-1e763542568f": {
       "id": "dcdfd47f-fc63-5f54-b515-1e763542568f",
-      "children": [
-        "45a7b618-85cf-55cc-8675-f75599d654c2"
-      ],
+      "children": [],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "fad3c86cdb04304d2a1be5e5ae108b70",
@@ -1322,16 +1038,6 @@
       "mtime": "2018-11-29T20:32:41.713Z",
       "ctime": "2018-11-29T20:32:41.713Z",
       "birthtime": "2018-11-29T20:32:40.899Z"
-    },
-    "45a7b618-85cf-55cc-8675-f75599d654c2": {
-      "id": "45a7b618-85cf-55cc-8675-f75599d654c2",
-      "children": [],
-      "parent": "dcdfd47f-fc63-5f54-b515-1e763542568f",
-      "internal": {
-        "contentDigest": "fad3c86cdb04304d2a1be5e5ae108b70",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
     },
     "SitePage /404/": {
       "jsonName": "404-22d",
@@ -1392,109 +1098,11 @@
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
-    },
-    "886edbd6-b4e3-5227-b3b7-d333352883aa": {
-      "id": "886edbd6-b4e3-5227-b3b7-d333352883aa",
-      "children": [
-        "3254b484-7f90-5fd4-b8db-2f9ac01f3d57"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "00db2bcddea0c59f83cea7b9c44f2783",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src\\images\\region1-logo.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images/region1-logo.png",
-      "relativePath": "region1-logo.png",
-      "extension": "png",
-      "size": 13609,
-      "prettySize": "13.6 kB",
-      "modifiedTime": "2018-12-04T03:50:16.717Z",
-      "accessTime": "2018-11-29T20:32:11.099Z",
-      "changeTime": "2018-12-04T03:50:16.718Z",
-      "birthTime": "2018-11-29T20:32:11.099Z",
-      "root": "C:/",
-      "dir": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images",
-      "base": "region1-logo.png",
-      "ext": ".png",
-      "name": "region1-logo",
-      "relativeDirectory": "",
-      "dev": 3156675764,
-      "mode": 33206,
-      "nlink": 1,
-      "uid": 0,
-      "gid": 0,
-      "rdev": 0,
-      "ino": 3377699720692480,
-      "atimeMs": 1543523531099,
-      "mtimeMs": 1543895416717,
-      "ctimeMs": 1543895416717.6758,
-      "birthtimeMs": 1543523531099.4185,
-      "atime": "2018-11-29T20:32:11.099Z",
-      "mtime": "2018-12-04T03:50:16.717Z",
-      "ctime": "2018-12-04T03:50:16.718Z",
-      "birthtime": "2018-11-29T20:32:11.099Z"
-    },
-    "3254b484-7f90-5fd4-b8db-2f9ac01f3d57": {
-      "id": "3254b484-7f90-5fd4-b8db-2f9ac01f3d57",
-      "children": [],
-      "parent": "886edbd6-b4e3-5227-b3b7-d333352883aa",
-      "internal": {
-        "contentDigest": "00db2bcddea0c59f83cea7b9c44f2783",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "4d318165-694d-523d-a049-86a790cb4c49": {
-      "id": "4d318165-694d-523d-a049-86a790cb4c49",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "06ffc9ad983daa4f90d53b510b32ffe0",
-        "type": "File",
-        "mediaType": "image/svg+xml",
-        "description": "File \"src\\images\\menu-button.svg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images/menu-button.svg",
-      "relativePath": "menu-button.svg",
-      "extension": "svg",
-      "size": 750,
-      "prettySize": "750 B",
-      "modifiedTime": "2018-12-04T04:51:00.649Z",
-      "accessTime": "2018-11-29T20:32:11.893Z",
-      "changeTime": "2018-12-04T04:51:00.650Z",
-      "birthTime": "2018-11-29T20:32:11.893Z",
-      "root": "C:/",
-      "dir": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images",
-      "base": "menu-button.svg",
-      "ext": ".svg",
-      "name": "menu-button",
-      "relativeDirectory": "",
-      "dev": 3156675764,
-      "mode": 33206,
-      "nlink": 1,
-      "uid": 0,
-      "gid": 0,
-      "rdev": 0,
-      "ino": 3659174697403169,
-      "atimeMs": 1543523531892.9998,
-      "mtimeMs": 1543899060649,
-      "ctimeMs": 1543899060649.8733,
-      "birthtimeMs": 1543523531893.2913,
-      "atime": "2018-11-29T20:32:11.893Z",
-      "mtime": "2018-12-04T04:51:00.649Z",
-      "ctime": "2018-12-04T04:51:00.650Z",
-      "birthtime": "2018-11-29T20:32:11.893Z"
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "1879ca2684a01d3a0ae22d57a2072e55"
+    "PLUGINS_HASH": "291bfbd5f53fdb533827fdac734e776b"
   },
   "componentDataDependencies": {
     "nodes": {},
@@ -1505,10 +1113,9 @@
     }
   },
   "jsonDataPaths": {
-    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
-    "sq--src-components-image-js": 2011440971,
-    "index": "992/path---index-6a9-ioim2x0wUNyVTqOVR1BJtvDogyg",
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index": "161/path---index-6a9-dht4g5r67sMqM15w8eliuaiBQnc",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
@@ -1525,14 +1132,5 @@
       "componentPath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/pages/index.js"
     }
   },
-  "staticQueryComponents": {
-    "sq--src-components-image-js": {
-      "name": "cUsersJdcasJdcastroWebDdSocalRegion1SrcComponentsImageJs2011440971",
-      "componentPath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/components/image.js",
-      "id": "sq--src-components-image-js",
-      "jsonName": "sq--src-components-image-js",
-      "query": "query cUsersJdcasJdcastroWebDdSocalRegion1SrcComponentsImageJs2011440971 {\n  placeholderImage: file(relativePath: {eq: \"gatsby-astronaut.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
-      "hash": 2011440971
-    }
-  }
+  "staticQueryComponents": {}
 }

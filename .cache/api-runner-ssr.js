@@ -1,9 +1,6 @@
 var plugins = [{
       plugin: require('C:/Users/jdcas/jdcastro-web-dd/socal-region-1/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
-    },{
-      plugin: require('C:/Users/jdcas/jdcastro-web-dd/socal-region-1/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"socal-region-1","short_name":"region1","start_url":"/"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [

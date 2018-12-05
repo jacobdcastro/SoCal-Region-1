@@ -1,27 +1,3 @@
-@media only screen and (max-width: 480px) {
-
-  /* ==================
-      FOOTER BANNER
-      -------------------*/
-
-  .footbox {
-    margin: 15px 0;
-  }
-
-  footer {
-    padding: 15px 2%;
-  }
-}
-
-
-
-
-/*--======================================================
-==========================================================
-          MEDIA QUERY BORDER
-==========================================================
-==========================================================-->*/
-
 @media only screen and (min-width: 724px) {
 
 
@@ -34,9 +10,6 @@
   .foot-logo {
     height: 150px;
     width: auto;
-  }
-  .footbox {
-    align-items: center;
   }
 }
 
@@ -68,5 +41,5 @@
   .logo-container img {
     padding: 18px 5px;
   }
-
+ 
 }
