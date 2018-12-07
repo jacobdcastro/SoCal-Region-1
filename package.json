@@ -1,9 +1,10 @@
 {
   "name": "socal-region-1",
   "description": "Static website for SoCal Region 1",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "author": "Jacob D. Castro <jdcastro.business@gmail.com>",
   "dependencies": {
+    "eslint": "^5.9.0",
     "gatsby": "^2.0.33",
     "gatsby-image": "^2.0.15",
     "gatsby-plugin-manifest": "^2.0.11",
