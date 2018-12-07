@@ -230,15 +230,3 @@ class Home extends React.Component {
 }
 
 export default Home;
-
-export const query = graphql`
-	query {
-		allFile {
-			edges {
-				node {
-					relativePath
-				}
-			}
-		}
-	}
-`;
