@@ -4,21 +4,6 @@
           MAIN HEADER STYLE
       ----------------------------*/
 
-  .header-content h1 {
-    font-size: 1.7em;
-    font-weight: 700;
-    letter-spacing: 10px;
-    border: 3.5px solid #fff;
-    margin: 20px 0px;
-    padding: 5px 3px 5px 10px;
-    text-align: center;
-  }
-
-  .banner {
-    font-size: 2.2em;
-  }
-
-
   /* ==================
       FOOTER BANNER
       -------------------*/
