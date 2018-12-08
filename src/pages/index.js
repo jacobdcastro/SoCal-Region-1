@@ -1,5 +1,5 @@
 import React from 'react';
-import { graphql } from 'gatsby';
+// import { graphql } from 'gatsby';
 import styled from 'styled-components';
 import Head from '../utils/Helmet';
 import SideNav from '../components/SideNav';
@@ -185,7 +185,7 @@ class Home extends React.Component {
 						</HeaderContent>
 					</HeaderBanner>
 					<DownArrowIcon src={require('../images/down-arrow.png')} alt="down arrow icon" />
-		    </Header>
+				</Header>
 				<div>
 					<IntroBanner className="banner1" id="banner1">
 			      <h3>Reach.</h3>

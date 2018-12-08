@@ -929,6 +929,10 @@
             "version": "^2.0.4"
           },
           {
+            "name": "gatsby-transformer-remark",
+            "version": "^2.1.15"
+          },
+          {
             "name": "gatsby-transformer-sharp",
             "version": "^2.1.9"
           },
@@ -1086,12 +1090,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-12-07T08:17:25.113Z",
+      "buildTime": "2018-12-08T03:08:54.101Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a9fabe574bf71a3d4367ca5fce39595f",
+        "contentDigest": "daf5d92a7dfdae1017872c330a7a0669",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1138,49 +1142,6 @@
       "ctime": "2018-12-04T04:51:00.648Z",
       "birthtime": "2018-11-29T20:32:40.570Z"
     },
-    "4d318165-694d-523d-a049-86a790cb4c49": {
-      "id": "4d318165-694d-523d-a049-86a790cb4c49",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "06ffc9ad983daa4f90d53b510b32ffe0",
-        "type": "File",
-        "mediaType": "image/svg+xml",
-        "description": "File \"src\\images\\menu-button.svg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images/menu-button.svg",
-      "relativePath": "menu-button.svg",
-      "extension": "svg",
-      "size": 750,
-      "prettySize": "750 B",
-      "modifiedTime": "2018-12-04T04:51:00.649Z",
-      "accessTime": "2018-11-29T20:32:11.893Z",
-      "changeTime": "2018-12-04T04:51:00.650Z",
-      "birthTime": "2018-11-29T20:32:11.893Z",
-      "root": "C:/",
-      "dir": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images",
-      "base": "menu-button.svg",
-      "ext": ".svg",
-      "name": "menu-button",
-      "relativeDirectory": "",
-      "dev": 3156675764,
-      "mode": 33206,
-      "nlink": 1,
-      "uid": 0,
-      "gid": 0,
-      "rdev": 0,
-      "ino": 3659174697403169,
-      "atimeMs": 1543523531892.9998,
-      "mtimeMs": 1543899060649,
-      "ctimeMs": 1543899060649.8733,
-      "birthtimeMs": 1543523531893.2913,
-      "atime": "2018-11-29T20:32:11.893Z",
-      "mtime": "2018-12-04T04:51:00.649Z",
-      "ctime": "2018-12-04T04:51:00.650Z",
-      "birthtime": "2018-11-29T20:32:11.893Z"
-    },
     "8d910c80-c021-5eb3-867c-b013854e35a3": {
       "id": "8d910c80-c021-5eb3-867c-b013854e35a3",
       "children": [
@@ -1226,6 +1187,59 @@
       "ctime": "2018-12-01T09:02:20.168Z",
       "birthtime": "2018-11-29T20:32:11.887Z"
     },
+    "b0eadf1c-a5b1-5819-be1f-1ba96480c742": {
+      "id": "b0eadf1c-a5b1-5819-be1f-1ba96480c742",
+      "children": [],
+      "parent": "8d910c80-c021-5eb3-867c-b013854e35a3",
+      "internal": {
+        "contentDigest": "da46170ea87fc12cc623ffa643581329",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "4d318165-694d-523d-a049-86a790cb4c49": {
+      "id": "4d318165-694d-523d-a049-86a790cb4c49",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "06ffc9ad983daa4f90d53b510b32ffe0",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src\\images\\menu-button.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images/menu-button.svg",
+      "relativePath": "menu-button.svg",
+      "extension": "svg",
+      "size": 750,
+      "prettySize": "750 B",
+      "modifiedTime": "2018-12-04T04:51:00.649Z",
+      "accessTime": "2018-11-29T20:32:11.893Z",
+      "changeTime": "2018-12-04T04:51:00.650Z",
+      "birthTime": "2018-11-29T20:32:11.893Z",
+      "root": "C:/",
+      "dir": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/images",
+      "base": "menu-button.svg",
+      "ext": ".svg",
+      "name": "menu-button",
+      "relativeDirectory": "",
+      "dev": 3156675764,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 3659174697403169,
+      "atimeMs": 1543523531892.9998,
+      "mtimeMs": 1543899060649,
+      "ctimeMs": 1543899060649.8733,
+      "birthtimeMs": 1543523531893.2913,
+      "atime": "2018-11-29T20:32:11.893Z",
+      "mtime": "2018-12-04T04:51:00.649Z",
+      "ctime": "2018-12-04T04:51:00.650Z",
+      "birthtime": "2018-11-29T20:32:11.893Z"
+    },
     "886edbd6-b4e3-5227-b3b7-d333352883aa": {
       "id": "886edbd6-b4e3-5227-b3b7-d333352883aa",
       "children": [
@@ -1270,16 +1284,6 @@
       "mtime": "2018-12-04T03:50:16.717Z",
       "ctime": "2018-12-04T03:50:16.718Z",
       "birthtime": "2018-11-29T20:32:11.099Z"
-    },
-    "b0eadf1c-a5b1-5819-be1f-1ba96480c742": {
-      "id": "b0eadf1c-a5b1-5819-be1f-1ba96480c742",
-      "children": [],
-      "parent": "8d910c80-c021-5eb3-867c-b013854e35a3",
-      "internal": {
-        "contentDigest": "da46170ea87fc12cc623ffa643581329",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
     },
     "3254b484-7f90-5fd4-b8db-2f9ac01f3d57": {
       "id": "3254b484-7f90-5fd4-b8db-2f9ac01f3d57",
@@ -2476,20 +2480,22 @@
     "017540b1-0215-5eab-adbc-bf7b3d17ca8c": {
       "name": "TBD",
       "staffTitle": "Pastoral Care Leader",
-      "orderNum": 15,
       "portrait___NODE": "f3dd07fc-4f03-5a61-b28e-5f1eaf39c8be",
+      "staff member list___NODE": [
+        "23b1c1fb-a063-59bc-821f-9c0bca226ef7"
+      ],
       "biography___NODE": "8353684f-ef10-5b76-bb95-551f669283c8",
       "id": "017540b1-0215-5eab-adbc-bf7b3d17ca8c",
       "contentful_id": "1A2Q3iqEn6iuOum8sKswwG",
       "createdAt": "2018-11-30T01:50:54.757Z",
-      "updatedAt": "2018-12-07T02:58:58.107Z",
+      "updatedAt": "2018-12-07T18:32:27.503Z",
       "parent": "Staff Member",
       "children": [
         "8353684f-ef10-5b76-bb95-551f669283c8"
       ],
       "internal": {
         "type": "ContentfulStaffMember",
-        "contentDigest": "33f95db92539a8c67f8ec5bcd0153817",
+        "contentDigest": "5c4a073f98d367dc9ed61f39d7ca9277",
         "owner": "gatsby-source-contentful"
       },
       "node_locale": "en-US"
@@ -2498,8 +2504,10 @@
       "name": "Frank Triggs",
       "staffTitle": "Engage Leader",
       "email": "ftriggs@gmail.com",
-      "orderNum": 14,
       "portrait___NODE": "1fedb58a-9f34-5556-9b65-e8818f3e18db",
+      "staff member list___NODE": [
+        "23b1c1fb-a063-59bc-821f-9c0bca226ef7"
+      ],
       "biography___NODE": "a8641874-12ae-5421-8dd9-da966e8a0833",
       "id": "931e87f2-caac-5426-bf98-096fb405516c",
       "contentful_id": "5ebtZ6dzVCEYcsKgKCYgYC",
@@ -2511,7 +2519,7 @@
       ],
       "internal": {
         "type": "ContentfulStaffMember",
-        "contentDigest": "3eb7c918e3264550c5bb2fc4049233a1",
+        "contentDigest": "5245511f2f45239b6d8395bfc140282e",
         "owner": "gatsby-source-contentful"
       },
       "node_locale": "en-US"
@@ -2521,9 +2529,11 @@
       "staffTitle": "Compassion Representative",
       "phone": "(805) 525-0900",
       "email": "pkdrios@yahoo.com",
-      "orderNum": 13,
       "portrait___NODE": "6bb5aa6d-179b-5f1f-97bc-db6c44bdfeea",
       "staffMemberChurch___NODE": "3a96a676-49b8-5199-b7a7-131dcf250ea9",
+      "staff member list___NODE": [
+        "23b1c1fb-a063-59bc-821f-9c0bca226ef7"
+      ],
       "biography___NODE": "e5217608-edc5-5708-9156-19e827380149",
       "id": "b3794971-df84-52ca-9ccf-1f76051a1a48",
       "contentful_id": "1k9pM0wpr4yOkkgiEQ4wMe",
@@ -2535,7 +2545,7 @@
       ],
       "internal": {
         "type": "ContentfulStaffMember",
-        "contentDigest": "3fb77dccc9eab81b45d8cb13172862b9",
+        "contentDigest": "7756b409aecdc75789070584389f255f",
         "owner": "gatsby-source-contentful"
       },
       "node_locale": "en-US"
@@ -2545,9 +2555,11 @@
       "staffTitle": "Youth Ministries Representative",
       "phone": "(805) 466-2626",
       "email": "wendell@atascaderofirst.com",
-      "orderNum": 12,
       "portrait___NODE": "814fe633-050b-5d8c-a1f9-24124f802cef",
       "staffMemberChurch___NODE": "ca856b71-a752-5134-b084-2b610dc9e975",
+      "staff member list___NODE": [
+        "23b1c1fb-a063-59bc-821f-9c0bca226ef7"
+      ],
       "biography___NODE": "1ad5b3d8-4923-5602-8dc4-f4d690628e0a",
       "id": "766deca2-438c-554b-afc0-179a32624737",
       "contentful_id": "2pIj0ZuqowKUgMy4UGwS8U",
@@ -2559,7 +2571,7 @@
       ],
       "internal": {
         "type": "ContentfulStaffMember",
-        "contentDigest": "6841963ee871c917b01606d8e2eafb3e",
+        "contentDigest": "f326c96e2ab7ce47ac993bf9899abac3",
         "owner": "gatsby-source-contentful"
       },
       "node_locale": "en-US"
@@ -2568,8 +2580,10 @@
       "name": "Peggy Still",
       "staffTitle": "Women's Ministries Representative",
       "email": "pegstill.mpn@gmail.com",
-      "orderNum": 11,
       "portrait___NODE": "a4f30d83-7898-555b-8c78-ed85b771f84f",
+      "staff member list___NODE": [
+        "23b1c1fb-a063-59bc-821f-9c0bca226ef7"
+      ],
       "biography___NODE": "4944a038-eb06-59c4-9e2a-42b4c8b07e12",
       "id": "c56ec7ae-f446-57f3-93ad-0e8b5a38b674",
       "contentful_id": "Cyhi1pwecKUgyuYmecmCW",
@@ -2581,7 +2595,7 @@
       ],
       "internal": {
         "type": "ContentfulStaffMember",
-        "contentDigest": "1793d21b62d990784cf59426a9ffac9c",
+        "contentDigest": "ef7c616f1f56e05f1ee2b9197a6c6de1",
         "owner": "gatsby-source-contentful"
       },
       "node_locale": "en-US"
@@ -2591,9 +2605,11 @@
       "staffTitle": "Central Fellowship & Credentials Representative",
       "phone": "(805) 489-3328",
       "email": "revkev@pacificchristianag.com",
-      "orderNum": 10,
       "portrait___NODE": "a71e71cc-cdc5-56a8-9b9a-f3bdf708842e",
       "staffMemberChurch___NODE": "c9456e5f-f87e-5103-a091-76ba68f13230",
+      "staff member list___NODE": [
+        "23b1c1fb-a063-59bc-821f-9c0bca226ef7"
+      ],
       "biography___NODE": "977ec510-5aa1-5631-8802-60fcda317726",
       "id": "c823abd0-64f6-5caf-bc67-c0ecaa855691",
       "contentful_id": "64xqzhIvaEQAoYqAeK2yQG",
@@ -2605,7 +2621,7 @@
       ],
       "internal": {
         "type": "ContentfulStaffMember",
-        "contentDigest": "d5ac790cf63e19023c1fea43d6351340",
+        "contentDigest": "e36582be86112b0209eb8e14219e4087",
         "owner": "gatsby-source-contentful"
       },
       "node_locale": "en-US"
@@ -2615,9 +2631,11 @@
       "staffTitle": "Southern Fellowship & Credentials Representative",
       "phone": "(805) 494-5051",
       "email": "dkjeffery@aol.com",
-      "orderNum": 9,
       "portrait___NODE": "310f6a6c-9aab-5ed7-aaf7-f7ba00868d26",
       "staffMemberChurch___NODE": "fbfcdf92-5b67-5e3e-8496-157b2b43338c",
+      "staff member list___NODE": [
+        "23b1c1fb-a063-59bc-821f-9c0bca226ef7"
+      ],
       "biography___NODE": "cf442286-0556-5503-8190-aaa6f5af2ea9",
       "id": "e6df013b-e44e-5da7-9940-b898e59156af",
       "contentful_id": "2ZN5YmBvra8K4iQ0YIYQwI",
@@ -2629,7 +2647,7 @@
       ],
       "internal": {
         "type": "ContentfulStaffMember",
-        "contentDigest": "bf08e233286cab06eb34c48b43f54d73",
+        "contentDigest": "062614ada9e976c366e4c3ff0d68a5d0",
         "owner": "gatsby-source-contentful"
       },
       "node_locale": "en-US"
@@ -2639,9 +2657,11 @@
       "staffTitle": "Northern Fellowship & Credentials Representative",
       "phone": "(805) 434-2616",
       "email": "jwaynesay@gmail.com",
-      "orderNum": 8,
       "portrait___NODE": "46d6b751-a034-507a-b4eb-e04409bcd258",
       "staffMemberChurch___NODE": "a9e66db2-793f-5ac2-b97b-eae1e6f7ab74",
+      "staff member list___NODE": [
+        "23b1c1fb-a063-59bc-821f-9c0bca226ef7"
+      ],
       "biography___NODE": "8a14a6d1-21b9-5461-b60e-b6a6d304a3ea",
       "id": "88d82f6d-5e84-5b4a-a958-e2547b5ba026",
       "contentful_id": "5TOOXRsyC4kY8gqwU0OUaY",
@@ -2653,7 +2673,7 @@
       ],
       "internal": {
         "type": "ContentfulStaffMember",
-        "contentDigest": "bfcfa29e3dece82adcba9a4a2d417098",
+        "contentDigest": "d145068428d8e36232fab647af00611d",
         "owner": "gatsby-source-contentful"
       },
       "node_locale": "en-US"
@@ -2663,9 +2683,11 @@
       "staffTitle": "Missions Representative",
       "phone": "(805) 646-1296",
       "email": "rtriggs@ojaiclc.org",
-      "orderNum": 7,
       "portrait___NODE": "c05b13c4-de46-595f-bf40-654d2dc6d438",
       "staffMemberChurch___NODE": "f91f0857-2d1b-5048-8f29-3bec76916550",
+      "staff member list___NODE": [
+        "23b1c1fb-a063-59bc-821f-9c0bca226ef7"
+      ],
       "biography___NODE": "14810a78-aa77-5f87-b560-6272830875d4",
       "id": "f69397b7-d403-5839-a2a7-a0537fc46921",
       "contentful_id": "6A4JWZt73iscWkUmsKWkwg",
@@ -2677,7 +2699,7 @@
       ],
       "internal": {
         "type": "ContentfulStaffMember",
-        "contentDigest": "6bf4cd33b0c5b1aa76d2362164dae92b",
+        "contentDigest": "eb93047f31bf91cbef7d5052a969ff2e",
         "owner": "gatsby-source-contentful"
       },
       "node_locale": "en-US"
@@ -2687,9 +2709,11 @@
       "staffTitle": "Under 40 Representative",
       "phone": "(805) 646-1296",
       "email": "jmoss@syvcrossroads.church",
-      "orderNum": 6,
       "portrait___NODE": "0671f7a9-ba36-5a66-889e-d1981bfe5531",
       "staffMemberChurch___NODE": "485476b0-abe6-5eeb-bd13-87ba94ce84dc",
+      "staff member list___NODE": [
+        "23b1c1fb-a063-59bc-821f-9c0bca226ef7"
+      ],
       "biography___NODE": "285752c8-a1ee-5b45-8c14-9e82fb98848d",
       "id": "4f1269de-b778-5119-9a2e-674bd27cf003",
       "contentful_id": "2qzapzp5wIcEIYMaOaSS8U",
@@ -2701,7 +2725,7 @@
       ],
       "internal": {
         "type": "ContentfulStaffMember",
-        "contentDigest": "77c5e1c62e1adaff5640a8a3b90079c8",
+        "contentDigest": "ba3e7ce8a0e46cab7bb3921a99790bb6",
         "owner": "gatsby-source-contentful"
       },
       "node_locale": "en-US"
@@ -2711,9 +2735,11 @@
       "staffTitle": "Kid's Ministries Representative",
       "phone": "(805) 934-3491",
       "email": "young.pby@gmail.com",
-      "orderNum": 5,
       "portrait___NODE": "c2314aa7-307c-5ec3-bf22-2ae376f1d50e",
       "staffMemberChurch___NODE": "57a8dd60-5206-5eea-bbbd-d56bab8e210a",
+      "staff member list___NODE": [
+        "23b1c1fb-a063-59bc-821f-9c0bca226ef7"
+      ],
       "biography___NODE": "7d03d2c5-00dc-50e8-bc1c-0b37baf5ad4b",
       "id": "a96e9c76-570b-582f-b32e-a11e777ba79b",
       "contentful_id": "zB11TkvvxuI2iYmas6o4m",
@@ -2725,7 +2751,7 @@
       ],
       "internal": {
         "type": "ContentfulStaffMember",
-        "contentDigest": "b4c73e3d48d9a9e5b31b953041a43058",
+        "contentDigest": "ebc9c0604ca104b3a4fedb2ec02bd571",
         "owner": "gatsby-source-contentful"
       },
       "node_locale": "en-US"
@@ -2735,9 +2761,11 @@
       "staffTitle": "Intercultural Representative",
       "phone": "(805) 490-9025",
       "email": "paulbvicente@gmail.com",
-      "orderNum": 4,
       "portrait___NODE": "3f6282c7-6c86-5275-ac5e-ec18203c0fb7",
       "staffMemberChurch___NODE": "82b4a4d1-19ea-5d0b-824e-2194fb566283",
+      "staff member list___NODE": [
+        "23b1c1fb-a063-59bc-821f-9c0bca226ef7"
+      ],
       "biography___NODE": "230cfa09-fc82-5989-9e7f-3c35f200d74f",
       "id": "010dafcb-9cac-50bd-bd1b-3b4f62731468",
       "contentful_id": "4QKyS83ZEQ0aYkSgoQaIEY",
@@ -2749,7 +2777,7 @@
       ],
       "internal": {
         "type": "ContentfulStaffMember",
-        "contentDigest": "977ec66930a9c1969d85bc40bb35ab32",
+        "contentDigest": "c80576b8665e4d3938ca54ad7e2a4adb",
         "owner": "gatsby-source-contentful"
       },
       "node_locale": "en-US"
@@ -2759,9 +2787,11 @@
       "staffTitle": "Credentialed Female Representative",
       "phone": "(805) 934-3491",
       "email": "pastordebr@yahoo.com",
-      "orderNum": 3,
       "portrait___NODE": "334a9d78-d86a-5905-a8d3-f16be41dbcb7",
       "staffMemberChurch___NODE": "57a8dd60-5206-5eea-bbbd-d56bab8e210a",
+      "staff member list___NODE": [
+        "23b1c1fb-a063-59bc-821f-9c0bca226ef7"
+      ],
       "biography___NODE": "78a206f7-79ed-5960-8227-e51ba14dd51b",
       "id": "ff6abc21-7038-52f9-a43e-fd3f2ea01ee9",
       "contentful_id": "2K9Fc9IrTGQuwcUK8GUcqc",
@@ -2773,7 +2803,7 @@
       ],
       "internal": {
         "type": "ContentfulStaffMember",
-        "contentDigest": "e337f901fa025c4f16a763788fbea5c8",
+        "contentDigest": "80eaee2df76adb925ec40f4a5c923447",
         "owner": "gatsby-source-contentful"
       },
       "node_locale": "en-US"
@@ -2783,9 +2813,11 @@
       "staffTitle": "Men's Ministries Representative",
       "phone": "(805) 901-3356",
       "email": "chas@venturafirst.com",
-      "orderNum": 2,
       "portrait___NODE": "cc828647-c5ac-586a-93f4-3f599f92fa92",
       "staffMemberChurch___NODE": "12e9902a-4de1-52e8-8c51-0374423d5215",
+      "staff member list___NODE": [
+        "23b1c1fb-a063-59bc-821f-9c0bca226ef7"
+      ],
       "biography___NODE": "db32bbf0-53b1-5e18-b02d-7752c542edc9",
       "id": "2f4c342c-ef72-57e8-9f0d-4ace61c6aac0",
       "contentful_id": "7sxMplxq2Qcc6u424IQ0kq",
@@ -2797,7 +2829,7 @@
       ],
       "internal": {
         "type": "ContentfulStaffMember",
-        "contentDigest": "521c43a3307fd27d397b05ce70ce722b",
+        "contentDigest": "e2b4d30185793490ab154f9904f4ec0b",
         "owner": "gatsby-source-contentful"
       },
       "node_locale": "en-US"
@@ -2807,9 +2839,11 @@
       "staffTitle": "Executive Presbyter",
       "phone": "(805) 647-2004",
       "email": "socalregion1@gmail.com",
-      "orderNum": 1,
       "portrait___NODE": "0af4fe12-0953-52da-a8b9-946f97f6e492",
       "staffMemberChurch___NODE": "12e9902a-4de1-52e8-8c51-0374423d5215",
+      "staff member list___NODE": [
+        "23b1c1fb-a063-59bc-821f-9c0bca226ef7"
+      ],
       "biography___NODE": "9ff9f79d-3313-5ec7-91d1-09ede535c8a1",
       "id": "43734280-6a51-5c8f-b881-7565dd609c05",
       "contentful_id": "skijttwtk4kgkwiSYWcK8",
@@ -2821,7 +2855,7 @@
       ],
       "internal": {
         "type": "ContentfulStaffMember",
-        "contentDigest": "32985d6bab04a6680dd1571709119f7f",
+        "contentDigest": "f68405187a117186932026a585abb6f7",
         "owner": "gatsby-source-contentful"
       },
       "node_locale": "en-US"
@@ -3289,6 +3323,51 @@
         "contentDigest": "27a8ec7594c7582e725002cdfa5e7e26",
         "owner": "gatsby-source-contentful"
       }
+    },
+    "38285bd1-2d4d-5c27-8f87-38b28cfba1c9": {
+      "id": "38285bd1-2d4d-5c27-8f87-38b28cfba1c9",
+      "parent": null,
+      "children": [],
+      "name": "Staff Member List",
+      "displayField": "doNotEditThisField",
+      "description": "The entire list ordering of staff members",
+      "internal": {
+        "type": "ContentfulContentType",
+        "contentDigest": "844999959fb3c06068c43a442085e42a",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "23b1c1fb-a063-59bc-821f-9c0bca226ef7": {
+      "doNotEditThisField": "Staff Member List",
+      "staffMemberList___NODE": [
+        "2f4c342c-ef72-57e8-9f0d-4ace61c6aac0",
+        "43734280-6a51-5c8f-b881-7565dd609c05",
+        "ff6abc21-7038-52f9-a43e-fd3f2ea01ee9",
+        "e6df013b-e44e-5da7-9940-b898e59156af",
+        "b3794971-df84-52ca-9ccf-1f76051a1a48",
+        "931e87f2-caac-5426-bf98-096fb405516c",
+        "88d82f6d-5e84-5b4a-a958-e2547b5ba026",
+        "4f1269de-b778-5119-9a2e-674bd27cf003",
+        "c823abd0-64f6-5caf-bc67-c0ecaa855691",
+        "010dafcb-9cac-50bd-bd1b-3b4f62731468",
+        "c56ec7ae-f446-57f3-93ad-0e8b5a38b674",
+        "a96e9c76-570b-582f-b32e-a11e777ba79b",
+        "f69397b7-d403-5839-a2a7-a0537fc46921",
+        "017540b1-0215-5eab-adbc-bf7b3d17ca8c",
+        "766deca2-438c-554b-afc0-179a32624737"
+      ],
+      "id": "23b1c1fb-a063-59bc-821f-9c0bca226ef7",
+      "contentful_id": "4t9lujznIci6ImECQsaUO4",
+      "createdAt": "2018-12-07T10:07:01.157Z",
+      "updatedAt": "2018-12-07T23:54:58.094Z",
+      "parent": "Staff Member List",
+      "children": [],
+      "internal": {
+        "type": "ContentfulStaffMemberList",
+        "contentDigest": "2e40dca10957063518d445bb7a3308a2",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
     },
     "f3dd07fc-4f03-5a61-b28e-5f1eaf39c8be": {
       "contentful_id": "5VkBcsVq7YsqmOKaMiAy8y",
@@ -3764,136 +3843,177 @@
   "status": {
     "plugins": {
       "gatsby-source-contentful": {
-        "5dvii562wbqw-master-cdn.contentful.com": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdyZFw6fDj0LDgzNDwq3CrsOuwqfDj8KPZCPCtcKRwpx0IsO4wpTChn4fw7oTwobDu8KOwokFNcKLVMO9eXnDscOlw4LCosOWKcK2JcOSw5hmw70dwq7DksO_acKdwpHDnMOyw6bDryPCj2c"
+        "5dvii562wbqw-master-cdn.contentful.com": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdyZibMKWw5bCnhDDrykSZsKEbMK1wpHDicKRwq1BwrgQVw_DpcOTwojCgnXCpcKiHlnClMO6w4EqwrrCmEbDsk9bIxXDj8K1AHbCkcKCw6_CmlDCncKuw5UJHQAYM37DqMKcLg"
       }
     },
-    "PLUGINS_HASH": "687ab5d924d3fbd1f46c236f6328d7f4"
+    "PLUGINS_HASH": "3232ab0aa63c3ef2073797d44e9cb567"
   },
   "componentDataDependencies": {
     "nodes": {
-      "f3dd07fc-4f03-5a61-b28e-5f1eaf39c8be": [
-        "/about/"
-      ],
-      "8353684f-ef10-5b76-bb95-551f669283c8": [
-        "/about/"
-      ],
-      "1fedb58a-9f34-5556-9b65-e8818f3e18db": [
-        "/about/"
-      ],
-      "a8641874-12ae-5421-8dd9-da966e8a0833": [
-        "/about/"
-      ],
-      "6bb5aa6d-179b-5f1f-97bc-db6c44bdfeea": [
-        "/about/"
-      ],
-      "e5217608-edc5-5708-9156-19e827380149": [
-        "/about/"
-      ],
-      "3a96a676-49b8-5199-b7a7-131dcf250ea9": [
-        "/about/"
-      ],
-      "814fe633-050b-5d8c-a1f9-24124f802cef": [
-        "/about/"
-      ],
-      "1ad5b3d8-4923-5602-8dc4-f4d690628e0a": [
-        "/about/"
-      ],
-      "ca856b71-a752-5134-b084-2b610dc9e975": [
-        "/about/"
-      ],
-      "a4f30d83-7898-555b-8c78-ed85b771f84f": [
-        "/about/"
-      ],
-      "4944a038-eb06-59c4-9e2a-42b4c8b07e12": [
-        "/about/"
-      ],
-      "a71e71cc-cdc5-56a8-9b9a-f3bdf708842e": [
-        "/about/"
-      ],
-      "977ec510-5aa1-5631-8802-60fcda317726": [
-        "/about/"
-      ],
-      "c9456e5f-f87e-5103-a091-76ba68f13230": [
-        "/about/"
-      ],
-      "310f6a6c-9aab-5ed7-aaf7-f7ba00868d26": [
-        "/about/"
-      ],
-      "cf442286-0556-5503-8190-aaa6f5af2ea9": [
-        "/about/"
-      ],
-      "fbfcdf92-5b67-5e3e-8496-157b2b43338c": [
-        "/about/"
-      ],
-      "46d6b751-a034-507a-b4eb-e04409bcd258": [
-        "/about/"
-      ],
-      "8a14a6d1-21b9-5461-b60e-b6a6d304a3ea": [
-        "/about/"
-      ],
-      "a9e66db2-793f-5ac2-b97b-eae1e6f7ab74": [
-        "/about/"
-      ],
-      "c05b13c4-de46-595f-bf40-654d2dc6d438": [
-        "/about/"
-      ],
-      "14810a78-aa77-5f87-b560-6272830875d4": [
-        "/about/"
-      ],
-      "f91f0857-2d1b-5048-8f29-3bec76916550": [
-        "/about/"
-      ],
-      "0671f7a9-ba36-5a66-889e-d1981bfe5531": [
-        "/about/"
-      ],
-      "285752c8-a1ee-5b45-8c14-9e82fb98848d": [
-        "/about/"
-      ],
-      "485476b0-abe6-5eeb-bd13-87ba94ce84dc": [
-        "/about/"
-      ],
-      "c2314aa7-307c-5ec3-bf22-2ae376f1d50e": [
-        "/about/"
-      ],
-      "7d03d2c5-00dc-50e8-bc1c-0b37baf5ad4b": [
-        "/about/"
-      ],
-      "57a8dd60-5206-5eea-bbbd-d56bab8e210a": [
-        "/about/"
-      ],
-      "3f6282c7-6c86-5275-ac5e-ec18203c0fb7": [
-        "/about/"
-      ],
-      "230cfa09-fc82-5989-9e7f-3c35f200d74f": [
-        "/about/"
-      ],
-      "82b4a4d1-19ea-5d0b-824e-2194fb566283": [
-        "/about/"
-      ],
-      "334a9d78-d86a-5905-a8d3-f16be41dbcb7": [
-        "/about/"
-      ],
-      "78a206f7-79ed-5960-8227-e51ba14dd51b": [
-        "/about/"
-      ],
       "cc828647-c5ac-586a-93f4-3f599f92fa92": [
+        "/",
         "/about/"
       ],
       "db32bbf0-53b1-5e18-b02d-7752c542edc9": [
+        "/",
         "/about/"
       ],
       "12e9902a-4de1-52e8-8c51-0374423d5215": [
+        "/",
         "/about/"
       ],
       "0af4fe12-0953-52da-a8b9-946f97f6e492": [
+        "/",
         "/about/"
       ],
       "9ff9f79d-3313-5ec7-91d1-09ede535c8a1": [
+        "/",
+        "/about/"
+      ],
+      "334a9d78-d86a-5905-a8d3-f16be41dbcb7": [
+        "/",
+        "/about/"
+      ],
+      "78a206f7-79ed-5960-8227-e51ba14dd51b": [
+        "/",
+        "/about/"
+      ],
+      "57a8dd60-5206-5eea-bbbd-d56bab8e210a": [
+        "/",
+        "/about/"
+      ],
+      "310f6a6c-9aab-5ed7-aaf7-f7ba00868d26": [
+        "/",
+        "/about/"
+      ],
+      "cf442286-0556-5503-8190-aaa6f5af2ea9": [
+        "/",
+        "/about/"
+      ],
+      "fbfcdf92-5b67-5e3e-8496-157b2b43338c": [
+        "/",
+        "/about/"
+      ],
+      "6bb5aa6d-179b-5f1f-97bc-db6c44bdfeea": [
+        "/",
+        "/about/"
+      ],
+      "e5217608-edc5-5708-9156-19e827380149": [
+        "/",
+        "/about/"
+      ],
+      "3a96a676-49b8-5199-b7a7-131dcf250ea9": [
+        "/",
+        "/about/"
+      ],
+      "1fedb58a-9f34-5556-9b65-e8818f3e18db": [
+        "/",
+        "/about/"
+      ],
+      "a8641874-12ae-5421-8dd9-da966e8a0833": [
+        "/",
+        "/about/"
+      ],
+      "46d6b751-a034-507a-b4eb-e04409bcd258": [
+        "/",
+        "/about/"
+      ],
+      "8a14a6d1-21b9-5461-b60e-b6a6d304a3ea": [
+        "/",
+        "/about/"
+      ],
+      "a9e66db2-793f-5ac2-b97b-eae1e6f7ab74": [
+        "/",
+        "/about/"
+      ],
+      "0671f7a9-ba36-5a66-889e-d1981bfe5531": [
+        "/",
+        "/about/"
+      ],
+      "285752c8-a1ee-5b45-8c14-9e82fb98848d": [
+        "/",
+        "/about/"
+      ],
+      "485476b0-abe6-5eeb-bd13-87ba94ce84dc": [
+        "/",
+        "/about/"
+      ],
+      "a71e71cc-cdc5-56a8-9b9a-f3bdf708842e": [
+        "/",
+        "/about/"
+      ],
+      "977ec510-5aa1-5631-8802-60fcda317726": [
+        "/",
+        "/about/"
+      ],
+      "c9456e5f-f87e-5103-a091-76ba68f13230": [
+        "/",
+        "/about/"
+      ],
+      "3f6282c7-6c86-5275-ac5e-ec18203c0fb7": [
+        "/",
+        "/about/"
+      ],
+      "230cfa09-fc82-5989-9e7f-3c35f200d74f": [
+        "/",
+        "/about/"
+      ],
+      "82b4a4d1-19ea-5d0b-824e-2194fb566283": [
+        "/",
+        "/about/"
+      ],
+      "a4f30d83-7898-555b-8c78-ed85b771f84f": [
+        "/",
+        "/about/"
+      ],
+      "4944a038-eb06-59c4-9e2a-42b4c8b07e12": [
+        "/",
+        "/about/"
+      ],
+      "c2314aa7-307c-5ec3-bf22-2ae376f1d50e": [
+        "/",
+        "/about/"
+      ],
+      "7d03d2c5-00dc-50e8-bc1c-0b37baf5ad4b": [
+        "/",
+        "/about/"
+      ],
+      "c05b13c4-de46-595f-bf40-654d2dc6d438": [
+        "/",
+        "/about/"
+      ],
+      "14810a78-aa77-5f87-b560-6272830875d4": [
+        "/",
+        "/about/"
+      ],
+      "f91f0857-2d1b-5048-8f29-3bec76916550": [
+        "/",
+        "/about/"
+      ],
+      "f3dd07fc-4f03-5a61-b28e-5f1eaf39c8be": [
+        "/",
+        "/about/"
+      ],
+      "8353684f-ef10-5b76-bb95-551f669283c8": [
+        "/",
+        "/about/"
+      ],
+      "814fe633-050b-5d8c-a1f9-24124f802cef": [
+        "/",
+        "/about/"
+      ],
+      "1ad5b3d8-4923-5602-8dc4-f4d690628e0a": [
+        "/",
+        "/about/"
+      ],
+      "ca856b71-a752-5134-b084-2b610dc9e975": [
+        "/",
         "/about/"
       ]
     },
     "connections": {
-      "ContentfulStaffMember": [
+      "ContentfulStaffMemberList": [
+        null,
         "/about/"
       ]
     }
@@ -3902,8 +4022,8 @@
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
-    "about-f34": "679/path---about-f-34-4c2-bYJ1zqgCYEZLdqBLfZ8UUw",
-    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E"
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "about-f34": "951/path---about-f-34-4c2-lQMLyqHgN84lH2U8Cio5uNF6n0"
   },
   "components": {
     "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/.cache/dev-404-page.js": {
@@ -3915,7 +4035,7 @@
       "componentPath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/pages/404.js"
     },
     "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/pages/about.js": {
-      "query": "query cUsersJdcasJdcastroWebDdSocalRegion1SrcPagesAboutJs1251492242 {\n  allContentfulStaffMember {\n    edges {\n      node {\n        orderNum\n        name\n        staffTitle\n        portrait {\n          file {\n            url\n          }\n        }\n        biography {\n          biography\n        }\n        email\n        phone\n        staffMemberChurch {\n          churchName\n          streetAddress\n          city\n        }\n      }\n    }\n  }\n}\n",
+      "query": "query cUsersJdcasJdcastroWebDdSocalRegion1SrcPagesAboutJs4259102630 {\n  allContentfulStaffMemberList {\n    edges {\n      node {\n        doNotEditThisField\n        staffMemberList {\n          name\n          staffTitle\n          email\n          phone\n          portrait {\n            file {\n              url\n            }\n          }\n          biography {\n            content {\n              content {\n                value\n                nodeType\n              }\n            }\n          }\n          staffMemberChurch {\n            churchName\n            streetAddress\n            city\n            zipCode\n          }\n        }\n      }\n    }\n  }\n}\n",
       "componentPath": "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/pages/about.js"
     },
     "C:/Users/jdcas/jdcastro-web-dd/socal-region-1/src/pages/index.js": {
