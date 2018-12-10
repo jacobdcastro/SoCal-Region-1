@@ -83,7 +83,8 @@ class About extends React.Component {
             <Head title="About Us - SoCal Region 1" />
             <SideNav action={this.closeMobileNav} open={this.state.mobileNavIsOpen} />
             <Navbar action={this.openMobileNav} mobileNavIsOpen={this.state.mobileNavIsOpen} />
-            <PageHeader headline="WHO WE ARE" />
+            <PageHeader headline="WHO WE ARE" className="aboutPage" />
+            
             <MainSection>
                <ContentContainer>
                   <Story>
@@ -108,6 +109,7 @@ class About extends React.Component {
                               bio={staffMember.biography.content[0].content[0].value}
                               email={staffMember.email}
                               phone={staffMember.phone}
+                              miscInfo={staffMember.miscellaneousInfo}
                               church={staffMember.staffMemberChurch}
                            />
                         );
@@ -136,6 +138,7 @@ export const aboutQuery = graphql`
                   staffTitle
                   email
                   phone
+                  miscellaneousInfo
                   portrait {
                      file {
                         url

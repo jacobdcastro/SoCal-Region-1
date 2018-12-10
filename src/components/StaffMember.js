@@ -56,6 +56,11 @@ const BioDiv = styled.div`
       font-size: 1.15em;
       letter-spacing: .5px;
    }
+   @media (max-width: 480px) {
+      p {
+         font-size: 1.1em;
+      }
+   }
    @media (min-width: 724px) {
       align-self: flex-end;
    }
@@ -82,9 +87,11 @@ const StaffMemberChurch = ({churchName, address, city}) =>
       {address}<br />
       {city}<br /></p>;
 
+const MiscInfo = ({text}) => <i>{text}</i>;
 
 class StaffMember extends React.Component {
    render() {
+      console.log(this.props.miscInfo);
       return (
          <StaffMemberContainer>
             <PhotoDiv>
@@ -103,7 +110,9 @@ class StaffMember extends React.Component {
                </div>
                <div className="contact-right">
                   <p><b>Phone:</b> {this.props.phone}<br />
-                     <b>Email:</b> {this.props.email}</p>
+                     <b>Email:</b> {this.props.email}<br />
+                     {this.props.miscInfo ? <MiscInfo text={this.props.miscInfo}  /> : <div />}
+                  </p>
                </div>
             </StaffContactDiv>
          </StaffMemberContainer>
