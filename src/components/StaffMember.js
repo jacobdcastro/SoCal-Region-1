@@ -91,7 +91,6 @@ const MiscInfo = ({text}) => <i>{text}</i>;
 
 class StaffMember extends React.Component {
    render() {
-      console.log(this.props.miscInfo);
       return (
          <StaffMemberContainer>
             <PhotoDiv>
