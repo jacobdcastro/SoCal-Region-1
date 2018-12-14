@@ -5,6 +5,7 @@ import Head from '../utils/Helmet';
 import SideNav from '../components/SideNav';
 import Navbar from '../components/Navbar';
 import PageHeader from '../components/PageHeader';
+import Event from '../components/Event';
 import Footer from '../components/Footer';
 
 const EventsContainer = styled.div`
@@ -55,6 +56,7 @@ class Events extends React.Component {
    }
 
    render() {
+      console.log(this.props.data.contentfulEventsList.events);
       return (
          <EventsContainer>
             <Head title="Events - SoCal Region 1" />
@@ -65,7 +67,17 @@ class Events extends React.Component {
                <ContentContainer>
                   <h1>Check out our upcoming events!</h1>
 
-                  {/* <Event /> */}
+                  {this.props.data.contentfulEventsList.events.map((event) => {
+                     console.log(event.eventTitle);
+                     return (
+                        <Event
+                           eventTitle={event.eventTitle} 
+                           eventPhoto={event.eventPhoto.file.url}
+                           desc={event.description.content[0].content[0].value}
+                           dates={event.eventDates.content[0].content[0].value}
+                        />
+                     );
+                  })}
 
                </ContentContainer>
             </MainSection>
@@ -78,8 +90,32 @@ class Events extends React.Component {
 
 export default Events;
 
-// export const aboutQuery = graphql`
-// 	query {
-       
-//    }
-// `;
+export const aboutQuery = graphql`
+	query {
+      contentfulEventsList {
+         doNotEditThisField
+         events {
+            eventTitle
+            eventPhoto {
+               file {
+                  url
+               }
+            }
+            description {
+               content {
+                  content {
+                     value
+                  }
+               }
+            }
+            eventDates {
+                content {
+                  content {
+                     value
+                  }
+               }
+            }
+         }
+      } 
+   }
+`;

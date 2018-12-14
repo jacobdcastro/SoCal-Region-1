@@ -2,21 +2,45 @@ import React from 'react';
 import styled from 'styled-components';
 
 const EventContainer = styled.div`
-   margin: 0;
+   padding: 30px 40px 10px;
+   background-color: #bbb;
+   margin-top: 50px;
+   margin-bottom: 50px;
+
+   h1 {
+      font-family: 'neuzeit-grotesk', 'sans-serif';
+      text-transform: uppercase;
+   }
+
+   .photo {
+      text-align: center;
+   }
+
+   .event-photos {
+      height: auto;
+      width: 100%;
+      max-width: 500px;
+      margin: auto;
+   }
+
+   p {
+      font-family: 'neuzeit-grotesk', 'sans-serif';
+      margin: 25px auto;
+      font-size: 1.15em;
+      letter-spacing: .5px;
+   }
 `;
 
 class Event extends React.Component {
    render() {
       return (
          <EventContainer>
-            <div className="photo"><img className="event-photos" src="../images/events-photos/coffee-w-pastor-rich-updated-3.19.18.png" /></div>
-               <h1>COFFEE w/ PASTOR RICH</h1>
-               <p>A unique opportunity for you to spend time with our Superintendent, ask questions, pray together, and be discipled and encouraged. </p>
-               <div className="info">
-                  <p><b>When:</b><br />
-                  - Thursday, July 19th, 2018<br />
-               - Thursday, September 13th, 2018</p>
-          </div>
+            <div className="photo"><img className="event-photos" src={this.props.eventPhoto} /></div>
+            <h1>{this.props.eventTitle}</h1>
+            <p>{this.props.desc}</p>
+            <div className="info">
+               {this.props.dates ? <p><b>When:</b><br />{this.props.dates}</p> : <div />}
+            </div>
          </EventContainer>
       );
    }

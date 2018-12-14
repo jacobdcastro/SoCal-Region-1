@@ -36,6 +36,10 @@ const Header = styled.header`
    }
    @media (min-width: 724px) {
       height: 400px;
+      img {
+         height: 45px;
+         width: auto;
+      }
    }
    @media (min-width: 1080px) {
       height: 485px;
@@ -58,35 +62,24 @@ const HeaderContent = styled.div`
       padding: 5px 5px 5px 19px;
       text-align: center;
    }
-  
    @media (max-width: 480px) {
       h1 {
       font-size: 1.7em;
-      font-weight: 700;
-      letter-spacing: 10px;
       border: 3.5px solid #fff;
-      margin: 20px 0px;
       padding: 5px 3px 5px 10px;
-      text-align: center;
+      }
+   }
+   @media (min-width: 724px) {
+      h1 {
+         font-size: 4.2em;
+         letter-spacing: 13px;
+         border: 7px solid #fff;
       }
    }
 `;
 
-// const theme = {
-//    aboutPage = 'aboutBannerImg',
-//    churchesPage = 'churchesBannerImg',
-//    eventsPage = 'eventsBannerImg'
-// };
-
 class PageHeader extends React.Component {
    render() {
-   //    if (this.props.aboutPage) {
-   //       const bgImg = aboutBannerImg;
-   //    } else if (this.props.churchesPage) {
-   //       const bgImg = churchesBannerImg;
-   //    } else if (this.props.eventsPage) {
-   //       const bgImg = eventsBannerImg;
-   //    }
       return (
          <PageHeaderContainer>
             <Header className={this.props.className} >

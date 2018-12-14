@@ -146,7 +146,7 @@ const IntroBanner = styled.div`
 	}
 `;
 
-class Home extends React.Component {
+class Index extends React.Component {
 	constructor(props) {
 		super(props);
 		
@@ -229,4 +229,4 @@ class Home extends React.Component {
 	}
 }
 
-export default Home;
+export default Index;

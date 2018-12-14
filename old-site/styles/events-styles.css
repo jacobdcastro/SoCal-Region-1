@@ -140,17 +140,6 @@ main {
   margin-bottom: 50px;
 }
 
-.event {
-  padding: 30px 40px 10px;
-  background-color: #bbb;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-.event h1 {
-  text-transform: uppercase;
-}
-
 .photo {
   text-align: center;
 }

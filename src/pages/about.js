@@ -78,6 +78,7 @@ class About extends React.Component {
    }
    
    render() {
+      // console.log(file);
       return (
          <AboutContainer>
             <Head title="About Us - SoCal Region 1" />
@@ -161,6 +162,15 @@ export const aboutQuery = graphql`
                }
             }
          }
-      } 
+      }
+      file {
+         childImageSharp {
+            fluid {
+               aspectRatio
+               src
+               srcSet
+            }
+         }
+      }
    }
 `;
