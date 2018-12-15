@@ -10,6 +10,7 @@ class Head extends React.Component {
 			<Helmet>
 				<title>{this.props.title}</title>
 				<link rel="stylesheet" href="https://use.typekit.net/jdf0dzq.css" />
+				<link href="https://fonts.googleapis.com/css?family=Economica|Prata" rel="stylesheet" /> 
 			</Helmet>
 		);
 	}
