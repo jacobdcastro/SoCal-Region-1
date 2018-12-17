@@ -3,22 +3,19 @@ import manNightMainImg from '../../images/summit-photos/man-night-main.jpg';
 import manNightTallImg from '../../images/summit-photos/man-under-stars-tall.jpg';
 import spaceImg from '../../images/summit-photos/space-image.jpg';
 
+console.log(manNightTallImg);
 
 const PageContainer = styled.div`
-   /*
+/* ==================
   This is the main base styles for the SoCal Region 1 Website. It includes things like font type, colors, images, etc.
-  Everything in this stylesheet is sized and styled for the mobile version of site.
-
-  **FLEXBOX LAYOUTS ARE NOT INCLUDED IN THIS FILE**
-  See flex.css in 'styles' folder for layout.
-
-  **MEDIA QUERIES ARE NOT INCLUDED IN THIS FILE**
-  See medque.css in 'styles' folder for media queries.
 
   Your lovely web developer
-  Jacob D. Castro
+    Jacob D. Castro
+================== */
 
-*/
+#sideNav {
+  z-index: 5;
+}
 
 /*=== FONT STYLING ===*/
 h1,
@@ -45,12 +42,6 @@ li {
 p {
   letter-spacing: 1.75px;
 }
-
-
-
-
-
-
 
 /* ===========================
         NAVIGATION BAR STYLE
@@ -93,8 +84,6 @@ p {
 }
 
 
-
-
 /* ===========================
         MAIN HEADER STYLE
     ----------------------------*/
@@ -134,7 +123,7 @@ header {
   margin: 20px auto;
   text-align: center;
   text-shadow: 4px 9px 14px #040404;
-  z-index: 2;
+  z-index: 0;
 }
 
 .header-content h3 {
@@ -166,7 +155,7 @@ header {
 
 .line {
   position: absolute;
-  z-index: 1;
+  z-index: 0;
   width: 100%;
   background-color: #fff;
 }
@@ -337,7 +326,7 @@ header {
   letter-spacing: 3px;
   padding: 15px 5%;
   max-width: 900px;
-  display: none;
+  display: block;
 }
 
 .speakers h5 {
@@ -350,19 +339,16 @@ header {
   margin: 5px auto;
 }
 
-
 /* ====================================== */
 
 .schedule-section {
   z-index: 0;
   text-align: center;
-  background: linear-gradient(#040404, rgba(0, 0, 0, 0.1), #040404),
-   url(${spaceImg});
+  background: linear-gradient(#040404, rgba(0, 0, 0, 0.1), #040404), url(${spaceImg});
   background-position: center;
   background-size: cover;
   width: 100%;
   height: 750px;
-
 }
 
 .schedule-headline {
@@ -520,9 +506,11 @@ header {
 /* =============================== */
 
 .register-section {
-  background: linear-gradient(#040404, rgba(0, 0, 0, 0.001), #040404), url(${manNightTallImg});
+  z-index: 0;
+  background: linear-gradient(#040404, rgba(0, 0, 0, 0.001), #040404), url(${manNightMainImg});
   background-position: bottom;
   background-size: cover;
+  width: 100%;
   height: 550px;
 }
 
@@ -846,7 +834,6 @@ header, .header-content {
   }
 
   .register-section {
-    background: linear-gradient(#040404, rgba(0, 0, 0, 0.001), #040404), url('../../images/summit-photos/man-night-main.jpg');
     background-position: bottom;
     background-size: cover;
     height: 550px;
@@ -1019,7 +1006,7 @@ header, .header-content {
   }
 
   .register-section {
-    background: linear-gradient(#040404, rgba(0, 0, 0, 0.001), #040404), url('../../images/summit-photos/man-night-main.jpg');
+    background: linear-gradient(#040404, rgba(0, 0, 0, 0.001), #040404), url(${manNightMainImg});
     background-position: bottom;
     background-size: cover;
     height: 520px;
@@ -1121,7 +1108,7 @@ header, .header-content {
       }
 
       .register-section {
-        background: linear-gradient(#040404, rgba(0, 0, 0, 0.001), #040404), url('../../images/summit-photos/man-night-main.jpg');
+        background: linear-gradient(#040404, rgba(0, 0, 0, 0.001), #040404), url(${manNightMainImg});
         background-position: bottom;
         background-size: cover;
         height: 600px;
@@ -1168,7 +1155,6 @@ header, .header-content {
     height: 750px;
   }
 }
-
 `;
 
 export default PageContainer;

@@ -1,0 +1,42 @@
+{
+   "shepherd": {
+      "idName": "richShepherd",
+      "className1": "rich-shepherd",
+      "firstName": "Rich",
+      "lastName": "Shepherd",
+      "photoFileName": "rich-shepherd2.png",
+      "biography": "Rich Shepherd is the Campus Pastor at Canyon Hills: San Luis Obispo. For 15 years, he, along with his wife, Vanessa, were Youth Pastors in Northern California and the Central Valley and have now been on the Central Coast for almost two years. Along with being Youth Pastors, they also served as media directors, college-age pastors, and children's pastors. They absolutely love the local church and believe it is the hope of the world. They have two children, MJ & Jacob and absolutely love all things coastal!"
+   },
+   "dogterom": {
+      "idName": "drBillDogterom",
+      "className1": "bill-dogterom",
+      "firstName": "Bill",
+      "lastName": "Dogterom",
+      "photoFileName": "dr-bill-dogterom2.png",
+      "biography": "Bill Dogterom has taught at Vanguard University for 20 years and has pastored and served as a pastoral consultant for 40 years. His passion is to partner with the Holy Spirit to prepare and support the next generations of ministers - regardless of their vocational calling. He and Judy have three adult sons, two daughters-in-law, and one perfect granddaughter."
+   },
+   "moss": {
+      "idName": "joeMoss",
+      "className1": "joe-moss",
+      "firstName": "Joe",
+      "lastName": "Moss",
+      "photoFileName": "joe-moss2.png",
+      "biography": "Joe is from Los Angeles, CA where he grew up being a part of leading worship since he was 12 years old. For the last 10 years, Joe has served in full-time ministry as a worship pastor with Assembly of God churches in Northern and Southern California, including 8 years in Ojai. He now serves as Worship & Executive pastor at Crossroads Church in the Santa Ynez Valley."
+   },
+   "quintana": {
+      "idName": "ricardoQuintana",
+      "className1": "ricardo-quintana",
+      "firstName": "Ricardo",
+      "lastName": "Quintana",
+      "photoFileName": "ricardo-q2.png",
+      "biography": "Ricardo has been a youth, executive, and lead pastor over the past 30 years. He was an Executive Pastor at New Life Church in Renton, Washington and experienced leadership at a church that doubled from 1700 to 3400 in just 7 years. It was there he learned the value of creating irrestistible environments for all who attend. From the street to the seat, everything matters to those looking for a place to connect with God and others. Along with a passion for reaching people for Christ, Ricardo understands the 'why' behind the need for a warm and welcoming environment at every church."
+   },
+   "johnson": {
+      "idName": "joannJohnson",
+      "className1": "joan-johnson",
+      "firstName": "JoAnn",
+      "lastName": "Johnson",
+      "photoFileName": "joann-johnson2.png",
+      "biography": "JoAnn loves to inspire and empower others to reach their God-given potential. She has a passion to see the next generation of leaders trained and mobilized into ministry. Starting as the receptionist at Covina Assembly, she was given opportunities to take on more responsibilty and ultimately became one of the Preaching Pastors as well as the Executive Pastor. JoAnn is responsible for leading the Student Ministries and Young Adult Ministries. Her biggest accomplishment is her family. Her wonderful husband, Eric, and their two boys, Russell and Shane, keep life exciting!"
+   }
+}

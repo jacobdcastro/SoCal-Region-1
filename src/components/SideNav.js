@@ -2,18 +2,8 @@ import React from 'react';
 import { Link } from 'gatsby';
 import styled from 'styled-components';
 
-const CloseBtn = styled.p`
-	position: absolute;
-	display: block;
-	top: -50px;
-	right: 25px;
-	font-size: 58px;
-	margin-left: 50px;
-	cursor: pointer;
-	color: white;
-`;
-
 const SideNavContainer = styled.div`
+	z-index: 5;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -40,6 +30,17 @@ const SideNavContainer = styled.div`
 		display: block;
 		transition: 0.3s;
 	}
+`;
+
+const CloseBtn = styled.p`
+	position: absolute;
+	display: block;
+	top: -50px;
+	right: 25px;
+	font-size: 58px;
+	margin-left: 50px;
+	cursor: pointer;
+	color: white;
 `;
 
 class SideNav extends React.Component {

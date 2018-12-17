@@ -1,13 +1,14 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import styled from 'styled-components';
+import { checkPropTypes } from 'prop-types';
 
 const NavbarContainer = styled.nav`
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
-	background-color: #181818;
+	background-color: ${props => props.transparentBG ? 'rgba(0,0,0,0)' : '#181818'};
 	margin: 0;
 	padding: 0;
 	width: 100%;
@@ -119,7 +120,7 @@ const MobileMenuButton = styled.img`
 class Navbar extends React.Component {
 	render() {
 		return (
-			<NavbarContainer id="fullNav">
+			<NavbarContainer id="fullNav" transparentBG={this.props.transparentBG} >
 					<LeftNav>
 						<Link to="."><NavLogo src={require("../images/SoCal.png")} /></Link>
 					</LeftNav>

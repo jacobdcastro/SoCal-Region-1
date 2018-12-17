@@ -1,47 +1,60 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import Head from '../utils/Helmet';
-// import SideNav from '../components/SideNav';
-// import Navbar from '../components/Navbar';
-import PhotoGallery from '../components/summit/PhotoGallery';
 import PageContainer from '../components/summit/SummitPageContainer';
-import arrowImg from '../images/down-arrow.png';
+import SideNav from '../components/SideNav';
+import Navbar from '../components/Navbar';
+import PhotoGallery from '../components/summit/PhotoGallery';
+import speakerData from '../utils/summitSpeakerData.json';
+import SpeakerBio from '../components/summit/SpeakerBio';
+
 
 class Summit extends React.Component {
+   constructor(props) {
+      super(props);
+      this.openMobileNav = this.openMobileNav.bind(this);
+      this.closeMobileNav = this.closeMobileNav.bind(this);
+      this.state = {
+         mobileNavIsOpen: false,
+         popupIsShowing: {
+            richShepherd: false,
+            billDogterom: false,
+            joeMoss: false,
+            ricardoQuintana: false,
+            joannJohnson: false
+         }
+      };
+   }
+
+   openMobileNav() {
+      this.setState({
+         mobileNavIsOpen: true
+      })
+   }
+
+   closeMobileNav() {
+      this.setState({
+         mobileNavIsOpen: false
+      })
+   }
+
    render() {
+      console.log(this.state.bioIsShowing);
       return (
          <PageContainer>
             <Head title="Annual Leadership Summit" />
             <header>
-               <div id="mySidenav" className="sidenav">
-                  <a href="javascript:void(0)" id="closeButton" className="closebtn">&times;</a>
-                  <a href="index.html">HOME</a>
-                  <a href="pages/events.html">EVENTS</a>
-                  <a href="pages/churches.html">CHURCHES</a>
-                  <a href="pages/about.html">ABOUT</a>
-                  <a href="http://socalnetwork.org/resources/">RESOURCES</a>
+
+               <SideNav id="sideNav" action={this.closeMobileNav} open={this.state.mobileNavIsOpen} />
+               <Navbar action={this.openMobileNav} mobileNavIsOpen={this.state.mobileNavIsOpen} transparentBG />
+
+               <div className="header-content">
+                  <h3>ANNUAL LEADERSHIP SUMMIT</h3>
+                  <div className="beyond-headline headline">
+                     <div className="line white-line1"></div> 
+                     <h1>BEYOND</h1>
+                  </div>
                </div>
-
-               <nav className="navbar" id="fullNav">
-                  <div className="leftnav">
-                     <a href="index.html"><img className="header-logo" src="images/brand/SoCal.png" /></a>
-                  </div>
-                     <div className="rightnav">
-                        <a href="index.html">HOME</a>
-                        <a href="pages/events.html">EVENTS</a>
-                        <a href="pages/churches.html">CHURCHES</a>
-                        <a href="pages/about.html">ABOUT</a>
-                        <a href="http://socalnetwork.org/resources/">RESOURCES</a>
-                     </div>
-                  </nav>
-
-                  <div className="header-content">
-                     <h3>ANNUAL LEADERSHIP SUMMIT</h3>
-                     <div className="beyond-headline headline">
-                        <h1>BEYOND</h1>
-                        <div className="line white-line1"></div> 
-                     </div>
-                  </div>
 
             </header>
             <div className="content-container">
@@ -74,60 +87,29 @@ class Summit extends React.Component {
       
                      <h4 className="breakout-title"><i>With Breakout Speakers Featuring:</i></h4>
 
-                     <div id="richShepherd" className="rich-shepherd speaker">
-                        <div className="rich-title speaker-title">
-                           <img className="speaker-pic" src={require('../images/summit-photos/edited/rich-shepherd2.png')} alt="Portrait of Rich Shepherd" />
-                           <div>
-                              <h4>Rich Shepherd</h4>
-                           </div>
-                           <img className="right-arrow" src={arrowImg} alt="Arrow icon" />
-                        </div>
-                        <p className="bio">Rich Shepherd is the Campus Pastor at Canyon Hills: San Luis Obispo. For 15 years, he, along with his wife, Vanessa, were Youth Pastors in Northern California and the Central Valley and have now been on the Central Coast for almost two years. Along with being Youth Pastors, they also served as media directors, college-age pastors, and children's pastors. They absolutely love the local church and believe it is the hope of the world. They have two children, MJ & Jacob and absolutely love all things coastal!</p>
-                     </div>
-      
-                     <div id="drBillDogterom" className="bill-dogterom speaker">
-                        <div className="bill-title speaker-title">
-                           <img className="speaker-pic" src={require('../images/summit-photos/edited/dr-bill-dogterom2.png')} alt="Portrait of Dr. Bill Dogterom" />
-                           <div>
-                              <h4>Dr. Bill Dogterom</h4>
-                           </div>
-                           <img className="right-arrow" src={arrowImg} alt="Arrow icon" />
-                        </div>
-                        <p className="bio">Bill Dogterom has taught at Vanguard University for 20 years and has pastored and served as a pastoral consultant for 40 years. His passion is to partner with the Holy Spirit to prepare and support the next generations of ministers - regardless of their vocational calling. He and Judy have three adult sons, two daughters-in-law, and one perfect granddaughter.</p>
-                     </div>
-      
-                     <div id="joeMoss" className="joe-moss speaker">
-                        <div className="joe-title speaker-title">
-                           <img className="speaker-pic" src={require('../images/summit-photos/edited/joe-moss2.png')} alt="Portrait of Joe Moss" />
-                           <div>
-                              <h4>Joe Moss</h4>
-                           </div>
-                           <img className="right-arrow" src={arrowImg} alt="Arrow icon" />
-                        </div>
-                        <p className="bio">Joe is from Los Angeles, CA where he grew up being a part of leading worship since he was 12 years old. For the last 10 years, Joe has served in full-time ministry as a worship pastor with Assembly of God churches in Northern and Southern California, including 8 years in Ojai. He now serves as Worship & Executive pastor at Crossroads Church in the Santa Ynez Valley.</p>
-                     </div>
-      
-                     <div id="ricardoQuintana" className="ricardo-quintana speaker">
-                        <div className="ricardo-title speaker-title">
-                           <img className="speaker-pic" src={require('../images/summit-photos/edited/ricardo-q2.png')} alt="Portrait of Ricardo Quintana" />
-                           <div>
-                              <h4>Ricardo Quintana</h4>
-                           </div>
-                           <img className="right-arrow" src={arrowImg} alt="Arrow icon" />
-                        </div>
-                        <p className="bio">Ricardo has been a youth, executive, and lead pastor over the past 30 years. He was an Executive Pastor at New Life Church in Renton, Washington and experienced leadership at a church that doubled from 1700 to 3400 in just 7 years. It was there he learned the value of creating irrestistible environments for all who attend. From the street to the seat, everything matters to those looking for a place to connect with God and others. Along with a passion for reaching people for Christ, Ricardo understands the 'why' behind the need for a warm and welcoming environment at every church.</p>
-                     </div>
-      
-                     <div id="joannJohnson" className="joann-johnson speaker">
-                        <div className="joann-title speaker-title">
-                           <img className="speaker-pic" src={require('../images/summit-photos/edited/joann-johnson2.png')} alt="Portrait of JoAnn Johnson" />
-                           <div>
-                              <h4>JoAnn Johnson</h4>
-                           </div>
-                           <img className="right-arrow" src={arrowImg} alt="Arrow icon" />
-                        </div>
-                        <p className="bio">JoAnn loves to inspire and empower others to reach their God-given potential. She has a passion to see the next generation of leaders trained and mobilized into ministry. Starting as the receptionist at Covina Assembly, she was given opportunities to take on more responsibilty and ultimately became one of the Preaching Pastors as well as the Executive Pastor. JoAnn is responsible for leading the Student Ministries and Young Adult Ministries. Her biggest accomplishment is her family. Her wonderful husband, Eric, and their two boys, Russell and Shane, keep life exciting!</p>
-                     </div>
+                     {/* ===========================================================
+                     =========================================================== */}
+
+                     <SpeakerBio
+                        speaker={speakerData.shepherd}
+                        bioIsShowing={false}
+                     />
+                     <SpeakerBio
+                        speaker={speakerData.dogterom}
+                        bioIsShowing={false}
+                     />
+                     <SpeakerBio 
+                        speaker={speakerData.moss}
+                        bioIsShowing={false}
+                     />
+                     <SpeakerBio
+                        speaker={speakerData.quintana}
+                        bioIsShowing={false}
+                     />
+                     <SpeakerBio
+                        speaker={speakerData.johnson}
+                        bioIsShowing={false} 
+                     />
       
                   </div>
                </div> {/* /.info-section */}
@@ -275,9 +257,9 @@ class Summit extends React.Component {
                   <div className="buttons">
                      <div className="btn btn1"><i>REGISTRATION DETAILS COMING SOON</i></div>
                   </div>
-            </div>
+               </div>
 
-            <p className="copy">&copy; SoCal Region 1 - 2018</p>
+               <p className="copy">&copy; SoCal Region 1 - 2018</p>
             </div>
          </PageContainer>  
       );

@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from 'styled-components';
 
 class PhotoGallery extends React.Component {
    render() {
