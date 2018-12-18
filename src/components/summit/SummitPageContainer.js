@@ -280,55 +280,9 @@ header {
   text-align: center;
   margin: 12px auto;
 }
-.speaker {
-  padding: 25px;
-  border-bottom: 3px solid white;
-  transition: height 0.5s;
-}
-.rich-shepherd {
-  border-top: 3px solid white;
-}
-.speaker-title {
-  height: 40px;
-  cursor: pointer;
-}
-.breakout-title {
-  margin: 45px auto 20px;
-  letter-spacing: 3px;
-  font-size: 1.3em;
-}
-.speaker-pic {
-  height: 55px;
-  width: auto;
-  margin-left: 0;
-}
-.speaker-title div {
-  width: 60%;
-}
-.speaker-title div h4 {
-  font-size: 1.18em;
-  text-align: center;
-  margin: 5px auto;
-  letter-spacing: 3px;
-}
-.right-arrow {
-  height: 18px;
-  width: auto;
-  padding: auto 0px;
-  margin-right: 0px;
-  transform: rotate(0deg);
-  /* transform for attributes in navbar.js */
-  transition: transform 0.5s;
-}
-.bio {
-  font-size: .9em;
-  text-align: left;
-  letter-spacing: 3px;
-  padding: 15px 5%;
-  max-width: 900px;
-  display: block;
-}
 
+/* ====================
+.speaker styles go here */
 .speakers h5 {
   font-size: 1.6em;
   letter-spacing: 3px;
@@ -789,21 +743,7 @@ header, .header-content {
     font-size: 1.5em;
   }
 
-  .speaker {
-    height: 60px;
-  }
-  .speaker-pic {
-    height: 75px;
-    width: auto;
-  }
 
-  .speaker-title div h4 {
-    font-size: 1.5em;
-  }
-
-  .speaker-title {
-    height: 65px;
-  }
 
   .schedule-section {
     height: 900px;
@@ -958,23 +898,6 @@ header, .header-content {
   }
   .speakers {
     width: 80%;
-  }
-  .speaker {
-    height: 75px;
-  }
-  .speaker-title {
-    height: 75px;
-  }
-  .speaker-title div h4 {
-    font-size: 1.78em;
-  }
-  .speaker-pic {
-    height: 105px;
-    width: auto;
-  }
-  .right-arrow {
-    height: 28px;
-    width: auto;
   }
 
   .schedule-section {

@@ -5,41 +5,61 @@ import PageContainer from '../components/summit/SummitPageContainer';
 import SideNav from '../components/SideNav';
 import Navbar from '../components/Navbar';
 import PhotoGallery from '../components/summit/PhotoGallery';
-import speakerData from '../utils/summitSpeakerData.json';
 import SpeakerBio from '../components/summit/SpeakerBio';
+import BreakoutButton from '../components/summit/BreakoutButton';
+import BreakoutPopup from '../components/summit/BreakoutPopup';
 
+import speakerData from '../utils/summitSpeakerData.json';
 
 class Summit extends React.Component {
    constructor(props) {
       super(props);
       this.openMobileNav = this.openMobileNav.bind(this);
       this.closeMobileNav = this.closeMobileNav.bind(this);
+      this.toggleShepherdBio = this.toggleShepherdBio.bind(this);
+      this.toggleDogteromBio = this.toggleDogteromBio.bind(this);
+      this.toggleMossBio = this.toggleMossBio.bind(this);
+      this.toggleQuintanaBio = this.toggleQuintanaBio.bind(this);
+      // this.toggleJohnsonBio = this.toggleJohnsonBio.bind(this);
+      // this.toggleShepherdPopup = this.toggleShepherdPopup.bind(this);
+      // this.toggleDogteromPopup = this.toggleDogteromPopup.bind(this);
+      // this.toggleMossPopup = this.toggleMossPopup.bind(this);
+      // this.toggleQuintanaPopup = this.toggleQuintanaPopup.bind(this);
+      // this.toggleJohnsonPopup = this.toggleJohnsonPopup.bind(this);
+
+
       this.state = {
          mobileNavIsOpen: false,
-         popupIsShowing: {
-            richShepherd: false,
-            billDogterom: false,
-            joeMoss: false,
-            ricardoQuintana: false,
-            joannJohnson: false
-         }
+
+         richShepherdBioIsShowing: false,
+         billDogteromBioIsShowing: false,
+         joeMossBioIsShowing: false,
+         ricardoQuintanaBioIsShowing: false,
+         joannJohnsonBioIsShowing: false,
+         
+         richShepherdPopupIsShowing: false,
+         billDogteromPopupIsShowing: false,
+         joeMossPopupIsShowing: false,
+         ricardoQuintanaPopupIsShowing: false,
+         joannJohnsonPopupIsShowing: false,
       };
    }
+   toggleShepherdBio() { this.setState({ richShepherdBioIsShowing: !this.state.richShepherdBioIsShowing }) }
+   toggleDogteromBio() { this.setState({ billDogteromBioIsShowing: !this.state.billDogteromBioIsShowing }) }
+   toggleMossBio() { this.setState({joeMossBioIsShowing: !this.state.joeMossBioIsShowing}) }
+   toggleQuintanaBio() { this.setState({ricardoQuintanaBioIsShowing: !this.state.ricardoQuintanaBioIsShowing}) }
+   toggleJohnsonBio() { this.setState({joannJohnsonBioIsShowing: !this.state.joannJohnsonBioIsShowing}) }
 
-   openMobileNav() {
-      this.setState({
-         mobileNavIsOpen: true
-      })
-   }
+   // toggleShepherdPopup() { this.setState({ richShepherdPopupIsShowing: !this.state.richShepherdPopupIsShowing }) }
+   // toggleDogteromPopup() { this.setState({ billDogteromPopupIsShowing: !this.state.billDogteromPopupIsShowing }) }
+   // toggleMossPopup() { this.setState({ joeMossPopupIsShowing: !this.state.joeMossPopupIsShowing }) }
+   // toggleQuintanaPopup() { this.setState({ ricardoQuintanaPopupIsShowing: !this.state.ricardoQuintanaPopupIsShowing }) }
+   // toggleJohnsonPopup() { this.setState({ joannJohnsonPopupIsShowing: !this.state.joannJohnsonPopupIsShowing }) }
 
-   closeMobileNav() {
-      this.setState({
-         mobileNavIsOpen: false
-      })
-   }
+   openMobileNav() {this.setState({mobileNavIsOpen: true})}
+   closeMobileNav() {this.setState({mobileNavIsOpen: false})}
 
    render() {
-      console.log(this.state.bioIsShowing);
       return (
          <PageContainer>
             <Head title="Annual Leadership Summit" />
@@ -51,7 +71,7 @@ class Summit extends React.Component {
                <div className="header-content">
                   <h3>ANNUAL LEADERSHIP SUMMIT</h3>
                   <div className="beyond-headline headline">
-                     <div className="line white-line1"></div> 
+                     <div className="line white-line1"></div>
                      <h1>BEYOND</h1>
                   </div>
                </div>
@@ -84,7 +104,7 @@ class Summit extends React.Component {
                         </div>
                         <p>In 2006, Pastor John C. Martin moved to Victorville, California from Seattle, Washington to pastor Victorville First Assembly. In the almost 12 years that Pastor John has been pastoring at Victorville First Assembly, the church has expanded from one to ten campus locations. In addition, the church offers worship services in English, Spanish, Korean, Indonesian and American Sign Language. The church's ministries have more than doubled in number and currently include the Feed My Sheep Food Bank, a School of Ministry, and Victor Valley Christian School. Pastor John has a heart to reach people for Christ and to develop fully devoted followers of God! As witnessed in the growth and expansion of the ministries underneath his leadership, he knows he serves a Big God who is capable of more than we could think or imagine, and he chases after all that God has at full speed.</p>
                      </div>
-      
+
                      <h4 className="breakout-title"><i>With Breakout Speakers Featuring:</i></h4>
 
                      {/* ===========================================================
@@ -92,58 +112,85 @@ class Summit extends React.Component {
 
                      <SpeakerBio
                         speaker={speakerData.shepherd}
-                        bioIsShowing={false}
+                        bioIsShowing={this.state.richShepherdBioIsShowing}
+                        action={this.toggleShepherdBio}
                      />
                      <SpeakerBio
                         speaker={speakerData.dogterom}
-                        bioIsShowing={false}
+                        bioIsShowing={this.state.billDogteromBioIsShowing}
+                        action={this.toggleDogteromBio}
                      />
-                     <SpeakerBio 
+                     <SpeakerBio
                         speaker={speakerData.moss}
-                        bioIsShowing={false}
+                        bioIsShowing={this.state.joeMossBioIsShowing}
+                        action={this.toggleMossBio}
                      />
                      <SpeakerBio
                         speaker={speakerData.quintana}
-                        bioIsShowing={false}
+                        bioIsShowing={this.state.ricardoQuintanaBioIsShowing}
+                        action={this.toggleQuintanaBio}
                      />
                      <SpeakerBio
                         speaker={speakerData.johnson}
-                        bioIsShowing={false} 
+                        bioIsShowing={this.state.joannJohnsonBioIsShowing}
+                        action={this.toggleJohnsonBio}
                      />
-      
+
                   </div>
                </div> {/* /.info-section */}
-               
+
                <div className="description-container">
                   <h1>Breakout Sessions</h1>
                   <div className="description-list">
-                     <button id="richShepherdTalk" className="description-card" >
-                        <h2>Rich Shepherd</h2>
-                        <h3>Beyond Sunday</h3>
-                        <p>Click for more info</p>
-                     </button>
-                     <button id="billDogteromTalk" className="description-card" >
-                        <h2>Dr. Bill Dogterom</h2>
-                        <h3>Beyond Spiritual Barriers</h3>
-                        <p>Click for more info</p>
-                     </button>
-                     <button id="joeMossTalk" className="description-card" >
-                        <h2>Joe Moss</h2>
-                        <h3>Beyond Limitations</h3>
-                        <p>Click for more info</p>
-                     </button>
-                     <button id="ricardoQuintanaTalk" className="description-card" >
-                        <h2>Ricardo Quintana</h2>
-                        <h3>Beyond Visual Barriers</h3>
-                        <p>Click for more info</p>
-                     </button>
-                     <button id="joannJohnsonTalk" className="description-card" >
-                        <h2>JoAnn Johnson</h2>
-                        <h3>Empowering Your Team</h3>
-                        <p>Click for more info</p>
-                     </button>
+
+                     <BreakoutButton 
+                        idName="richShepherdTalk"
+                        speakerData={speakerData.shepherd}
+                     />
+                     <BreakoutButton
+                        idName="billDogteromTalk"
+                        speakerData={speakerData.dogterom}
+                     />
+                     <BreakoutButton
+                        idName="joeMossTalk"
+                        speakerData={speakerData.moss}
+                     />
+                     <BreakoutButton 
+                        idName="ricardoQuintanaTalk"
+                        speakerData={speakerData.quintana}
+                     />
+                     <BreakoutButton
+                        idName="joannJohnsonTalk"
+                        speakerData={speakerData.johnson}
+                     />
                   </div>
                </div>
+
+               {/* {this.state.richShepherdPopupIsShowing ? <BreakoutPopup
+                  idName="richShepherdPopup"
+                  speakerData={speakerData.shepherd}
+               /> : <div />} */}
+
+               {/* <BreakoutPopup
+                  idName="richShepherdPopup"
+                  speakerData={speakerData.shepherd}
+               />
+               <BreakoutPopup
+                  idName="billDogteromPopup"
+                  speakerData={speakerData.dogterom}
+               />
+               <BreakoutPopup
+                  idName="joeMossPopup"
+                  speakerData={speakerData.moss}
+               />
+               <BreakoutPopup
+                  idName="ricardoQuintanaPopup"
+                  speakerData={speakerData.quintana}
+               />
+               <BreakoutPopup
+                  idName="joannJohnsonPopup"
+                  speakerData={speakerData.johnson}
+               /> */}
 
                <div id="richShepherdPopup" className="popup">
                   <div className="popup-content">
@@ -160,7 +207,7 @@ class Summit extends React.Component {
                      </p>
                   </div>
                </div>
-         
+
                <div id="billDogteromPopup" className="popup">
                   <div className="popup-content">
                      <img className="popup-close" alt="close button" src="images/icons/close-button.svg" />
@@ -242,7 +289,7 @@ class Summit extends React.Component {
                      <h4>CLOSING</h4>
                   </div>
                </div>
-         
+
                <div className="cost-section">
                   <h2>Cost To Attend</h2>
                   <h3>Prices For Next Year's Summit<br />
@@ -261,7 +308,7 @@ class Summit extends React.Component {
 
                <p className="copy">&copy; SoCal Region 1 - 2018</p>
             </div>
-         </PageContainer>  
+         </PageContainer>
       );
    }
 }
