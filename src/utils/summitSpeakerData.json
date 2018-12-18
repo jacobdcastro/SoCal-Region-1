@@ -5,7 +5,10 @@
       "firstName": "Rich",
       "lastName": "Shepherd",
       "photoFileName": "rich-shepherd2.png",
-      "biography": "Rich Shepherd is the Campus Pastor at Canyon Hills: San Luis Obispo. For 15 years, he, along with his wife, Vanessa, were Youth Pastors in Northern California and the Central Valley and have now been on the Central Coast for almost two years. Along with being Youth Pastors, they also served as media directors, college-age pastors, and children's pastors. They absolutely love the local church and believe it is the hope of the world. They have two children, MJ & Jacob and absolutely love all things coastal!"
+      "biography": "Rich Shepherd is the Campus Pastor at Canyon Hills: San Luis Obispo. For 15 years, he, along with his wife, Vanessa, were Youth Pastors in Northern California and the Central Valley and have now been on the Central Coast for almost two years. Along with being Youth Pastors, they also served as media directors, college-age pastors, and children's pastors. They absolutely love the local church and believe it is the hope of the world. They have two children, MJ & Jacob and absolutely love all things coastal!",
+      "breakoutTitle": "Beyond Sunday",
+      "breakoutSubtitle": "Making the Other 167 Hours in the Week Count",
+      "breakoutBody": "How do we, as pastors, ministry leaders, and church leaders help those who come through our doors on Sunday live out their Sunday experience the rest of the week? How do we engage them in spiritual growth in the day-to-day? While also keeping them engaged with upcoming events and connection points? And how do we let others in our city know that a great church exists just around the corner? Answer: Online Systems & Social Media! Don't let that intimidate or confuse you, because WE WANT TO HELP and provide you with some amazing tools! Come and we will not only provide you practical steps that anyone can do, but we will also push you towards free content that makes a huge impact!"
    },
    "dogterom": {
       "idName": "drBillDogterom",
@@ -13,7 +16,10 @@
       "firstName": "Bill",
       "lastName": "Dogterom",
       "photoFileName": "dr-bill-dogterom2.png",
-      "biography": "Bill Dogterom has taught at Vanguard University for 20 years and has pastored and served as a pastoral consultant for 40 years. His passion is to partner with the Holy Spirit to prepare and support the next generations of ministers - regardless of their vocational calling. He and Judy have three adult sons, two daughters-in-law, and one perfect granddaughter."
+      "biography": "Bill Dogterom has taught at Vanguard University for 20 years and has pastored and served as a pastoral consultant for 40 years. His passion is to partner with the Holy Spirit to prepare and support the next generations of ministers - regardless of their vocational calling. He and Judy have three adult sons, two daughters-in-law, and one perfect granddaughter.",
+      "breakoutTitle": "Beyond Spiritual Barriers",
+      "breakoutSubtitle": "Engaging Next-Gen in the Gifts of the Spirit",
+      "breakoutBody": "For classical Pentecostals, the manifestation of the gifts of the Spirit in a public worship environment is a mark of authenticity - but seems to be dwindling in frequency and relevance. This workshop will focus on ways of engaging and empowering Next-Gen pentecostals in the use of the Gifts of the Spirit in a way that builds up the Body of Christ."
    },
    "moss": {
       "idName": "joeMoss",
@@ -21,7 +27,10 @@
       "firstName": "Joe",
       "lastName": "Moss",
       "photoFileName": "joe-moss2.png",
-      "biography": "Joe is from Los Angeles, CA where he grew up being a part of leading worship since he was 12 years old. For the last 10 years, Joe has served in full-time ministry as a worship pastor with Assembly of God churches in Northern and Southern California, including 8 years in Ojai. He now serves as Worship & Executive pastor at Crossroads Church in the Santa Ynez Valley."
+      "biography": "Joe is from Los Angeles, CA where he grew up being a part of leading worship since he was 12 years old. For the last 10 years, Joe has served in full-time ministry as a worship pastor with Assembly of God churches in Northern and Southern California, including 8 years in Ojai. He now serves as Worship & Executive pastor at Crossroads Church in the Santa Ynez Valley.",
+      "breakoutTitle": "Beyond Limitations",
+      "breakoutSubtitle": "Limited Resource does not Equal Limited Worship",
+      "breakoutBody": "We've all been there, the worship experience in a large room at mega churches or conferences is incredible. The band, the worship leader, the prop audio, lights, and production leave you feeling inspired to come back to your smaller church setting with fresh vigor. And then the harsh reality of limitation sets in again. \"The space can't handle the stage volume.\" \"We don't have a drummer that can play like that.\" \"What about backing tracks?\" \"Where do I even begin?\" We have all asked these questions. But, perhaps there's MORE that we can do for our small church worship setting by actually DOING LESS. Come find out!"
    },
    "quintana": {
       "idName": "ricardoQuintana",
@@ -29,14 +38,20 @@
       "firstName": "Ricardo",
       "lastName": "Quintana",
       "photoFileName": "ricardo-q2.png",
-      "biography": "Ricardo has been a youth, executive, and lead pastor over the past 30 years. He was an Executive Pastor at New Life Church in Renton, Washington and experienced leadership at a church that doubled from 1700 to 3400 in just 7 years. It was there he learned the value of creating irrestistible environments for all who attend. From the street to the seat, everything matters to those looking for a place to connect with God and others. Along with a passion for reaching people for Christ, Ricardo understands the 'why' behind the need for a warm and welcoming environment at every church."
+      "biography": "Ricardo has been a youth, executive, and lead pastor over the past 30 years. He was an Executive Pastor at New Life Church in Renton, Washington and experienced leadership at a church that doubled from 1700 to 3400 in just 7 years. It was there he learned the value of creating irrestistible environments for all who attend. From the street to the seat, everything matters to those looking for a place to connect with God and others. Along with a passion for reaching people for Christ, Ricardo understands the 'why' behind the need for a warm and welcoming environment at every church.",
+      "breakoutTitle": "Beyond Visual Barriers",
+      "breakoutSubtitle": "WARM is the New WOW",
+      "breakoutBody": "In \"WARM is the New WOW\" we will discover that a simple coffee table host, a parking lot attendant, a greeter, an extra sign, a host no an announcement maker, and attention to children can grow your church faster than you can imagine. Today's families are looking for churches who genuinely love and care for them. \"WARM is the New WOW\" will discuss and example how was can WARM up our weekends and take the weight off the worship and message to be what brings people back."
    },
    "johnson": {
       "idName": "joannJohnson",
-      "className1": "joan-johnson",
+      "className1": "joann-johnson",
       "firstName": "JoAnn",
       "lastName": "Johnson",
       "photoFileName": "joann-johnson2.png",
-      "biography": "JoAnn loves to inspire and empower others to reach their God-given potential. She has a passion to see the next generation of leaders trained and mobilized into ministry. Starting as the receptionist at Covina Assembly, she was given opportunities to take on more responsibilty and ultimately became one of the Preaching Pastors as well as the Executive Pastor. JoAnn is responsible for leading the Student Ministries and Young Adult Ministries. Her biggest accomplishment is her family. Her wonderful husband, Eric, and their two boys, Russell and Shane, keep life exciting!"
+      "biography": "JoAnn loves to inspire and empower others to reach their God-given potential. She has a passion to see the next generation of leaders trained and mobilized into ministry. Starting as the receptionist at Covina Assembly, she was given opportunities to take on more responsibilty and ultimately became one of the Preaching Pastors as well as the Executive Pastor. JoAnn is responsible for leading the Student Ministries and Young Adult Ministries. Her biggest accomplishment is her family. Her wonderful husband, Eric, and their two boys, Russell and Shane, keep life exciting!",
+      "breakoutTitle": "Empowering Your Team",
+      "breakoutSubtitle": "Do More by Doing Less",
+      "beakoutBody": "God has given you big dreams and ideas, but it takes a team to see those dreams become a reality. Discover ways to empower and lead your team. Stop trying to do everything yourself and do more by doing less."
    }
 }
