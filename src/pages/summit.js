@@ -8,6 +8,7 @@ import PhotoGallery from '../components/summit/PhotoGallery';
 import SpeakerBio from '../components/summit/SpeakerBio';
 import BreakoutButton from '../components/summit/BreakoutButton';
 import BreakoutPopup from '../components/summit/BreakoutPopup';
+import Footer from '../components/Footer';
 
 import speakerData from '../utils/summitSpeakerData.json';
 
@@ -20,13 +21,12 @@ class Summit extends React.Component {
       this.toggleDogteromBio = this.toggleDogteromBio.bind(this);
       this.toggleMossBio = this.toggleMossBio.bind(this);
       this.toggleQuintanaBio = this.toggleQuintanaBio.bind(this);
-      // this.toggleJohnsonBio = this.toggleJohnsonBio.bind(this);
-      // this.toggleShepherdPopup = this.toggleShepherdPopup.bind(this);
-      // this.toggleDogteromPopup = this.toggleDogteromPopup.bind(this);
-      // this.toggleMossPopup = this.toggleMossPopup.bind(this);
-      // this.toggleQuintanaPopup = this.toggleQuintanaPopup.bind(this);
-      // this.toggleJohnsonPopup = this.toggleJohnsonPopup.bind(this);
-
+      this.toggleJohnsonBio = this.toggleJohnsonBio.bind(this);
+      this.toggleShepherdPopup = this.toggleShepherdPopup.bind(this);
+      this.toggleDogteromPopup = this.toggleDogteromPopup.bind(this);
+      this.toggleMossPopup = this.toggleMossPopup.bind(this);
+      this.toggleQuintanaPopup = this.toggleQuintanaPopup.bind(this);
+      this.toggleJohnsonPopup = this.toggleJohnsonPopup.bind(this);
 
       this.state = {
          mobileNavIsOpen: false,
@@ -50,11 +50,11 @@ class Summit extends React.Component {
    toggleQuintanaBio() { this.setState({ricardoQuintanaBioIsShowing: !this.state.ricardoQuintanaBioIsShowing}) }
    toggleJohnsonBio() { this.setState({joannJohnsonBioIsShowing: !this.state.joannJohnsonBioIsShowing}) }
 
-   // toggleShepherdPopup() { this.setState({ richShepherdPopupIsShowing: !this.state.richShepherdPopupIsShowing }) }
-   // toggleDogteromPopup() { this.setState({ billDogteromPopupIsShowing: !this.state.billDogteromPopupIsShowing }) }
-   // toggleMossPopup() { this.setState({ joeMossPopupIsShowing: !this.state.joeMossPopupIsShowing }) }
-   // toggleQuintanaPopup() { this.setState({ ricardoQuintanaPopupIsShowing: !this.state.ricardoQuintanaPopupIsShowing }) }
-   // toggleJohnsonPopup() { this.setState({ joannJohnsonPopupIsShowing: !this.state.joannJohnsonPopupIsShowing }) }
+   toggleShepherdPopup() { this.setState({ richShepherdPopupIsShowing: !this.state.richShepherdPopupIsShowing }) }
+   toggleDogteromPopup() { this.setState({ billDogteromPopupIsShowing: !this.state.billDogteromPopupIsShowing }) }
+   toggleMossPopup() { this.setState({ joeMossPopupIsShowing: !this.state.joeMossPopupIsShowing }) }
+   toggleQuintanaPopup() { this.setState({ ricardoQuintanaPopupIsShowing: !this.state.ricardoQuintanaPopupIsShowing }) }
+   toggleJohnsonPopup() { this.setState({ joannJohnsonPopupIsShowing: !this.state.joannJohnsonPopupIsShowing }) }
 
    openMobileNav() {this.setState({mobileNavIsOpen: true})}
    closeMobileNav() {this.setState({mobileNavIsOpen: false})}
@@ -146,127 +146,61 @@ class Summit extends React.Component {
                      <BreakoutButton 
                         idName="richShepherdTalk"
                         speakerData={speakerData.shepherd}
+                        action={this.toggleShepherdPopup}
                      />
                      <BreakoutButton
                         idName="billDogteromTalk"
                         speakerData={speakerData.dogterom}
+                        action={this.toggleDogteromPopup}
                      />
                      <BreakoutButton
                         idName="joeMossTalk"
                         speakerData={speakerData.moss}
+                        action={this.toggleMossPopup}
                      />
                      <BreakoutButton 
                         idName="ricardoQuintanaTalk"
                         speakerData={speakerData.quintana}
+                        action={this.toggleQuintanaPopup}
                      />
                      <BreakoutButton
                         idName="joannJohnsonTalk"
                         speakerData={speakerData.johnson}
+                        action={this.toggleJohnsonPopup}
                      />
                   </div>
                </div>
 
-               {/* {this.state.richShepherdPopupIsShowing ? <BreakoutPopup
+               <BreakoutPopup
                   idName="richShepherdPopup"
                   speakerData={speakerData.shepherd}
-               /> : <div />} */}
-
-               {/* <BreakoutPopup
-                  idName="richShepherdPopup"
-                  speakerData={speakerData.shepherd}
+                  popupIsShowing={this.state.richShepherdPopupIsShowing}
+                  action={this.toggleShepherdPopup}
                />
                <BreakoutPopup
                   idName="billDogteromPopup"
                   speakerData={speakerData.dogterom}
+                  popupIsShowing={this.state.billDogteromPopupIsShowing}
+                  action={this.toggleDogteromPopup}
                />
                <BreakoutPopup
                   idName="joeMossPopup"
                   speakerData={speakerData.moss}
+                  popupIsShowing={this.state.joeMossPopupIsShowing}
+                  action={this.toggleMossPopup}
                />
                <BreakoutPopup
                   idName="ricardoQuintanaPopup"
                   speakerData={speakerData.quintana}
+                  popupIsShowing={this.state.ricardoQuintanaPopupIsShowing}
+                  action={this.toggleQuintanaPopup}
                />
                <BreakoutPopup
                   idName="joannJohnsonPopup"
                   speakerData={speakerData.johnson}
-               /> */}
-
-               <div id="richShepherdPopup" className="popup">
-                  <div className="popup-content">
-                     <img className="popup-close" alt="close button" src="images/icons/close-button.svg" />
-                     <div className="popup-header">
-                        <img className="popup-photo" alt="speaker" src="images/summit-photos/edited/rich-shepherd2.png" />
-                        <h2>Rich Shepherd</h2>
-                        <h1>Beyond Sunday</h1>
-                        <h3>Making the Other 167 Hours in the Week Count</h3>
-                     </div>
-                     <p className="popup-body">
-                        How do we, as pastors, ministry leaders, and church leaders help those who come through our doors on Sunday live out their Sunday experience the rest of the week? How do we engage them in spiritual growth in the day-to-day? While also keeping them engaged with upcoming events and connection points? And how do we let others in our city know that a great church exists just around the corner?<br />
-                        Answer: <b>Online Systems & Social Media</b>! Don't let that intimidate or confuse you, because WE WANT TO HELP and provide you with some amazing tools! Come and we will not only provide you practical steps that anyone can do, but we will also push you towards free content that makes a huge impact!
-                     </p>
-                  </div>
-               </div>
-
-               <div id="billDogteromPopup" className="popup">
-                  <div className="popup-content">
-                     <img className="popup-close" alt="close button" src="images/icons/close-button.svg" />
-                     <div className="popup-header">
-                        <img className="popup-photo" alt="speaker" src="images/summit-photos/edited/dr-bill-dogterom2.png" />
-                        <h1>Dr. Bill Dogterom</h1>
-                        <h2>Beyond Spirital Barriers</h2>
-                        <h3>Engaging Next-Gen in the Gifts of the Spirit</h3>
-                     </div>
-                     <p className="popup-body">
-                        For classical Pentecostals, the manifestation of the gifts of the Spirit in a public worship environment is a mark of authenticity - but seems to be dwindling in frequency and relevance. This workshop will focus on ways of engaging and empowering Next-Gen pentecostals in the use of the Gifts of the Spirit in a way that builds up the Body of Christ.
-                     </p>
-                  </div>
-               </div>
-         
-               <div id="joeMossPopup" className="popup">
-                  <div className="popup-content">
-                     <img className="popup-close" alt="close button" src="images/icons/close-button.svg" />
-                     <div className="popup-header">
-                        <img className="popup-photo" alt="speaker" src="images/summit-photos/edited/joe-moss2.png" />
-                        <h1>Joe Moss</h1>
-                        <h2>Beyond Limitations</h2>
-                        <h3>Limited Resource does not Equal Limited Worship</h3>
-                     </div>
-                     <p className="popup-body">
-                        We've all been there, the worship experience in a large room at mega churches or conferences is incredible. The band, the worship leader, the prop audio, lights, and production leave you feeling inspired to come back to your smaller church setting with fresh vigor. And then the harsh reality of limitation sets in again. "The space can't handle the stage volume." "We don't have a drummer that can play like that." "What about backing tracks?" "Where do I even begin?" We have all asked these questions. But, perhaps there's MORE that we can do for our small church worship setting by actually DOING LESS. Come find out!
-                     </p>
-                  </div>
-               </div>
-         
-               <div id="ricardoQuintanaPopup" className="popup">
-                  <div className="popup-content">
-                     <img className="popup-close" alt="close button" src="images/icons/close-button.svg" />
-                     <div className="popup-header">
-                        <img className="popup-photo" alt="speaker" src="images/summit-photos/edited/ricardo-q2.png" />
-                        <h1>Ricardo Quintana</h1>
-                        <h2>Beyond Visual Barriers</h2>
-                        <h3>WARM is the New WOW</h3>
-                     </div>
-                     <p className="popup-body">
-                        In "WARM is the New WOW" we will discover that a simple coffee table host, a parking lot attendant, a greeter, an extra sign, a host no an announcement maker, and attention to children can grow your church faster than you can imagine. Today's families are looking for churches who genuinely love and care for them. "WARM is the New WOW" will discuss and example how was can WARM up our weekends and take the weight off the worship and message to be what brings people back.
-                     </p>
-                  </div>
-               </div>
-         
-               <div id="joannJohnsonPopup" className="popup">
-                  <div className="popup-content">
-                     <img className="popup-close" alt="close button" src="images/icons/close-button.svg" />
-                     <div className="popup-header">
-                        <img className="popup-photo" alt="speaker" src="images/summit-photos/edited/joann-johnson2.png" />
-                        <h1>JoAnn Johnson</h1>
-                        <h2>Empowering Your Team</h2>
-                        <h3>Do More by Doing Less</h3>
-                     </div>
-                     <p className="popup-body">
-                        God has given you big dreams and ideas, but it takes a team to see those dreams become a reality. Discover ways to empower and lead your team. Stop trying to do everything yourself and do more by doing less.
-                     </p>
-                  </div>
-               </div>
+                  popupIsShowing={this.state.joannJohnsonPopupIsShowing}
+                  action={this.toggleJohnsonPopup}
+               />
          
                <div className="schedule-section">
                   <div className="schedule-headline headline">

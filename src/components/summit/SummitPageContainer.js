@@ -184,6 +184,7 @@ header {
 }
 
 .summary p {
+  font-size: .9em;
   margin: 0px auto;
   padding: 20px 5%;
   max-width: 900px;
@@ -261,7 +262,7 @@ header {
   letter-spacing: 2.5px;
 }
 .john-martin p {
-  font-size: .9em;
+  font-size: 1em;
   text-align: center;
   letter-spacing: 3px;
   margin: 15px auto auto;
@@ -391,55 +392,6 @@ header {
 .description-card h6 {
   margin: 0px;
   padding: 0px;
-}
-
-.popup {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 3; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4);
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-.popup-content {
-  background-color: #555;
-  margin: auto auto; /* 15% from the top and centered */
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-  max-width: 500px;
-}
-
-.popup-close {
-  height: 26px;
-  width: auto;
-  float: right;
-  color: white;
-}
-.popup-close:hover {
-  cursor: pointer;
-}
-
-.popup-photo {
-  height: 140px;
-  width: auto;
-}
-
-.popup-header h1,
-.popup-header h2,
-.popup-header h3 {
-  margin: 5px auto;
-  padding: 5px auto;
-  text-align: center;
-}
-.popup-body {
-  text-align: justify;
 }
 
 

@@ -44,6 +44,8 @@ const ContentContainer = styled.div`
       font-size: 2.3em;
       text-transform: uppercase;
       padding: 15px;
+      width: 90%;
+      max-width: 650px;
       background-color: #8FD2D2;
       text-align: center;
       letter-spacing: 3px;
