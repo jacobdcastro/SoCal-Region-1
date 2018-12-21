@@ -163,7 +163,7 @@ class Index extends React.Component {
 			mobileNavIsOpen: true
 		})
 	}
-
+	
 	closeMobileNav() {
 		this.setState({
 			mobileNavIsOpen: false
