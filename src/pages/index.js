@@ -1,5 +1,4 @@
 import React from 'react';
-// import { graphql } from 'gatsby';
 import styled from 'styled-components';
 import Head from '../utils/Helmet';
 import SideNav from '../components/SideNav';
