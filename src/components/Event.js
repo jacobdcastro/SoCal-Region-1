@@ -35,7 +35,7 @@ class Event extends React.Component {
    render() {
       return (
          <EventContainer>
-            <div className="photo"><img className="event-photos" src={this.props.eventPhoto} /></div>
+            <div className="photo"><img className="event-photos" src={this.props.eventPhoto} alt={`Promotion for ${this.props.eventTitle}`} /></div>
             <h1>{this.props.eventTitle}</h1>
             <p>{this.props.desc}</p>
             <div className="info">

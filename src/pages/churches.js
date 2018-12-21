@@ -208,5 +208,3 @@ export const churchesQuery = graphql`
       }
    }
 `;
-
-// test comment for Netlify build

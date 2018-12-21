@@ -101,7 +101,6 @@ class About extends React.Component {
                      <h1>MEET THE REGIONAL LEADERSHIP TEAM (RLT)</h1>
 
                      {this.props.data.allContentfulStaffMemberList.edges[0].node.staffMemberList.map((staffMember) => {
-                        {/* console.log(staffMember); */}
                         return (
                            <StaffMember
                               name={staffMember.name}

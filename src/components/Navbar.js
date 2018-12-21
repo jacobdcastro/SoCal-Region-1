@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import styled from 'styled-components';
-import { checkPropTypes } from 'prop-types';
 
 const NavbarContainer = styled.nav`
 	display: flex;
@@ -129,7 +128,7 @@ class Navbar extends React.Component {
 						<Link to="/churches">CHURCHES</Link>
 						<Link to="/about">ABOUT</Link>
 						<a href="http://socalnetwork.org/resources/">RESOURCES</a>
-						<Link to="/summit" className="summitLinkDesk" >SUMMIT</Link>
+						<Link to="/annual-leadership-summit" className="summitLinkDesk" >SUMMIT</Link>
 						<MobileMenuButton onClick={this.props.action} src={require("../images/menu-button.svg")} alt="menu icon" />
 					</RightNav>
 			</NavbarContainer>

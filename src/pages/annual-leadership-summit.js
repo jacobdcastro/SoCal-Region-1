@@ -8,7 +8,6 @@ import PhotoGallery from '../components/summit/PhotoGallery';
 import SpeakerBio from '../components/summit/SpeakerBio';
 import BreakoutButton from '../components/summit/BreakoutButton';
 import BreakoutPopup from '../components/summit/BreakoutPopup';
-import Footer from '../components/Footer';
 
 import speakerData from '../utils/summitSpeakerData.json';
 
@@ -81,7 +80,7 @@ class Summit extends React.Component {
                <div className="info-section">
                   <div className="summary">
                      <p>
-                        It is our prayer and belief that our churches, our leaders, our ministers, and our people would walk in the power and knowledge that God is capable of doing BEYOND what we could ever think, ask or imagine <a target="_blank" href="https://www.biblegateway.com/passage/?search=Ephesians+3%3A20-21&version=NIV">(Ephesians 3:20-21)</a>. We want HIM to be glorified in all that we do and accomplish, for it is only by HIS power that
+                        It is our prayer and belief that our churches, our leaders, our ministers, and our people would walk in the power and knowledge that God is capable of doing BEYOND what we could ever think, ask or imagine <a href="https://www.biblegateway.com/passage/?search=Ephesians+3%3A20-21&version=NIV">(Ephesians 3:20-21)</a>. We want HIM to be glorified in all that we do and accomplish, for it is only by HIS power that
                      </p>
                      <h5>IT. IS. DONE.</h5>
                      <p>

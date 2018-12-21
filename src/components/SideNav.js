@@ -47,7 +47,7 @@ class SideNav extends React.Component {
 	render() {
 		return(
 			<SideNavContainer style={{width: this.props.open ? '100%' : '0px'}}>
-				<CloseBtn onClick={this.props.action} href="javascript:void(0)">&times;</CloseBtn>
+				<CloseBtn onClick={this.props.action} >&times;</CloseBtn>
 				<div>
 					<Link to="/">HOME</Link>
 					<Link to="/events/">EVENTS</Link>

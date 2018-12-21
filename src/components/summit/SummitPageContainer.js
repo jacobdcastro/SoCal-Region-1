@@ -11,7 +11,7 @@ const PageContainer = styled.div`
 
   Your lovely web developer
     Jacob D. Castro
-================== */
+   ================== */
 
 #sideNav {
   z-index: 5;
@@ -200,12 +200,12 @@ header {
 	text-align: center;
 	margin: 50px auto;
 	width: 90%;
+  max-width: 1125px;
 }
 .photo-gallery {
 	margin: 15px auto;
 	padding: 2px auto;
 	text-align: center;
-	max-width: 1125px;
 }
 
 .summit-photo {
