@@ -1,0 +1,37 @@
+@media only screen and (min-width: 724px) {
+
+
+  /* ==================
+      FOOTER BANNER
+      -------------------*/
+  footer {
+    padding: 15px 2%;
+  }
+  .foot-logo {
+    height: 150px;
+    width: auto;
+  }
+}
+
+/*--======================================================
+==========================================================
+          MEDIA QUERY BORDER
+==========================================================
+==========================================================-->*/
+
+@media only screen and (min-width: 1024px) {
+
+  .right-foot .foot-menu {
+    margin-top: 32px;
+  }
+
+  .right-foot address {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+
+  .logo-container img {
+    padding: 18px 5px;
+  }
+ 
+}
