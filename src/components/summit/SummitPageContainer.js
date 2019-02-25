@@ -1030,7 +1030,7 @@ header, .header-content {
 
 @media (min-width: 1700px) {
   header {
-    height: 950px;
+    height: 600px;
   }
 
   .register-section {
