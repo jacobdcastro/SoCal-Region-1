@@ -89,11 +89,12 @@ p {
     ----------------------------*/
 
 header {
-  background-image: url(${manNightMainImg});
+  /* background-image: url(${manNightMainImg}); */
+  background-color: black;
   background-size: cover;
   background-position: bottom;
   margin: 0px;
-  height: 575px;
+  height: 425px;
   color: #fff;
   width: 100%;
   padding: 0;
@@ -102,6 +103,11 @@ header {
 .header-content {
   width: 100%;
   text-align: center;
+
+  .headerImg {
+    max-width: 760px;
+    width: 100%;
+  }
 }
 
 .header-content h3 {
@@ -399,6 +405,7 @@ header {
 
 .cost-section {
   text-align: center;
+  margin-bottom: 75px;
 }
 
 .cost-section h2 {
@@ -644,7 +651,7 @@ header, .header-content {
 @media (min-width: 480px) {
 
   .header-content {
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
   }
 
   .beyond-headline h1 {
@@ -797,11 +804,11 @@ header, .header-content {
   /* ======================= */
 
   header {
-    height: 700px;
+    height: 500px;
   }
 
   .header-content {
-    margin-bottom: 80px;
+    /* margin-bottom: 80px; */
   }
 
   .beyond-headline h1 {
@@ -934,11 +941,11 @@ header, .header-content {
       ------------------------*/
 
       header {
-        height: 750px;
+        height: 600px;
       }
 
       .header-content {
-        margin-bottom: 120px;
+        /* margin-bottom: 120px; */
       }
 
       .summary p,
@@ -1000,11 +1007,11 @@ header, .header-content {
 
 @media (min-width: 1400px) {
   header {
-    height: 950px;
+    height: 600px;
   }
 
   .header-content {
-    margin-bottom: 120px;
+    /* margin-bottom: 120px; */
   }
 
   .header-content h3 {
