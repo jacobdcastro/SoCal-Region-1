@@ -15,33 +15,33 @@ import PhotoGallery from '../components/summit/PhotoGallery';
 class Summit extends React.Component {
    constructor(props) {
       super(props);
-      this.openMobileNav = this.openMobileNav.bind(this);
-      this.closeMobileNav = this.closeMobileNav.bind(this);
-      this.toggleShepherdBio = this.toggleShepherdBio.bind(this);
-      this.toggleDogteromBio = this.toggleDogteromBio.bind(this);
-      this.toggleMossBio = this.toggleMossBio.bind(this);
-      this.toggleQuintanaBio = this.toggleQuintanaBio.bind(this);
-      this.toggleJohnsonBio = this.toggleJohnsonBio.bind(this);
-      this.toggleShepherdPopup = this.toggleShepherdPopup.bind(this);
-      this.toggleDogteromPopup = this.toggleDogteromPopup.bind(this);
-      this.toggleMossPopup = this.toggleMossPopup.bind(this);
-      this.toggleQuintanaPopup = this.toggleQuintanaPopup.bind(this);
-      this.toggleJohnsonPopup = this.toggleJohnsonPopup.bind(this);
+      // this.openMobileNav = this.openMobileNav.bind(this);
+      // this.closeMobileNav = this.closeMobileNav.bind(this);
+      // this.toggleShepherdBio = this.toggleShepherdBio.bind(this);
+      // this.toggleDogteromBio = this.toggleDogteromBio.bind(this);
+      // this.toggleMossBio = this.toggleMossBio.bind(this);
+      // this.toggleQuintanaBio = this.toggleQuintanaBio.bind(this);
+      // this.toggleJohnsonBio = this.toggleJohnsonBio.bind(this);
+      // this.toggleShepherdPopup = this.toggleShepherdPopup.bind(this);
+      // this.toggleDogteromPopup = this.toggleDogteromPopup.bind(this);
+      // this.toggleMossPopup = this.toggleMossPopup.bind(this);
+      // this.toggleQuintanaPopup = this.toggleQuintanaPopup.bind(this);
+      // this.toggleJohnsonPopup = this.toggleJohnsonPopup.bind(this);
 
       this.state = {
          mobileNavIsOpen: false,
 
-         richShepherdBioIsShowing: false,
-         billDogteromBioIsShowing: false,
-         joeMossBioIsShowing: false,
-         ricardoQuintanaBioIsShowing: false,
-         joannJohnsonBioIsShowing: false,
+         // richShepherdBioIsShowing: false,
+         // billDogteromBioIsShowing: false,
+         // joeMossBioIsShowing: false,
+         // ricardoQuintanaBioIsShowing: false,
+         // joannJohnsonBioIsShowing: false,
          
-         richShepherdPopupIsShowing: false,
-         billDogteromPopupIsShowing: false,
-         joeMossPopupIsShowing: false,
-         ricardoQuintanaPopupIsShowing: false,
-         joannJohnsonPopupIsShowing: false,
+         // richShepherdPopupIsShowing: false,
+         // billDogteromPopupIsShowing: false,
+         // joeMossPopupIsShowing: false,
+         // ricardoQuintanaPopupIsShowing: false,
+         // joannJohnsonPopupIsShowing: false,
       };
    }
    // toggleShepherdBio() { this.setState({ richShepherdBioIsShowing: !this.state.richShepherdBioIsShowing }) }
