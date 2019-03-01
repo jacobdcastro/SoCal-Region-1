@@ -60,6 +60,8 @@ class Summit extends React.Component {
    closeMobileNav() {this.setState({mobileNavIsOpen: false})}
 
    render() {
+      const content = this.props.data.allContentfulAnnualLeadershipSummitPage.edges[0].node;
+
       return (
          <PageContainer>
             <Head title="Annual Leadership Summit" />
@@ -69,7 +71,7 @@ class Summit extends React.Component {
                <Navbar action={this.openMobileNav} mobileNavIsOpen={this.state.mobileNavIsOpen} transparentBG />
 
                <div className="header-content">
-                  <Img className="headerImg" fluid={this.props.data.file.childImageSharp.fluid} />
+                  <Img className="headerImg" fluid={content.headerImage.fluid} />
                   {/* <h3>ANNUAL LEADERSHIP SUMMIT</h3> */}
                   {/* <div className="beyond-headline headline">
                      <div className="line white-line1"></div>
@@ -88,18 +90,11 @@ class Summit extends React.Component {
                      <p>
                         Our prayer is that the Lord would use this time of fellowship, worship and the Word to break barriers in our lives, our ministries, in our region and our world! God is truly capable of doing BEYOND what we think or imagine, and we are believing that this time would be a tool to inspire and expand our faith as to what God wants to do in and through us all!
                      </p> */}
-                     <p>
-                        This will be our 4th Annual Leadership Summit and each year just gets better and better! (if we do say so ourselves) But, how can it not be an incredible time when we come together as a whole Region of pastors, ministry leaders and people who are passionate for God's church?
-                     </p>
-                     <p>
-                        We've prayed and purposed the Summit as a space and time dedicated to resourcing and raising up <strong>YOU</strong>, our pastors, leaders and churches, to further reach all that God has in store.
-                     </p>
-                     <p>
-                        So, we invite and encourage all of our churches to mark their calendars and set aside this time to be inspured and equipped, and <i>BONUS</i>: come take advantage of this built-in opportunity to further connect with other pastors and leaders around you.
-                     </p>
+                     {content.childContentfulAnnualLeadershipSummitPageIntroSummaryRichTextNode.childContentfulRichText.html && <div dangerouslySetInnerHTML={{ __html: content.childContentfulAnnualLeadershipSummitPageIntroSummaryRichTextNode.childContentfulRichText.html }} />}
+                     
                   </div>
 
-                  <PhotoGallery photos={this.props.data.allContentfulSummitPhotoGallery.edges[0].node.photoList} />
+                  <PhotoGallery photos={content.photoGallery.photoList} />
 
                   <div className="speakers">
                      {/* <h3><i>Keynote Speaker:</i></h3> */}
@@ -261,24 +256,37 @@ export default Summit;
 
 export const aboutQuery = graphql`
 	query {
-      file(relativePath: { eq: "summit-photos/Website_Summit-2019.png"}) {
-         childImageSharp {
-            fluid(quality: 100, maxWidth: 760) {
-               ...GatsbyImageSharpFluid
-            }
-         }
-      }
-      allContentfulSummitPhotoGallery {
+      allContentfulAnnualLeadershipSummitPage {
          edges {
             node {
-               galleryTitle
-               photoList {
-                  id
+               headerImage {
+                  fluid {
+                     ...GatsbyContentfulFluid
+                  }
+               }
+               childContentfulAnnualLeadershipSummitPageIntroSummaryRichTextNode {
+                  childContentfulRichText {
+                     html
+                     timeToRead
+                  }
+               }
+               photoGallery {
+                  galleryTitle
                   description
-                  fixed {
-                     width
-                     height
-                     src
+                  photoList {
+                     id
+                     description
+                     fixed {
+                        height
+                        width
+                        src
+                     }
+                  }
+                  photographerInfo {
+                     id
+                     childContentfulRichText {
+                        html
+                     }
                   }
                }
             }

@@ -40,5 +40,6 @@ module.exports = {
         accessToken: `37edece8a4348493ecb2d21bba48b25dcd35a808d5cb9ae4aeb4ab85305eb054`,
       },
     },
+    `@contentful/gatsby-transformer-contentful-richtext`,
   ],
 };

@@ -4,6 +4,7 @@
   "version": "2.0.0",
   "author": "Jacob D. Castro <jdcastro.business@gmail.com>",
   "dependencies": {
+    "@contentful/gatsby-transformer-contentful-richtext": "^13.0.1",
     "babel-plugin-styled-components": "^1.10.0",
     "eslint": "^5.10.0",
     "gatsby": "^2.1.17",
