@@ -15,33 +15,33 @@ import PhotoGallery from '../components/summit/PhotoGallery';
 class Summit extends React.Component {
    constructor(props) {
       super(props);
-      this.openMobileNav = this.openMobileNav.bind(this);
-      this.closeMobileNav = this.closeMobileNav.bind(this);
-      this.toggleShepherdBio = this.toggleShepherdBio.bind(this);
-      this.toggleDogteromBio = this.toggleDogteromBio.bind(this);
-      this.toggleMossBio = this.toggleMossBio.bind(this);
-      this.toggleQuintanaBio = this.toggleQuintanaBio.bind(this);
-      this.toggleJohnsonBio = this.toggleJohnsonBio.bind(this);
-      this.toggleShepherdPopup = this.toggleShepherdPopup.bind(this);
-      this.toggleDogteromPopup = this.toggleDogteromPopup.bind(this);
-      this.toggleMossPopup = this.toggleMossPopup.bind(this);
-      this.toggleQuintanaPopup = this.toggleQuintanaPopup.bind(this);
-      this.toggleJohnsonPopup = this.toggleJohnsonPopup.bind(this);
+      // this.openMobileNav = this.openMobileNav.bind(this);
+      // this.closeMobileNav = this.closeMobileNav.bind(this);
+      // this.toggleShepherdBio = this.toggleShepherdBio.bind(this);
+      // this.toggleDogteromBio = this.toggleDogteromBio.bind(this);
+      // this.toggleMossBio = this.toggleMossBio.bind(this);
+      // this.toggleQuintanaBio = this.toggleQuintanaBio.bind(this);
+      // this.toggleJohnsonBio = this.toggleJohnsonBio.bind(this);
+      // this.toggleShepherdPopup = this.toggleShepherdPopup.bind(this);
+      // this.toggleDogteromPopup = this.toggleDogteromPopup.bind(this);
+      // this.toggleMossPopup = this.toggleMossPopup.bind(this);
+      // this.toggleQuintanaPopup = this.toggleQuintanaPopup.bind(this);
+      // this.toggleJohnsonPopup = this.toggleJohnsonPopup.bind(this);
 
       this.state = {
          mobileNavIsOpen: false,
 
-         richShepherdBioIsShowing: false,
-         billDogteromBioIsShowing: false,
-         joeMossBioIsShowing: false,
-         ricardoQuintanaBioIsShowing: false,
-         joannJohnsonBioIsShowing: false,
+         // richShepherdBioIsShowing: false,
+         // billDogteromBioIsShowing: false,
+         // joeMossBioIsShowing: false,
+         // ricardoQuintanaBioIsShowing: false,
+         // joannJohnsonBioIsShowing: false,
          
-         richShepherdPopupIsShowing: false,
-         billDogteromPopupIsShowing: false,
-         joeMossPopupIsShowing: false,
-         ricardoQuintanaPopupIsShowing: false,
-         joannJohnsonPopupIsShowing: false,
+         // richShepherdPopupIsShowing: false,
+         // billDogteromPopupIsShowing: false,
+         // joeMossPopupIsShowing: false,
+         // ricardoQuintanaPopupIsShowing: false,
+         // joannJohnsonPopupIsShowing: false,
       };
    }
    // toggleShepherdBio() { this.setState({ richShepherdBioIsShowing: !this.state.richShepherdBioIsShowing }) }
@@ -89,10 +89,10 @@ class Summit extends React.Component {
                         Our prayer is that the Lord would use this time of fellowship, worship and the Word to break barriers in our lives, our ministries, in our region and our world! God is truly capable of doing BEYOND what we think or imagine, and we are believing that this time would be a tool to inspire and expand our faith as to what God wants to do in and through us all!
                      </p> */}
                      <p>
-                        This will be our 4th Annual Leadership Summit and each year just gets better and better! (if we do say so ourselves) But, how can it not be an incredible time when we come together as a whole Region of pastors, ministry leaders an people who are passionate for God's church?
+                        This will be our 4th Annual Leadership Summit and each year just gets better and better! (if we do say so ourselves) But, how can it not be an incredible time when we come together as a whole Region of pastors, ministry leaders and people who are passionate for God's church?
                      </p>
                      <p>
-                        We've prayed and purposed the Summit as a space and time dedicated to resources and raising up <strong>YOU</strong>, our pastors, leaders and churches, to further reach all that God has in store.
+                        We've prayed and purposed the Summit as a space and time dedicated to resourcing and raising up <strong>YOU</strong>, our pastors, leaders and churches, to further reach all that God has in store.
                      </p>
                      <p>
                         So, we invite and encourage all of our churches to mark their calendars and set aside this time to be inspured and equipped, and <i>BONUS</i>: come take advantage of this built-in opportunity to further connect with other pastors and leaders around you.
@@ -235,9 +235,9 @@ class Summit extends React.Component {
                </div> */}
 
                <div className="cost-section">
-                  <h2>Cost To Attend</h2>
-                  <h3>Prices For Next Year's Summit<br />
-                  To Be Announced Soon!</h3>
+                  <h2>More details coming soon!</h2>
+                  {/* <h3>Prices For Next Year's Summit<br />
+                  To Be Announced Soon!</h3> */}
                </div>
 
                {/* <div className="register-section">
