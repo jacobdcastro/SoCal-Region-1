@@ -3,6 +3,10 @@ import { Link } from 'gatsby';
 import styled from 'styled-components';
 
 const NavbarContainer = styled.nav`
+   ${props => props.isSummitPage && `position: absolute;`}
+   top: 0;
+   left: 0;
+   z-index: 3;
    display: flex;
    flex-direction: row;
    align-items: center;
@@ -12,13 +16,13 @@ const NavbarContainer = styled.nav`
    margin: 0;
    padding: 0;
    width: 100%;
-   @media (max-width: 724px) {
+   @media (max-width: 734px) {
       flex-direction: row;
       justify-content: space-around;
       height: 75px;
       width: 100%;
    }
-   @media (min-width: 725px) {
+   @media (min-width: 735px) {
       height: 100px;
    }
    @media (min-width: 1024px) {
@@ -28,22 +32,23 @@ const NavbarContainer = styled.nav`
 `;
 
 const NavLogo = styled.img`
+   ${props => props.isSummitPage && `position: absolute;`}
    height: 100px;
    width: auto;
    margin: 0;
    padding: 0;
-   @media (max-width: 724px) {
+   @media (max-width: 734px) {
       padding-left: 8%;
       height: 70px;
       width: auto;
    }
-   @media (min-width: 725px) {
+   @media (min-width: 735px) {
       height: 90px;
    }
 `;
 
 const LeftNav = styled.div`
-   @media (max-width: 724px) {
+   @media (max-width: 734px) {
       display: flex;
       width: 50%;
       height: 75px;
@@ -51,6 +56,7 @@ const LeftNav = styled.div`
 `;
 
 const RightNav = styled.div`
+   ${props => props.isSummitPage && `position: absolute;`}
    display: flex;
    flex-direction: row;
    align-items: center;
@@ -82,7 +88,7 @@ const RightNav = styled.div`
          background-color: black;
       }
    }
-   @media (max-width: 724px) {
+   @media (max-width: 734px) {
       display: flex;
       width: 100px;
       height: 75px;
@@ -92,7 +98,7 @@ const RightNav = styled.div`
          display: none;
       }
    }
-   @media (min-width: 725px) {
+   @media (min-width: 735px) {
       width: auto;
    }
    @media (min-width: 1024px) {
@@ -102,7 +108,7 @@ const RightNav = styled.div`
 `;
 
 const MobileMenuButton = styled.img`
-   @media (max-width: 724px) {
+   @media (max-width: 734px) {
       display: inline;
       height: 35px;
       width: auto;
@@ -112,7 +118,7 @@ const MobileMenuButton = styled.img`
          cursor: pointer;
       }
    }
-   @media (min-width: 725px) {
+   @media (min-width: 735px) {
       display: none;
    }
 `;
@@ -120,24 +126,31 @@ const MobileMenuButton = styled.img`
 class Navbar extends React.Component {
    render() {
       return (
-         <NavbarContainer id='fullNav' transparentBG={this.props.transparentBG}>
+         <NavbarContainer
+            id="fullNav"
+            transparentBG={this.props.transparentBG}
+            isSummitPage={this.props.isSummitPage}
+         >
             <LeftNav>
-               <Link to='.'>
+               <Link to=".">
                   <NavLogo src={require('../images/SoCal.png')} />
                </Link>
             </LeftNav>
             <RightNav>
-               <Link to='/events'>EVENTS</Link>
-               <Link to='/churches'>CHURCHES</Link>
-               <Link to='/about'>ABOUT</Link>
-               <a href='http://socalnetwork.org/resources/'>RESOURCES</a>
-               <Link to='/annual-leadership-summit' className='summitLinkDesk'>
+               <Link to="/events">EVENTS</Link>
+               <Link to="/churches">CHURCHES</Link>
+               <Link to="/about">ABOUT</Link>
+               <a href="http://socalnetwork.org/resources/">RESOURCES</a>
+               <Link
+                  to="/annual-leadership-summit-2019"
+                  className="summitLinkDesk"
+               >
                   SUMMIT
                </Link>
                <MobileMenuButton
                   onClick={this.props.action}
                   src={require('../images/menu-button.svg')}
-                  alt='menu icon'
+                  alt="menu icon"
                />
             </RightNav>
          </NavbarContainer>

@@ -1,17 +1,32 @@
 import styled from 'styled-components';
-import manNightMainImg from '../../images/summit-photos/man-night-main.jpg';
-import spaceImg from '../../images/summit-photos/space-image.jpg';
 
-const PageContainer = styled.div`
+const Container = styled.div`
    /* ==================
-  This is the main base styles for the SoCal Region 1 Website. It includes things like font type, colors, images, etc.
+   This is the main base styles for the Annual Leadership Summit 2019. It includes things like font type, colors, images, etc.
 
-  Your lovely web developer
-    Jacob D. Castro
+   Your lovely web developer
+      Jacob D. Castro
    ================== */
 
+   background-color: #000;
+   overflow: hidden;
+
    #sideNav {
-      z-index: 5;
+      position: absolute;
+      z-index: 10;
+   }
+
+   #pageContent {
+      overflow: hidden;
+   }
+
+   #backgroundImg {
+      position: absolute;
+      top: -100px;
+      left: 0;
+      width: 10vw;
+      z-index: 1;
+      margin-top: -100px;
    }
 
    /*=== FONT STYLING ===*/
@@ -41,91 +56,85 @@ const PageContainer = styled.div`
    }
 
    /* ===========================
-        NAVIGATION BAR STYLE
-    ----------------------------*/
-
-   .navbar {
-      margin: 0;
-      padding: 0;
-      width: 100%;
-   }
-
-   .header-logo {
-      height: 100px;
-      width: auto;
-      margin: 0;
-      padding: 0;
-   }
-
-   .rightnav {
-      height: 125px;
-      width: 50%;
-      margin: 0;
-      padding: 18px 0;
-   }
-
-   .rightnav a {
-      float: right;
-      display: block;
-      color: white;
-      text-decoration: none;
-      font-weight: 700;
-      letter-spacing: 3px;
-      padding: 15px 15px 4px;
-      margin: 5px;
-      border-bottom: solid 2px rgba(0, 0, 0, 0);
-   }
-   .rightnav a:hover {
-      border-bottom: solid 2px white;
-      transition: 350ms;
-   }
-
-   /* ===========================
         MAIN HEADER STYLE
     ----------------------------*/
-
-   header {
-      background-color: white;
-      background-size: cover;
-      background-position: bottom;
-      margin: 0px;
-      height: 425px;
-      color: #fff;
-      width: 100%;
-      padding: 0;
-   }
-
-   /* ==================
-    NAVIGATION BAR
-    -------------------*/
-
-   .navbar {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-   }
-
-   .rightnav {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-between;
-   }
-
    /* ==================
     HEADER BANNER
     -------------------*/
 
-   header,
    .header-content {
+      position: relative;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      margin: 80px auto 0;
+      width: 100vw;
+      height: 300px;
+      z-index: 2;
    }
 
-   .header-content {
-      flex-grow: 1;
+   .headerDate {
+      color: black;
+      font-size: 5vw;
+      letter-spacing: 3px;
+      margin: 0px;
+   }
+
+   .headerLogo {
+      position: relative;
+      width: 90vw;
+      height: auto;
+   }
+
+   .mtnLogo {
+      position: relative;
+      /* z-index: 1; */
+      height: 20vw;
+      width: auto;
+      margin: 30px auto -5px;
+   }
+
+   .content-container {
+      position: relative;
+      z-index: 2;
+
+      h1 {
+         text-align: center;
+         color: #000;
+         margin: 0 auto;
+         width: 90vw;
+      }
+      .description {
+         width: 80vw;
+         margin: 40px auto 20px;
+         max-width: 830px;
+
+         p,
+         h1,
+         h2,
+         h3,
+         h4,
+         h5,
+         h6 {
+            color: black;
+         }
+      }
+
+      .DTL {
+         margin: 40px auto;
+         h1 {
+            font-size: 5.5vw;
+            margin: 22px auto;
+         }
+      }
+
+      .comingSoon {
+         text-align: center;
+         color: #000;
+         margin: 0px auto 50px;
+         width: 90vw;
+      }
    }
 
    @media (min-width: 724px) {
@@ -139,74 +148,226 @@ const PageContainer = styled.div`
       }
    }
 
-   @media (min-width: 480px) {
+   @media (min-width: 450px) {
+      .header-content {
+         margin: 80px auto 0;
+         width: 100vw;
+         height: 300px;
+         z-index: 2;
+      }
+
+      .headerDate {
+         color: black;
+         font-size: 1.6rem;
+         letter-spacing: 3px;
+         margin: 0px;
+      }
+
+      .headerLogo {
+         position: relative;
+         width: 430px;
+         height: auto;
+      }
+
+      .mtnLogo {
+         position: relative;
+         /* z-index: 1; */
+         height: auto;
+         width: 140px;
+         margin: 30px auto -5px;
+      }
+
+      .content-container {
+         position: relative;
+         z-index: 2;
+
+         h1 {
+            text-align: center;
+            color: #000;
+            margin: 0 auto;
+            width: 90vw;
+         }
+         .description {
+            width: 80vw;
+            margin: 40px auto 20px;
+
+            p,
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+               color: black;
+            }
+         }
+
+         .DTL {
+            margin: 40px auto;
+            h1 {
+               font-size: 31px;
+               margin: 22px auto;
+            }
+         }
+
+         .comingSoon {
+            text-align: center;
+            color: #000;
+            margin: 0px auto 50px;
+            width: 90vw;
+         }
+      }
    }
 
-   @media (min-width: 724px) {
-      #mobileNav {
-         display: none;
+   @media (min-width: 707px) {
+      .header-content {
+         margin: 170px auto 0;
+         width: 100vw;
+         height: 300px;
+         z-index: 2;
       }
 
-      /* ==================
-      NAVIGATION BAR
-      -------------------*/
-      .navbar {
-         height: 225px;
-      }
-      .header-logo {
-         height: 125px;
-      }
-      .rightnav {
-         width: auto;
+      .headerDate {
+         color: black;
+         font-size: 1.8rem;
+         letter-spacing: 3px;
+         margin: 0px;
       }
 
-      .header-logo {
-         height: 90px;
+      .headerLogo {
+         position: relative;
+         width: 615px;
+         height: auto;
       }
 
-      #fullNav {
-         height: 100px;
-         width: 100%;
+      .mtnLogo {
+         position: relative;
+         /* z-index: 1; */
+         height: auto;
+         width: 180px;
+         margin: 30px auto -5px;
       }
 
-      .rightnav a {
-         font-size: 0.85em;
-         padding: 10px;
+      .content-container {
+         margin-top: 60px;
+         position: relative;
+         z-index: 2;
+
+         h1 {
+            font-size: 2.7rem;
+            text-align: center;
+            color: #000;
+            margin: 0 auto;
+            width: 90vw;
+         }
+         .description {
+            width: 80vw;
+            margin: 54px auto;
+            font-size: 1.2rem;
+
+            p,
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+               color: black;
+            }
+         }
+
+         .DTL {
+            margin: 55px auto;
+            h1 {
+               font-size: 38px;
+               margin: 32px auto;
+            }
+         }
+
+         .comingSoon {
+            font-size: 2.65rem;
+            text-align: center;
+            color: #000;
+            margin: 0px auto 80px;
+            width: 90vw;
+         }
       }
    }
 
-   @media (min-width: 1000px) {
-      /* ==================
-      NAVIGATION BAR
-      -------------------*/
-      .navbar {
-         height: 100px;
+   @media (min-width: 1024px) {
+      .header-content {
+         margin: 240px auto 0;
+         width: 100vw;
+         height: 300px;
+         z-index: 2;
       }
 
-      .header-logo {
-         height: 125px;
-      }
-      .rightnav {
-         width: auto;
-      }
-
-      .header-logo {
-         height: 90px;
+      .headerDate {
+         color: black;
+         font-size: 2.5rem;
+         letter-spacing: 16px;
+         margin: 0px;
       }
 
-      #fullNav {
-         height: 100px;
-         width: 100%;
+      .headerLogo {
+         position: relative;
+         width: 815px;
+         height: auto;
       }
 
-      .rightnav a {
-         font-size: 1.1em;
-         padding: 14px;
+      .mtnLogo {
+         position: relative;
+         /* z-index: 1; */
+         height: auto;
+         width: 200px;
+         margin: 30px auto -5px;
       }
 
-      @media (min-width: 1024px) {
+      .content-container {
+         margin-top: 100px;
+         position: relative;
+         z-index: 2;
+
+         h1 {
+            font-size: 2.7rem;
+            text-align: center;
+            color: #000;
+            margin: 0 auto;
+            width: 90vw;
+         }
+         .description {
+            width: 80vw;
+            margin: 54px auto;
+            font-size: 1.2rem;
+
+            p,
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+               color: black;
+            }
+         }
+
+         .DTL {
+            margin: 55px auto;
+            h1 {
+               font-size: 38px;
+               margin: 32px auto;
+            }
+         }
+
+         .comingSoon {
+            font-size: 2.85rem;
+            text-align: center;
+            color: #000;
+            margin: 0px auto 80px;
+            width: 90vw;
+         }
       }
    }
 `;
 
-export default PageContainer;
+export default Container;
