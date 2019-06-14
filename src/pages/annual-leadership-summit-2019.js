@@ -99,7 +99,7 @@ class Summit2019 extends React.Component {
                         <i>
                            When:{' '}
                            <Moment
-                              format="dddd MMMM Do YYYY"
+                              format="dddd, MMMM Do, YYYY"
                               date={pageData.dateOfEvent}
                            />
                         </i>

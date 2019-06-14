@@ -264,6 +264,7 @@ const Container = styled.div`
             width: 80vw;
             margin: 54px auto;
             font-size: 1.2rem;
+            text-align: center;
 
             p,
             h1,
