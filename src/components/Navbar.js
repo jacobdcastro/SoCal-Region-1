@@ -141,10 +141,7 @@ class Navbar extends React.Component {
                <Link to="/churches">CHURCHES</Link>
                <Link to="/about">ABOUT</Link>
                <a href="http://socalnetwork.org/resources/">RESOURCES</a>
-               <Link
-                  to="/annual-leadership-summit-2019"
-                  className="summitLinkDesk"
-               >
+               <Link to="/annual-leadership-summit" className="summitLinkDesk">
                   SUMMIT
                </Link>
                <MobileMenuButton

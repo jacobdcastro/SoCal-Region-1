@@ -55,7 +55,7 @@ class SideNav extends React.Component {
                <a href="http://socalnetwork.org/resources/">RESOURCES</a>
                <Link
                   className="summit-link-mobile"
-                  to="/annual-leadership-summit-2019"
+                  to="/annual-leadership-summit"
                >
                   SUMMIT
                </Link>
