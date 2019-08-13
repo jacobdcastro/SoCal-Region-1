@@ -129,11 +129,42 @@ const Container = styled.div`
          }
       }
 
-      .comingSoon {
-         text-align: center;
-         color: #000;
-         margin: 0px auto 50px;
-         width: 90vw;
+      #register {
+         width: 100%;
+         margin: 55px auto;
+         display: flex;
+
+         .registerBtn {
+            margin: auto;
+            height: 155px;
+            width: 315px;
+            background: none;
+            border: none;
+         }
+
+         div {
+            margin: auto;
+            height: 155px;
+            width: 315px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            span {
+               position: absolute;
+               z-index: 7;
+               font-size: 1.2rem;
+               text-transform: uppercase;
+               letter-spacing: 3px;
+            }
+            img {
+               width: 75%;
+               max-width: 400px;
+               height: auto;
+               position: absolute;
+               z-index: 6;
+            }
+         }
       }
    }
 
@@ -283,14 +314,6 @@ const Container = styled.div`
                font-size: 38px;
                margin: 32px auto;
             }
-         }
-
-         .comingSoon {
-            font-size: 2.65rem;
-            text-align: center;
-            color: #000;
-            margin: 0px auto 80px;
-            width: 90vw;
          }
       }
    }

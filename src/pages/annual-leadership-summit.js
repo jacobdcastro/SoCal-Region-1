@@ -8,6 +8,7 @@ import summitLogo from '../images/2019-summit-images/thrive-logo.png';
 import mtnLogo from '../images/2019-summit-images/thrive-mtn.png';
 import SideNav from '../components/SideNav';
 import Navbar from '../components/Navbar';
+import regBtn from '../images/2019-summit-images/register-button.svg';
 
 class Summit2019 extends React.Component {
    constructor(props) {
@@ -108,12 +109,24 @@ class Summit2019 extends React.Component {
                         <i>Where: {pageData.locationOfEvent}</i>
                      </h1>
                   </div>
-                  <h1 className="comingSoon">
-                     Stay tuned! <br />
-                     More information to come!
-                  </h1>
+
+                  <div id="register">
+                     <button className="registerBtn">
+                        <a href={pageData.registrationLink}>
+                           <div>
+                              <img
+                                 src={regBtn}
+                                 alt="shape of paint brush strokes"
+                                 title="Register Now"
+                              />
+                              <span>Register Now</span>
+                           </div>
+                        </a>
+                     </button>
+                  </div>
                </div>
             </div>
+            {/* <Footer style={{ zIndex: '5', position: 'absolute', bottom: '0' }} /> */}
          </Container>
       );
    }
@@ -130,6 +143,7 @@ export const SUMMIT_2019_QUERY = graphql`
          themeTitle
          dateOfEvent
          locationOfEvent
+         registrationLink
          introDescription {
             childContentfulRichText {
                html
