@@ -10,7 +10,7 @@ import SideNav from '../components/SideNav';
 import Navbar from '../components/Navbar';
 import regBtn from '../images/2019-summit-images/register-button.svg';
 
-// component and styles for video player
+// video player imports
 import { Player } from 'video-react';
 import '../../node_modules/video-react/dist/video-react.css';
 
