@@ -99,6 +99,18 @@ const Container = styled.div`
       position: relative;
       z-index: 2;
 
+      .videoSection {
+         width: 100vw;
+         margin: 35px auto 85px;
+         max-width: 600px;
+
+         .videoBorder {
+            border: 10px solid #736114;
+            padding: 0;
+            margin: 0;
+         }
+      }
+
       h1 {
          text-align: center;
          color: #000;
@@ -319,6 +331,11 @@ const Container = styled.div`
    }
 
    @media (min-width: 1024px) {
+      .content-container .videoSection {
+         width: 880px;
+         max-width: 880px;
+      }
+
       .header-content {
          margin: 240px auto 0;
          width: 100vw;

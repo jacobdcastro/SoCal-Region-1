@@ -10,6 +10,10 @@ import SideNav from '../components/SideNav';
 import Navbar from '../components/Navbar';
 import regBtn from '../images/2019-summit-images/register-button.svg';
 
+// component and styles for video player
+import { Player } from 'video-react';
+import '../../node_modules/video-react/dist/video-react.css';
+
 class Summit2019 extends React.Component {
    constructor(props) {
       super(props);
@@ -83,6 +87,15 @@ class Summit2019 extends React.Component {
                </div>
 
                <div className="content-container">
+                  <div className="videoSection">
+                     <div className="videoBorder">
+                        <Player
+                           poster={pageData.videoPoster.fluid.src}
+                           src={pageData.promoVideo.file.url}
+                        />
+                     </div>
+                  </div>
+
                   <h1>
                      SoCal Region 1<br />
                      Annual Leadership Summit
@@ -144,6 +157,18 @@ export const SUMMIT_2019_QUERY = graphql`
          dateOfEvent
          locationOfEvent
          registrationLink
+         promoVideo {
+            id
+            file {
+               url
+            }
+         }
+         videoPoster {
+            id
+            fluid {
+               src
+            }
+         }
          introDescription {
             childContentfulRichText {
                html
