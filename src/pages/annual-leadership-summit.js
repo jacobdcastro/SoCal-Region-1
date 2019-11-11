@@ -56,6 +56,7 @@ class Summit2019 extends React.Component {
                   height: 'auto',
                   position: 'fixed',
                   overflow: 'hidden',
+                  minHeight: '1000px',
                }}
             />
 
