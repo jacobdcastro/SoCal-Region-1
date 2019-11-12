@@ -10,6 +10,7 @@ import { graphql } from 'gatsby';
 
 const HomeContainer = styled.div`
    margin: 0;
+   overflow-x: hidden;
 `;
 
 const Header = styled.header`
