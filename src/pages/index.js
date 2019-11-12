@@ -7,6 +7,7 @@ import Banner from '../components/Banner';
 import Footer from '../components/Footer';
 import indexBannerImg from '../images/pismo-beach.jpg';
 import { graphql } from 'gatsby';
+import Img from 'gatsby-image';
 
 const HomeContainer = styled.div`
    margin: 0;
@@ -14,19 +15,20 @@ const HomeContainer = styled.div`
 `;
 
 const Header = styled.header`
+   overflow-x: hidden;
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   background-image: url(${indexBannerImg});
-   background-size: cover;
-   background-position: center;
+   width: ${props => props.windowWidth + 'px'};
    @media (min-width: 1024px) {
+      width: 100vw;
       height: 700px;
    }
 `;
 
 const HeaderBanner = styled.div`
+   overflow-x: hidden;
    display: flex;
    flex-direction: column;
    color: #fff;
@@ -36,12 +38,12 @@ const HeaderBanner = styled.div`
 `;
 
 const HeaderContent = styled.div`
+   overflow-x: hidden;
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
    flex-grow: 1;
-   background-image: image('../images/1-events-banner.jpg');
    margin: 0;
    padding: 0;
    h3 {
@@ -156,6 +158,14 @@ class Index extends React.Component {
       };
    }
 
+   componentDidMount() {
+      this.setState({ windowWidth: window.innerWidth });
+      window.addEventListener('resize', () => {
+         let w = window.innerWidth;
+         this.setState({ windowWidth: w });
+      });
+   }
+
    openMobileNav() {
       this.setState({
          mobileNavIsOpen: true,
@@ -170,7 +180,17 @@ class Index extends React.Component {
 
    render() {
       const { data } = this.props;
-      console.log(data);
+      let { windowWidth } = this.state;
+
+      let imgMinHeight;
+      if (windowWidth < 480) {
+         imgMinHeight = '535px';
+      } else if (windowWidth > 1023) {
+         imgMinHeight = '700px';
+      } else if (windowWidth >= 480) {
+         imgMinHeight = '535px';
+      }
+
       return (
          <HomeContainer>
             <Head title="SoCal Region 1" />
@@ -182,7 +202,22 @@ class Index extends React.Component {
                action={this.openMobileNav}
                mobileNavIsOpen={this.state.mobileNavIsOpen}
             />
-            <Header>
+            <Header windowWidth={windowWidth}>
+               <Img
+                  fluid={data.sunsetImg.childImageSharp.fluid}
+                  style={{
+                     position: 'absolute',
+                     zIndex: '-1',
+                     height: 'auto',
+                     minHeight: imgMinHeight,
+                     width: 'auto',
+                     minWidth: '100vw',
+                     objectFit: 'cover',
+                     objectPosition: 'center',
+                     overflowX: 'hidden',
+                  }}
+                  imgStyle={{ overflowX: 'hidden' }}
+               />
                <HeaderBanner>
                   <HeaderContent>
                      <h3>WELCOME TO</h3>
@@ -271,6 +306,13 @@ export default Index;
 
 export const bannerImgQuery = graphql`
    query {
+      sunsetImg: file(relativePath: { eq: "pismo-beach.jpg" }) {
+         childImageSharp {
+            fluid(quality: 100) {
+               ...GatsbyImageSharpFluid_withWebp
+            }
+         }
+      }
       eventsImg: file(relativePath: { eq: "1-events-banner.jpg" }) {
          childImageSharp {
             fluid {
