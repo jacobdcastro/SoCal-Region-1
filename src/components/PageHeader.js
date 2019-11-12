@@ -80,6 +80,7 @@ const HeaderContent = styled.div`
 
 class PageHeader extends React.Component {
    render() {
+      console.log(this.props.className)
       return (
          <PageHeaderContainer>
             <Header className={this.props.className} >
