@@ -202,7 +202,7 @@ class Index extends React.Component {
                action={this.openMobileNav}
                mobileNavIsOpen={this.state.mobileNavIsOpen}
             />
-            <Header windowWidth={windowWidth}>
+            <Header style={{ overflowX: 'hidden' }} windowWidth={windowWidth}>
                <Img
                   fluid={data.sunsetImg.childImageSharp.fluid}
                   style={{
